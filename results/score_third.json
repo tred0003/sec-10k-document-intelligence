@@ -1,0 +1,373 @@
+{
+  "counts": {
+    "pipeline": {
+      "correct": 144,
+      "wrong": 14,
+      "missing": 6
+    },
+    "baseline": {
+      "missing": 20,
+      "correct": 102,
+      "wrong": 42
+    }
+  },
+  "by_field": {
+    "pipeline": {
+      "revenue": {
+        "correct": 16,
+        "wrong": 3,
+        "missing": 1
+      },
+      "operating_income": {
+        "correct": 12,
+        "missing": 1,
+        "wrong": 1
+      },
+      "net_income": {
+        "correct": 18,
+        "wrong": 2
+      },
+      "eps_diluted": {
+        "correct": 15,
+        "missing": 2,
+        "wrong": 2
+      },
+      "operating_cash_flow": {
+        "correct": 16,
+        "wrong": 3
+      },
+      "total_assets": {
+        "correct": 18,
+        "wrong": 2
+      },
+      "total_liabilities": {
+        "correct": 15,
+        "missing": 2
+      },
+      "stockholders_equity": {
+        "correct": 19,
+        "wrong": 1
+      },
+      "cash": {
+        "correct": 15
+      }
+    },
+    "baseline": {
+      "revenue": {
+        "missing": 8,
+        "correct": 7,
+        "wrong": 5
+      },
+      "operating_income": {
+        "correct": 12,
+        "missing": 1,
+        "wrong": 1
+      },
+      "net_income": {
+        "correct": 11,
+        "wrong": 8,
+        "missing": 1
+      },
+      "eps_diluted": {
+        "correct": 14,
+        "missing": 2,
+        "wrong": 3
+      },
+      "operating_cash_flow": {
+        "correct": 15,
+        "wrong": 3,
+        "missing": 1
+      },
+      "total_assets": {
+        "correct": 17,
+        "wrong": 3
+      },
+      "total_liabilities": {
+        "wrong": 15,
+        "missing": 2
+      },
+      "stockholders_equity": {
+        "correct": 12,
+        "missing": 5,
+        "wrong": 3
+      },
+      "cash": {
+        "correct": 14,
+        "wrong": 1
+      }
+    }
+  },
+  "review": {
+    "correct/auto": 144,
+    "wrong/flagged": 7,
+    "missing/auto": 6,
+    "wrong/auto": 7
+  },
+  "errors": [
+    {
+      "ticker": "C",
+      "field": "revenue",
+      "outcome": "wrong",
+      "got": 14079000000.0,
+      "want": 85225000000,
+      "row_label": "Total revenues, net of interest expense",
+      "page": 338,
+      "flags": [
+        "value is in the 2023 column, latest is 2025"
+      ]
+    },
+    {
+      "ticker": "C",
+      "field": "net_income",
+      "outcome": "wrong",
+      "got": 9228000000.0,
+      "want": 14306000000,
+      "row_label": "Net income",
+      "page": 338,
+      "flags": [
+        "value is in the 2023 column, latest is 2025"
+      ]
+    },
+    {
+      "ticker": "C",
+      "field": "eps_diluted",
+      "outcome": "missing",
+      "got": null,
+      "want": 6.99,
+      "row_label": null,
+      "page": null,
+      "flags": []
+    },
+    {
+      "ticker": "C",
+      "field": "operating_cash_flow",
+      "outcome": "wrong",
+      "got": 18876000000.0,
+      "want": -67632000000,
+      "row_label": "Net cash provided by (used in) operating activities of continuing operations",
+      "page": 340,
+      "flags": []
+    },
+    {
+      "ticker": "C",
+      "field": "total_assets",
+      "outcome": "wrong",
+      "got": 412385000000.0,
+      "want": 2657202000000,
+      "row_label": "Total assets",
+      "page": 339,
+      "flags": []
+    },
+    {
+      "ticker": "C",
+      "field": "total_liabilities",
+      "outcome": "missing",
+      "got": null,
+      "want": 2443380000000,
+      "row_label": null,
+      "page": null,
+      "flags": []
+    },
+    {
+      "ticker": "CHDN",
+      "field": "revenue",
+      "outcome": "missing",
+      "got": null,
+      "want": 2925900000,
+      "row_label": null,
+      "page": null,
+      "flags": []
+    },
+    {
+      "ticker": "CHDN",
+      "field": "operating_income",
+      "outcome": "missing",
+      "got": null,
+      "want": 683800000,
+      "row_label": null,
+      "page": null,
+      "flags": []
+    },
+    {
+      "ticker": "COP",
+      "field": "revenue",
+      "outcome": "wrong",
+      "got": 61548000000.0,
+      "want": 58944000000,
+      "row_label": "Total revenues and other income",
+      "page": 93,
+      "flags": []
+    },
+    {
+      "ticker": "LMT",
+      "field": "operating_income",
+      "outcome": "wrong",
+      "got": 7013000000.0,
+      "want": 7731000000,
+      "row_label": "Operating profit",
+      "page": 86,
+      "flags": [
+        "value is in the 2024 column, latest is 2025"
+      ]
+    },
+    {
+      "ticker": "LMT",
+      "field": "eps_diluted",
+      "outcome": "wrong",
+      "got": 22.31,
+      "want": 21.49,
+      "row_label": "Diluted",
+      "page": 86,
+      "flags": [
+        "value is in the 2024 column, latest is 2025"
+      ]
+    },
+    {
+      "ticker": "LOW",
+      "field": "operating_cash_flow",
+      "outcome": "wrong",
+      "got": 8140000000.0,
+      "want": 9864000000,
+      "row_label": "Net cash provided by operating activities",
+      "page": 67,
+      "flags": [
+        "value is in the 2024 column, latest is 2026"
+      ]
+    },
+    {
+      "ticker": "PNC",
+      "field": "revenue",
+      "outcome": "wrong",
+      "got": 21555000000.0,
+      "want": 23099000000,
+      "row_label": "Total revenue",
+      "page": 160,
+      "flags": [
+        "value is in the 2024 column, latest is 2025"
+      ]
+    },
+    {
+      "ticker": "PNC",
+      "field": "net_income",
+      "outcome": "wrong",
+      "got": 6997000000.0,
+      "want": 6576000000,
+      "row_label": "Net income",
+      "page": 160,
+      "flags": []
+    },
+    {
+      "ticker": "PNC",
+      "field": "eps_diluted",
+      "outcome": "wrong",
+      "got": 13.74,
+      "want": 16.59,
+      "row_label": "Diluted",
+      "page": 160,
+      "flags": [
+        "value is in the 2024 column, latest is 2025"
+      ]
+    },
+    {
+      "ticker": "USB",
+      "field": "eps_diluted",
+      "outcome": "missing",
+      "got": null,
+      "want": 4.62,
+      "row_label": null,
+      "page": null,
+      "flags": []
+    },
+    {
+      "ticker": "USB",
+      "field": "operating_cash_flow",
+      "outcome": "wrong",
+      "got": 6613000000.0,
+      "want": 7970000000,
+      "row_label": "Net cash provided by operating activities",
+      "page": 180,
+      "flags": []
+    },
+    {
+      "ticker": "USB",
+      "field": "total_assets",
+      "outcome": "wrong",
+      "got": 676540000000.0,
+      "want": 692345000000,
+      "row_label": "Assets",
+      "page": 178,
+      "flags": []
+    },
+    {
+      "ticker": "USB",
+      "field": "total_liabilities",
+      "outcome": "missing",
+      "got": null,
+      "want": 626694000000,
+      "row_label": null,
+      "page": null,
+      "flags": []
+    },
+    {
+      "ticker": "USB",
+      "field": "stockholders_equity",
+      "outcome": "wrong",
+      "got": 61951000000.0,
+      "want": 65193000000,
+      "row_label": "Total U.S. Bancorp shareholders' equity",
+      "page": 178,
+      "flags": []
+    }
+  ],
+  "unkeyed": [
+    {
+      "ticker": "C",
+      "field": "cash",
+      "value": 5000000.0,
+      "row_label": "Cash and due from banks",
+      "page": 339
+    },
+    {
+      "ticker": "CHDN",
+      "field": "operating_cash_flow",
+      "value": 769800000.0,
+      "row_label": "Net cash provided by operating activities",
+      "page": 76
+    },
+    {
+      "ticker": "PNC",
+      "field": "cash",
+      "value": 39713000000.0,
+      "row_label": "Cash, cash equivalents and restricted cash at end of period (a)",
+      "page": 165
+    },
+    {
+      "ticker": "SBUX",
+      "field": "cash",
+      "value": 3219800000.0,
+      "row_label": "Cash and cash equivalents",
+      "page": 68
+    },
+    {
+      "ticker": "USB",
+      "field": "operating_income",
+      "value": 11819000000.0,
+      "row_label": "Income (loss) before provision and income taxes",
+      "page": 177
+    },
+    {
+      "ticker": "USB",
+      "field": "cash",
+      "value": 9875000000.0,
+      "row_label": "Cash and due from banks at end of year",
+      "page": 180
+    },
+    {
+      "ticker": "YETI",
+      "field": "cash",
+      "value": 188342000.0,
+      "row_label": "Cash",
+      "page": 73
+    }
+  ]
+}
