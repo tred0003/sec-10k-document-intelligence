@@ -76,10 +76,13 @@ def main():
 
     which = sys.argv[1] if len(sys.argv) > 1 else "dev"
     tickers = HOLDOUT if which == "holdout" else TICKERS
-    for t in sorted(t for t in tickers if (DATA / t / "extracted.json").exists()):
+    for t in sorted(t for t in tickers if (DATA / t / "answer_key.json").exists()):
         folder = DATA / t
         key = json.loads((folder / "answer_key.json").read_text())
-        ext = json.loads((folder / "extracted.json").read_text())["fields"]
+        # A filing that failed upstream (nothing routed or parsed) scores as all missing, not skipped.
+        empty = {f: {"value": None, "flags": [], "row_label": None, "page": None} for f in FIELDS}
+        ext_path = folder / "extracted.json"
+        ext = json.loads(ext_path.read_text())["fields"] if ext_path.exists() else empty
         base = baseline(t)
 
         for f in FIELDS:
@@ -101,7 +104,7 @@ def main():
                                        "page": ext[f]["page"], "flags": ext[f]["flags"]})
 
     total = sum(counts["pipeline"].values())
-    print(f"{total} answer-key values, 20 companies\n")
+    print(f"[{which}] {total} answer-key values\n")
     print(f"{'':10} {'correct':>8} {'wrong':>6} {'missing':>8}   accuracy")
     for m in ("baseline", "pipeline"):
         c = counts[m]

@@ -53,6 +53,9 @@ def parse(ticker, processor):
     if out.exists():
         return
     pdf_bytes, source_pages = routed_pdf(ticker)
+    if not source_pages:
+        print(f"{ticker}: no statement pages routed, skipping")
+        return
     result = client.process_document(request=documentai.ProcessRequest(
         name=processor,
         raw_document=documentai.RawDocument(content=pdf_bytes, mime_type="application/pdf"),
