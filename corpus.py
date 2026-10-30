@@ -34,6 +34,17 @@ TICKERS = [
     "NKE", "LULU", "DKNG", "MSGS", "PLNT",  # sports, apparel, fitness
 ]
 
+# Held-out set: never looked at while building routing, prompt or checks.
+# Scored once, after the pipeline was frozen (see score.py holdout).
+HOLDOUT = [
+    "GOOGL", "META", "ORCL",          # tech
+    "BAC", "WFC", "MS",               # banks
+    "LLY", "MRK", "ABT",              # health
+    "CVX", "BA", "UPS", "PEP",        # energy, industrial, staples
+    "HD", "TGT", "MCD",               # retail, restaurants
+    "UAA", "PTON", "LYV", "TKO",      # sports, fitness, live events
+]
+
 # Tickers whose current CIK is not the one that filed the 10-K. XOM moved to a
 # new holding company; the 10-K is still under Exxon Mobil Corp.
 CIK_OVERRIDES = {"XOM": "0000034088"}
@@ -157,7 +168,8 @@ def build(ticker, cik):
 
 
 def main():
-    tickers = sys.argv[1:] or TICKERS
+    args = sys.argv[1:]
+    tickers = HOLDOUT if args == ["--holdout"] else args or TICKERS
     ciks = {**ticker_to_cik(), **CIK_OVERRIDES}
     for t in tickers:
         if t not in ciks:

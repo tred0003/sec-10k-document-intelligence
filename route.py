@@ -83,6 +83,11 @@ def route(ticker):
         if kind:
             candidates.setdefault(kind, []).append(i)
     found = tightest_cluster(candidates)
+    # The cluster can land on a "(Continued)" page; back up to where the statement starts.
+    for kind, i in found.items():
+        while i - 1 in candidates.get(kind, []):
+            i -= 1
+        found[kind] = i
     # Statements often run onto a second page, so send the next page too.
     selected = sorted({p for i in found.values() for p in (i, i + 1) if p < len(pages)})
     result = {"statements": {k: v + 1 for k, v in found.items()},  # 1-based for humans

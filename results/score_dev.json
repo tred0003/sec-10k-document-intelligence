@@ -1,0 +1,159 @@
+{
+  "counts": {
+    "pipeline": {
+      "correct": 162,
+      "missing": 1,
+      "wrong": 2
+    },
+    "baseline": {
+      "missing": 39,
+      "wrong": 35,
+      "correct": 91
+    }
+  },
+  "by_field": {
+    "pipeline": {
+      "revenue": {
+        "correct": 20
+      },
+      "operating_income": {
+        "correct": 13,
+        "missing": 1
+      },
+      "net_income": {
+        "correct": 20
+      },
+      "eps_diluted": {
+        "correct": 19
+      },
+      "operating_cash_flow": {
+        "correct": 20
+      },
+      "total_assets": {
+        "correct": 20
+      },
+      "total_liabilities": {
+        "correct": 13,
+        "wrong": 1
+      },
+      "stockholders_equity": {
+        "correct": 19,
+        "wrong": 1
+      },
+      "cash": {
+        "correct": 18
+      }
+    },
+    "baseline": {
+      "revenue": {
+        "missing": 11,
+        "wrong": 3,
+        "correct": 6
+      },
+      "operating_income": {
+        "wrong": 2,
+        "correct": 9,
+        "missing": 3
+      },
+      "net_income": {
+        "wrong": 7,
+        "missing": 2,
+        "correct": 11
+      },
+      "eps_diluted": {
+        "correct": 13,
+        "wrong": 2,
+        "missing": 4
+      },
+      "operating_cash_flow": {
+        "missing": 8,
+        "wrong": 1,
+        "correct": 11
+      },
+      "total_assets": {
+        "wrong": 2,
+        "correct": 17,
+        "missing": 1
+      },
+      "total_liabilities": {
+        "wrong": 12,
+        "correct": 1,
+        "missing": 1
+      },
+      "stockholders_equity": {
+        "wrong": 3,
+        "correct": 9,
+        "missing": 8
+      },
+      "cash": {
+        "wrong": 3,
+        "correct": 14,
+        "missing": 1
+      }
+    }
+  },
+  "review": {
+    "correct/auto": 158,
+    "missing/auto": 1,
+    "correct/flagged": 4,
+    "wrong/flagged": 1,
+    "wrong/auto": 1
+  },
+  "errors": [
+    {
+      "ticker": "DIS",
+      "field": "operating_income",
+      "outcome": "missing",
+      "got": null,
+      "want": 17551000000,
+      "row_label": null,
+      "page": null,
+      "flags": []
+    },
+    {
+      "ticker": "DKNG",
+      "field": "total_liabilities",
+      "outcome": "wrong",
+      "got": 3273099000.0,
+      "want": 3899323000,
+      "row_label": "Total liabilities",
+      "page": 117,
+      "flags": [
+        "assets != liabilities + equity (gap 626,224,000)"
+      ]
+    },
+    {
+      "ticker": "WMT",
+      "field": "stockholders_equity",
+      "outcome": "wrong",
+      "got": 105887000000.0,
+      "want": 99617000000,
+      "row_label": "Total shareholders' equity",
+      "page": 77,
+      "flags": []
+    }
+  ],
+  "unkeyed": [
+    {
+      "ticker": "JPM",
+      "field": "cash",
+      "value": 21742000000.0,
+      "row_label": "Cash and due from banks",
+      "page": 245
+    },
+    {
+      "ticker": "LULU",
+      "field": "cash",
+      "value": 1807202000.0,
+      "row_label": "Cash and cash equivalents",
+      "page": 76
+    },
+    {
+      "ticker": "PLNT",
+      "field": "eps_diluted",
+      "value": 2.62,
+      "row_label": "Diluted",
+      "page": 112
+    }
+  ]
+}
