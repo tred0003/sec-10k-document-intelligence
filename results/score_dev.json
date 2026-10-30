@@ -2,8 +2,8 @@
   "counts": {
     "pipeline": {
       "correct": 162,
-      "missing": 1,
-      "wrong": 2
+      "missing": 2,
+      "wrong": 1
     },
     "baseline": {
       "missing": 39,
@@ -38,7 +38,7 @@
       },
       "stockholders_equity": {
         "correct": 19,
-        "wrong": 1
+        "missing": 1
       },
       "cash": {
         "correct": 18
@@ -93,11 +93,10 @@
     }
   },
   "review": {
-    "correct/auto": 158,
-    "missing/auto": 1,
-    "correct/flagged": 4,
-    "wrong/flagged": 1,
-    "wrong/auto": 1
+    "correct/auto": 156,
+    "missing/auto": 2,
+    "correct/flagged": 6,
+    "wrong/flagged": 1
   },
   "errors": [
     {
@@ -119,17 +118,18 @@
       "row_label": "Total liabilities",
       "page": 117,
       "flags": [
+        "value is in the 2024 column, latest is 2025",
         "assets != liabilities + equity (gap 626,224,000)"
       ]
     },
     {
-      "ticker": "WMT",
+      "ticker": "UNH",
       "field": "stockholders_equity",
-      "outcome": "wrong",
-      "got": 105887000000.0,
-      "want": 99617000000,
-      "row_label": "Total shareholders' equity",
-      "page": 77,
+      "outcome": "missing",
+      "got": null,
+      "want": 100090000000,
+      "row_label": null,
+      "page": null,
       "flags": []
     }
   ],

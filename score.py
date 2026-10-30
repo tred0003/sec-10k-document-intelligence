@@ -11,7 +11,8 @@ Outcomes per (company, field) in the answer key:
   missing  - the answer key has it, the method returned nothing
 
 Run:  python score.py            (dev set: the 20 companies the pipeline was built on)
-      python score.py holdout    (20 companies never looked at while building)
+      python score.py holdout    (20 companies held out from v1; used to build v2)
+      python score.py third      (20 companies never looked at while building v2)
 Writes results/score_<set>.json
 """
 import json
@@ -20,7 +21,7 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from corpus import HOLDOUT, TICKERS
+from corpus import HOLDOUT, THIRD, TICKERS
 from extract import FIELDS, to_number
 
 DATA = Path(__file__).parent / "data"
@@ -75,7 +76,7 @@ def main():
     errors, unkeyed = [], []
 
     which = sys.argv[1] if len(sys.argv) > 1 else "dev"
-    tickers = HOLDOUT if which == "holdout" else TICKERS
+    tickers = {"holdout": HOLDOUT, "third": THIRD}.get(which, TICKERS)
     for t in sorted(t for t in tickers if (DATA / t / "answer_key.json").exists()):
         folder = DATA / t
         key = json.loads((folder / "answer_key.json").read_text())

@@ -27,6 +27,10 @@ TITLES = {
     "cash_flow": r"(statements? of (consolidated )?cash flows?|cash flows? statements?)",
 }
 TITLE_RE = {k: re.compile(v, re.I) for k, v in TITLES.items()}
+# Lower on the page (e.g. under an "Item 8" intro) a title must start its line and be
+# followed closely by the statement's units/period line.
+TITLE_START_RE = {k: re.compile(rf"^(consolidated\s+)?{v}", re.I) for k, v in TITLES.items()}
+UNITS = re.compile(r"in (millions|thousands|billions)|except per share|years? ended|as of", re.I)
 # Lines that contain a title phrase but head a different table. Comprehensive income
 # is excluded only as the lead ("Statement of Comprehensive Income"), not as a
 # combined statement ("Statements of Operations and Comprehensive Income").
@@ -55,11 +59,16 @@ def statement_kind(text, next_text=""):
     numbers = digits(text) if digits(text) >= 50 else digits(text) + digits(next_text)
     if numbers < MIN_DIGITS:
         return None
-    for line in [l.strip() for l in text.splitlines() if l.strip()][:HEAD_LINES]:
+    lines = [l.strip() for l in text.splitlines() if l.strip()]
+    for n, line in enumerate(lines):
         if len(line) > MAX_TITLE_LEN or NOT_A_TITLE.search(line):
             continue
+        if re.search(r"\s\d{1,3}$", line):
+            continue  # "Consolidated balance sheets 43" is a contents entry, not a title
         for kind, rx in TITLE_RE.items():
-            if rx.search(line):
+            if n < HEAD_LINES and rx.search(line):
+                return kind
+            if TITLE_START_RE[kind].search(line) and any(UNITS.search(l) for l in lines[n + 1:n + 5]):
                 return kind
     return None
 

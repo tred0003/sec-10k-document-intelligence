@@ -10,6 +10,7 @@ Run:  python corpus.py            (all companies)
       python corpus.py AAPL DKNG  (just these)
 """
 import json
+import re
 import subprocess
 import sys
 import time
@@ -17,6 +18,7 @@ from datetime import date
 from pathlib import Path
 
 import requests
+from pypdf import PdfWriter
 
 # SEC asks for a descriptive User-Agent; no personal contact needed for this volume.
 HEADERS = {"User-Agent": "sec-docintel research project admin@example.com"}
@@ -43,6 +45,17 @@ HOLDOUT = [
     "CVX", "BA", "UPS", "PEP",        # energy, industrial, staples
     "HD", "TGT", "MCD",               # retail, restaurants
     "UAA", "PTON", "LYV", "TKO",      # sports, fitness, live events
+]
+
+# Third set: built after v2 was frozen (column/scale/NCI checks, Exhibit 13, title+units
+# routing). Never used for any fix. Scored once (score.py third).
+THIRD = [
+    "CRM", "ADBE", "INTC",            # tech
+    "C", "USB", "PNC",                # banks
+    "BMY", "AMGN", "CVS",             # health
+    "COP", "DE", "LMT", "F",          # energy, industrial, autos
+    "LOW", "SBUX", "NFLX",            # retail, restaurants, media
+    "DKS", "PENN", "CHDN", "YETI",    # sporting goods, betting, racing, outdoor
 ]
 
 # Tickers whose current CIK is not the one that filed the 10-K. XOM moved to a
@@ -127,6 +140,18 @@ def answer_key(cik, filing):
     return key
 
 
+def exhibit_13(cik, accn):
+    """Some banks (e.g. Wells Fargo) file a short 10-K and put the financial statements in
+    Exhibit 13, the annual report to shareholders. Returns its file name, if any."""
+    folder = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{accn.replace('-', '')}"
+    index = get(f"{folder}/{accn}-index.htm").text
+    for row in re.findall(r"<tr[^>]*>(.*?)</tr>", index, re.S):
+        cells = [re.sub(r"<[^>]+>", "", c).strip() for c in re.findall(r"<td[^>]*>(.*?)</td>", row, re.S)]
+        if len(cells) >= 4 and cells[3] == "EX-13":
+            return f"{folder}/{cells[2].split()[0]}"
+    return None
+
+
 def render_pdf(html_path, pdf_path):
     subprocess.run([
         CHROME, "--headless=new", "--disable-gpu", "--no-pdf-header-footer",
@@ -156,9 +181,23 @@ def build(ticker, cik):
         html.write_bytes(get(url).content)
     if not pdf.exists():
         render_pdf(html, pdf)
+    ex13 = exhibit_13(cik, filing["accn"])
+    if ex13 and not (folder / "ex13.pdf").exists():
+        (folder / "ex13.html").write_bytes(get(ex13).content)
+        render_pdf(folder / "ex13.html", folder / "ex13.pdf")
+        # Append the exhibit so routing sees one document; page numbers continue past the 10-K.
+        writer = PdfWriter()
+        for part in (pdf, folder / "ex13.pdf"):
+            writer.append(str(part))
+        combined = folder / "10k_combined.pdf"
+        with open(combined, "wb") as fh:
+            writer.write(fh)
+        combined.replace(pdf)
+        for stale in ("pages.json", "route.json", "layout.json", "extracted.json"):
+            (folder / stale).unlink(missing_ok=True)
 
     key = answer_key(cik, filing)
-    meta = {"ticker": ticker, "cik": cik, "form": "10-K", "source_url": url,
+    meta = {"ticker": ticker, "cik": cik, "form": "10-K", "source_url": url, "exhibit_13": ex13,
             "pages": page_count(pdf), **filing}
     (folder / "meta.json").write_text(json.dumps(meta, indent=2))
     (folder / "answer_key.json").write_text(json.dumps(key, indent=2))
@@ -169,7 +208,8 @@ def build(ticker, cik):
 
 def main():
     args = sys.argv[1:]
-    tickers = HOLDOUT if args == ["--holdout"] else args or TICKERS
+    sets = {"--holdout": HOLDOUT, "--third": THIRD}
+    tickers = sets[args[0]] if args and args[0] in sets else args or TICKERS
     ciks = {**ticker_to_cik(), **CIK_OVERRIDES}
     for t in tickers:
         if t not in ciks:

@@ -1,65 +1,60 @@
 {
   "counts": {
     "pipeline": {
-      "correct": 141,
-      "wrong": 12,
-      "missing": 9
+      "correct": 146,
+      "missing": 1,
+      "wrong": 15
     },
     "baseline": {
-      "correct": 92,
-      "missing": 32,
-      "wrong": 38
+      "correct": 96,
+      "missing": 26,
+      "wrong": 40
     }
   },
   "by_field": {
     "pipeline": {
       "revenue": {
-        "correct": 16,
-        "wrong": 2,
-        "missing": 2
+        "correct": 17,
+        "wrong": 3
       },
       "operating_income": {
-        "correct": 13,
-        "wrong": 1
+        "correct": 12,
+        "wrong": 2
       },
       "net_income": {
-        "correct": 17,
-        "wrong": 2,
-        "missing": 1
+        "correct": 18,
+        "wrong": 2
       },
       "eps_diluted": {
-        "correct": 17,
-        "wrong": 1,
-        "missing": 2
+        "correct": 19,
+        "wrong": 1
       },
       "operating_cash_flow": {
         "correct": 17,
-        "wrong": 2,
-        "missing": 1
+        "missing": 1,
+        "wrong": 2
       },
       "total_assets": {
         "correct": 19,
-        "missing": 1
+        "wrong": 1
       },
       "stockholders_equity": {
-        "correct": 16,
-        "wrong": 3,
-        "missing": 1
+        "correct": 17,
+        "wrong": 3
       },
       "cash": {
         "correct": 15,
         "wrong": 1
       },
       "total_liabilities": {
-        "correct": 11,
-        "missing": 1
+        "correct": 12
       }
     },
     "baseline": {
       "revenue": {
-        "correct": 9,
+        "correct": 11,
         "wrong": 6,
-        "missing": 5
+        "missing": 3
       },
       "operating_income": {
         "missing": 4,
@@ -67,13 +62,12 @@
         "correct": 9
       },
       "net_income": {
-        "correct": 12,
-        "wrong": 7,
-        "missing": 1
+        "correct": 13,
+        "wrong": 7
       },
       "eps_diluted": {
-        "correct": 12,
-        "missing": 5,
+        "correct": 13,
+        "missing": 4,
         "wrong": 3
       },
       "operating_cash_flow": {
@@ -82,9 +76,9 @@
         "wrong": 1
       },
       "total_assets": {
-        "missing": 3,
+        "missing": 2,
         "correct": 15,
-        "wrong": 2
+        "wrong": 3
       },
       "stockholders_equity": {
         "wrong": 5,
@@ -97,26 +91,27 @@
         "missing": 1
       },
       "total_liabilities": {
-        "wrong": 10,
-        "correct": 1,
-        "missing": 1
+        "wrong": 11,
+        "correct": 1
       }
     }
   },
   "review": {
     "correct/auto": 141,
-    "wrong/auto": 12,
-    "missing/auto": 9
+    "correct/flagged": 5,
+    "missing/auto": 1,
+    "wrong/flagged": 14,
+    "wrong/auto": 1
   },
   "errors": [
     {
       "ticker": "GOOGL",
       "field": "operating_cash_flow",
-      "outcome": "wrong",
-      "got": 101746000000.0,
+      "outcome": "missing",
+      "got": null,
       "want": 164713000000,
-      "row_label": "Net cash provided by operating activities",
-      "page": 87,
+      "row_label": null,
+      "page": null,
       "flags": []
     },
     {
@@ -127,7 +122,9 @@
       "want": 25201406000,
       "row_label": "Revenue",
       "page": 68,
-      "flags": []
+      "flags": [
+        "value is in the 2024 column, latest is 2025"
+      ]
     },
     {
       "ticker": "LYV",
@@ -137,7 +134,9 @@
       "want": 1251217000,
       "row_label": "Operating income",
       "page": 68,
-      "flags": []
+      "flags": [
+        "value is in the 2024 column, latest is 2025"
+      ]
     },
     {
       "ticker": "LYV",
@@ -157,7 +156,9 @@
       "want": -0.24,
       "row_label": "Diluted net income (loss) per common share available to common stockholders of Live Nation",
       "page": 68,
-      "flags": []
+      "flags": [
+        "value is in the 2024 column, latest is 2025"
+      ]
     },
     {
       "ticker": "LYV",
@@ -167,7 +168,9 @@
       "want": 1395316000,
       "row_label": "Net cash provided by operating activities",
       "page": 75,
-      "flags": []
+      "flags": [
+        "value is in the 2024 column, latest is 2025"
+      ]
     },
     {
       "ticker": "LYV",
@@ -177,7 +180,9 @@
       "want": 7094200000,
       "row_label": "Cash and cash equivalents",
       "page": 66,
-      "flags": []
+      "flags": [
+        "value is in the 2024 column, latest is 2025"
+      ]
     },
     {
       "ticker": "MCD",
@@ -187,37 +192,9 @@
       "want": 26885000000,
       "row_label": "Total revenues",
       "page": 53,
-      "flags": []
-    },
-    {
-      "ticker": "MRK",
-      "field": "revenue",
-      "outcome": "missing",
-      "got": null,
-      "want": 65011000000,
-      "row_label": null,
-      "page": null,
-      "flags": []
-    },
-    {
-      "ticker": "MRK",
-      "field": "eps_diluted",
-      "outcome": "missing",
-      "got": null,
-      "want": 7.28,
-      "row_label": null,
-      "page": null,
-      "flags": []
-    },
-    {
-      "ticker": "MS",
-      "field": "net_income",
-      "outcome": "wrong",
-      "got": 17025000000.0,
-      "want": 16861000000,
-      "row_label": "Net income",
-      "page": 187,
-      "flags": []
+      "flags": [
+        "value is in the 2024 column, latest is 2025"
+      ]
     },
     {
       "ticker": "ORCL",
@@ -227,17 +204,82 @@
       "want": 42508000000,
       "row_label": "Total stockholders' equity",
       "page": 112,
-      "flags": []
+      "flags": [
+        "value includes noncontrolling interests"
+      ]
+    },
+    {
+      "ticker": "TGT",
+      "field": "total_assets",
+      "outcome": "wrong",
+      "got": 57769000000.0,
+      "want": 59490000000,
+      "row_label": "Total assets",
+      "page": 49,
+      "flags": [
+        "value is in the 2025 column, latest is 2026"
+      ]
+    },
+    {
+      "ticker": "TGT",
+      "field": "stockholders_equity",
+      "outcome": "wrong",
+      "got": 14666000000.0,
+      "want": 16165000000,
+      "row_label": "Total shareholders' investment",
+      "page": 49,
+      "flags": [
+        "value is in the 2025 column, latest is 2026"
+      ]
     },
     {
       "ticker": "TKO",
-      "field": "stockholders_equity",
+      "field": "revenue",
       "outcome": "wrong",
-      "got": 9215667000.0,
-      "want": 3737381000,
-      "row_label": "Total stockholders' equity",
-      "page": 146,
-      "flags": []
+      "got": 4735151000000.0,
+      "want": 4735151000,
+      "row_label": "Revenue",
+      "page": 148,
+      "flags": [
+        "page says thousands, extraction used millions",
+        "implausibly large for a public company (scale?)"
+      ]
+    },
+    {
+      "ticker": "TKO",
+      "field": "operating_income",
+      "outcome": "wrong",
+      "got": 835015000000.0,
+      "want": 835015000,
+      "row_label": "Operating income",
+      "page": 148,
+      "flags": [
+        "page says thousands, extraction used millions"
+      ]
+    },
+    {
+      "ticker": "TKO",
+      "field": "net_income",
+      "outcome": "wrong",
+      "got": 195403000000.0,
+      "want": 195403000,
+      "row_label": "Net income (loss) attributable to TKO Group Holdings, Inc.",
+      "page": 148,
+      "flags": [
+        "page says thousands, extraction used millions"
+      ]
+    },
+    {
+      "ticker": "TKO",
+      "field": "operating_cash_flow",
+      "outcome": "wrong",
+      "got": 1285725000000.0,
+      "want": 1285725000,
+      "row_label": "Net cash provided by operating activities",
+      "page": 154,
+      "flags": [
+        "page says thousands, extraction used millions"
+      ]
     },
     {
       "ticker": "UPS",
@@ -247,77 +289,9 @@
       "want": 16227000000,
       "row_label": "Total Shareowners' Equity",
       "page": 96,
-      "flags": []
-    },
-    {
-      "ticker": "WFC",
-      "field": "revenue",
-      "outcome": "missing",
-      "got": null,
-      "want": 83699000000,
-      "row_label": null,
-      "page": null,
-      "flags": []
-    },
-    {
-      "ticker": "WFC",
-      "field": "net_income",
-      "outcome": "missing",
-      "got": null,
-      "want": 21338000000,
-      "row_label": null,
-      "page": null,
-      "flags": []
-    },
-    {
-      "ticker": "WFC",
-      "field": "eps_diluted",
-      "outcome": "missing",
-      "got": null,
-      "want": 6.26,
-      "row_label": null,
-      "page": null,
-      "flags": []
-    },
-    {
-      "ticker": "WFC",
-      "field": "operating_cash_flow",
-      "outcome": "missing",
-      "got": null,
-      "want": -19001000000,
-      "row_label": null,
-      "page": null,
-      "flags": []
-    },
-    {
-      "ticker": "WFC",
-      "field": "total_assets",
-      "outcome": "missing",
-      "got": null,
-      "want": 2148631000000,
-      "row_label": null,
-      "page": null,
-      "flags": []
-    },
-    {
-      "ticker": "WFC",
-      "field": "total_liabilities",
-      "outcome": "missing",
-      "got": null,
-      "want": 1965593000000,
-      "row_label": null,
-      "page": null,
-      "flags": []
-    },
-    {
-      "ticker": "WFC",
-      "field": "stockholders_equity",
-      "outcome": "missing",
-      "got": null,
-      "want": 181117000000,
-      "row_label": null,
-      "page": null,
-      "flags": []
+      "flags": [
+        "value includes noncontrolling interests"
+      ]
     }
   ],
   "unkeyed": [
@@ -338,9 +312,16 @@
     {
       "ticker": "TGT",
       "field": "cash",
-      "value": 5488000000.0,
+      "value": 4762000000.0,
       "row_label": "Cash and cash equivalents",
       "page": 49
+    },
+    {
+      "ticker": "WFC",
+      "field": "cash",
+      "value": 39182000000.0,
+      "row_label": "Cash and due from banks",
+      "page": 168
     }
   ]
 }
