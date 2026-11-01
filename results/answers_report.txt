@@ -1,0 +1,4 @@
+[dev] 163 questions: exact 148 (90.8%), right at printed precision 2 (together 92.0%), wrong 7, abstained 6, errors 0
+   precision when it answers: 95.5%; citation checks flagged 2/7 wrong, 5/148 correct
+[test] 271 questions: exact 226 (83.4%), right at printed precision 10 (together 87.1%), wrong 21, abstained 14, errors 0
+   precision when it answers: 91.8%; citation checks flagged 6/21 wrong, 14/226 correct

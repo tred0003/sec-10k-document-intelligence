@@ -1,0 +1,9 @@
+mode         split  hit@1  hit@5  hit@10  MRR@10
+bm25         dev    27.0%  47.2%   64.4%   0.359
+bm25         test   19.9%  39.9%   56.1%   0.292
+dense        dev    47.9%  77.9%   85.9%   0.613
+dense        test   47.6%  80.8%   87.5%   0.610
+dense_rank   dev    67.5%  89.0%   93.3%   0.761
+dense_rank   test   60.9%  83.8%   91.1%   0.710
+hybrid_rank  dev    66.3%  89.0%   92.6%   0.755
+hybrid_rank  test   59.4%  84.9%   90.8%   0.706
