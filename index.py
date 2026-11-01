@@ -92,6 +92,9 @@ def load_bigquery(tickers):
     with open(ndjson, "rb") as fh:
         job = bq.load_table_from_file(fh, TABLE, job_config=bigquery.LoadJobConfig(
             schema=schema, write_disposition="WRITE_TRUNCATE",
+            # Every search filters to one company; clustering lets BigQuery read only
+            # that company's blocks (~3 MB) instead of the whole table (~190 MB).
+            clustering_fields=["ticker"],
             source_format=bigquery.SourceFormat.NEWLINE_DELIMITED_JSON))
         job.result()
     print(f"loaded {rows} chunks into {TABLE}")
