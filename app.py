@@ -13,6 +13,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
 
+import llamaindex_rag
 import rag
 from corpus import HOLDOUT, THIRD, TICKERS
 from extract import FIELDS
@@ -22,7 +23,7 @@ from score import matches
 DATA = Path(__file__).parent / "data"
 RESULTS = Path(__file__).parent / "results"
 SETS = {**{t: "dev" for t in TICKERS}, **{t: "holdout" for t in HOLDOUT}, **{t: "third" for t in THIRD}}
-MODES = ["dense_rank", "hybrid_rank", "dense", "bm25"]
+MODES = ["li_rank", "dense_rank", "li_default", "hybrid_rank", "dense", "bm25"]
 
 app = FastAPI(title="SEC doc-intel")
 
@@ -96,7 +97,7 @@ def company(ticker: str):
 class Ask(BaseModel):
     ticker: str
     question: str
-    mode: str = "dense_rank"   # the mode picked on the dev questions
+    mode: str = "li_rank"      # best on the dev questions (LlamaIndex, page-sized chunks + ranker)
     answer: bool = True        # false = retrieval only, no Gemini call
 
 
@@ -106,12 +107,14 @@ def ask(req: Ask):
     if req.mode not in MODES:
         raise HTTPException(400, f"mode must be one of {MODES}")
     t0 = time.time()
-    hits = rag.search(req.question, req.ticker, req.mode)[:8]
+    li = req.mode.startswith("li_")
+    hits = (llamaindex_rag.search if li else rag.search)(req.question, req.ticker, req.mode)[:8]
     t1 = time.time()
     out = {"hits": [{"page": h["page"], "text": h["text"]} for h in hits],
            "seconds": {"retrieve": round(t1 - t0, 2)}}
     if req.answer:
-        out["answer"] = rag.answer_from(req.question, company_name(req.ticker), hits)
+        out["answer"] = (llamaindex_rag.answer_from if li else rag.answer_from)(
+            req.question, company_name(req.ticker), hits)
         out["seconds"]["answer"] = round(time.time() - t1, 2)
     # A question from the labeled set gets graded against its official value.
     known = next((q for q in questions().get(req.ticker, []) if q["question"] == req.question.strip()), None)

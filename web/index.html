@@ -154,8 +154,9 @@ async function openCo(t) {
         <button id="go" onclick="ask(true)">Answer</button>
         <button class="ghost" id="search" onclick="ask(false)">Search only (no Gemini)</button>
         <label class="muted">Retrieval <select id="mode">
-          <option value="dense_rank">dense + ranker (chosen)</option><option value="hybrid_rank">hybrid + ranker</option>
-          <option value="dense">dense only</option><option value="bm25">BM25 keywords (baseline)</option></select></label>
+          <option value="li_rank">LlamaIndex + ranker (best)</option><option value="dense_rank">hand-built dense + ranker</option>
+          <option value="li_default">LlamaIndex out of the box</option><option value="hybrid_rank">hand-built hybrid + ranker</option>
+          <option value="dense">hand-built dense only</option><option value="bm25">BM25 keywords (baseline)</option></select></label>
       </div>
       <div id="out"></div>
     </div>`;

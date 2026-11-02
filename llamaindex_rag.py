@@ -98,7 +98,10 @@ def search(question, ticker, mode):
 
 
 def answer(question, ticker, company, mode, k=8):
-    hits = search(question, ticker, mode)[:k]
+    return answer_from(question, company, search(question, ticker, mode)[:k])
+
+
+def answer_from(question, company, hits):
     excerpts = "\n\n".join(f"[page {h['page']}]\n{h['text']}" for h in hits)
     a = llm.structured_predict(rag.Answer, PromptTemplate(rag.PROMPT),
                                company=company, question=question, excerpts=excerpts)
