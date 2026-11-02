@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SEC Doc-Intel</title>
+<style>
+:root {
+  --bg: #f6f7f9; --card: #fff; --ink: #1d2330; --muted: #667085; --line: #e3e6eb;
+  --accent: #2456c9; --good: #137a3d; --goodbg: #e6f4ea; --bad: #b42318; --badbg: #fdecea;
+  --warn: #9a5b00; --warnbg: #fff4e0; --mark: #fff1a8;
+}
+* { box-sizing: border-box; }
+body { margin: 0; font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; background: var(--bg); color: var(--ink); }
+header { padding: 12px 20px; background: var(--card); border-bottom: 1px solid var(--line); display: flex; gap: 12px; align-items: baseline; flex-wrap: wrap; }
+header h1 { font-size: 17px; margin: 0; }
+header span { color: var(--muted); font-size: 13px; }
+.wrap { display: grid; grid-template-columns: 260px 1fr; min-height: calc(100vh - 50px); }
+aside { border-right: 1px solid var(--line); background: var(--card); padding: 12px; overflow-y: auto; max-height: calc(100vh - 50px); position: sticky; top: 0; }
+aside input { width: 100%; padding: 7px 9px; border: 1px solid var(--line); border-radius: 6px; margin-bottom: 8px; }
+.co { padding: 6px 8px; border-radius: 6px; cursor: pointer; display: flex; justify-content: space-between; gap: 6px; }
+.co:hover { background: var(--bg); }
+.co.on { background: #e8eefc; }
+.co b { font-size: 13px; }
+.co small { color: var(--muted); display: block; font-size: 11.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 160px; }
+.tag { font-size: 10.5px; padding: 1px 6px; border-radius: 10px; background: var(--bg); color: var(--muted); align-self: center; }
+.grp { font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin: 12px 8px 4px; }
+main { padding: 18px 22px; max-width: 1100px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; margin-bottom: 16px; }
+.card h2 { font-size: 15px; margin: 0 0 10px; }
+.muted { color: var(--muted); }
+a { color: var(--accent); }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-weight: 600; color: var(--muted); font-size: 12px; }
+td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.pill { font-size: 11.5px; padding: 1px 8px; border-radius: 10px; white-space: nowrap; }
+.pill.correct { background: var(--goodbg); color: var(--good); }
+.pill.wrong, .pill.missing { background: var(--badbg); color: var(--bad); }
+.pill.flag, .pill.abstained, .pill.right { background: var(--warnbg); color: var(--warn); }
+.pill.none { background: var(--bg); color: var(--muted); }
+textarea { width: 100%; min-height: 58px; padding: 9px; border: 1px solid var(--line); border-radius: 6px; font: inherit; resize: vertical; }
+select { padding: 6px; border: 1px solid var(--line); border-radius: 6px; font: inherit; max-width: 100%; }
+.row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-top: 8px; }
+button { padding: 7px 14px; border-radius: 6px; border: 1px solid var(--accent); background: var(--accent); color: #fff; font: inherit; cursor: pointer; }
+button.ghost { background: #fff; color: var(--accent); }
+button:disabled { opacity: .5; cursor: wait; }
+.answer { font-size: 22px; font-weight: 600; margin: 4px 0; }
+.quote { border-left: 3px solid var(--accent); padding: 4px 10px; margin: 8px 0; background: var(--bg); }
+.hit { border-top: 1px solid var(--line); padding: 10px 0; }
+.hit .meta { font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+.hit .text { font-size: 12.5px; white-space: pre-wrap; max-height: 7.5em; overflow: hidden; cursor: pointer; }
+.hit .text.open { max-height: none; }
+.hit.cited { background: #f3f7ff; }
+mark { background: var(--mark); }
+.empty { color: var(--muted); padding: 40px 0; text-align: center; }
+@media (max-width: 760px) {
+  .wrap { grid-template-columns: 1fr; }
+  aside { max-height: 230px; position: static; border-right: 0; border-bottom: 1px solid var(--line); }
+  main { padding: 14px 16px; }
+  .hide-sm { display: none; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>SEC Doc-Intel</h1>
+  <span>60 companies' latest 10-K: extracted numbers vs the official XBRL values, and Q&amp;A with page citations</span>
+</header>
+<div class="wrap">
+  <aside>
+    <input id="filter" placeholder="Filter companies…">
+    <div id="list"></div>
+  </aside>
+  <main id="main"><div class="empty">Pick a company on the left.</div></main>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+const LABEL = {revenue: "Revenue", operating_income: "Operating income", net_income: "Net income",
+  eps_diluted: "EPS (diluted)", operating_cash_flow: "Operating cash flow", total_assets: "Total assets",
+  total_liabilities: "Total liabilities", stockholders_equity: "Stockholders' equity", cash: "Cash & equivalents"};
+const SETNAME = {dev: "Dev set (built on)", holdout: "Holdout set (used for v2)", third: "Third set (scored once, clean)"};
+let companies = [], current = null;
+
+function money(v, field) {
+  if (v == null) return "—";
+  if (field === "eps_diluted") return "$" + v.toFixed(2);
+  const a = Math.abs(v), sign = v < 0 ? "-" : "";
+  if (a >= 1e9) return sign + "$" + (a / 1e9).toFixed(2) + "B";
+  if (a >= 1e6) return sign + "$" + (a / 1e6).toFixed(1) + "M";
+  return sign + "$" + a.toLocaleString();
+}
+const pageLink = (t, p) => p ? `<a href="/pdf/${t}#page=${p}" target="_blank">p. ${p}</a>` : "—";
+
+async function init() {
+  companies = await (await fetch("/api/companies")).json();
+  drawList();
+  $("#filter").oninput = drawList;
+  const t = location.hash.slice(1);
+  if (t) openCo(t);
+}
+
+function drawList() {
+  const f = $("#filter").value.toLowerCase();
+  let html = "";
+  for (const set of ["dev", "holdout", "third"]) {
+    const cos = companies.filter(c => c.set === set && (c.ticker.toLowerCase().includes(f) || c.name.toLowerCase().includes(f)));
+    if (!cos.length) continue;
+    html += `<div class="grp">${SETNAME[set]}</div>`;
+    html += cos.map(c => `<div class="co ${c.ticker === current ? "on" : ""}" onclick="openCo('${c.ticker}')">
+      <div><b>${c.ticker}</b><small>${esc(c.name)}</small></div><span class="tag">FY ${(c.period_end || "").slice(0, 4)}</span></div>`).join("");
+  }
+  $("#list").innerHTML = html;
+}
+
+async function openCo(t) {
+  current = t; location.hash = t; drawList();
+  $("#main").innerHTML = `<div class="empty">Loading ${t}…</div>`;
+  const d = await (await fetch("/api/company/" + t)).json();
+  const m = d.meta;
+  const right = d.fields.filter(r => r.outcome === "correct").length;
+  const keyed = d.fields.filter(r => r.outcome !== "no official value").length;
+  const rows = d.fields.map(r => {
+    const cls = r.outcome === "correct" ? "correct" : r.outcome === "no official value" ? "none" : r.outcome;
+    const flags = r.flags.map(f => `<span class="pill flag">${esc(f)}</span>`).join(" ");
+    return `<tr><td>${LABEL[r.field]}</td>
+      <td class="num">${money(r.value, r.field)}<div class="muted hide-sm">${esc(r.printed ?? "")} ${r.printed && r.scale !== "units" ? esc(r.scale) : ""}</div></td>
+      <td class="num">${money(r.official, r.field)}</td>
+      <td><span class="pill ${cls}">${r.outcome}</span> ${flags}</td>
+      <td class="hide-sm">${esc(r.row_label ?? "")}<div class="muted">${esc(r.column_header ?? "")}</div></td>
+      <td>${pageLink(t, r.page)}</td></tr>`;
+  }).join("");
+  const opts = d.questions.map((q, i) => `<option value="${i}">${esc(q.question)}</option>`).join("");
+  window._qs = d.questions;
+  $("#main").innerHTML = `
+    <div class="card">
+      <h2>${esc(d.name)} (${t})</h2>
+      <div class="muted">10-K for fiscal year ended ${m.period_end} · filed ${m.filed} · ${m.pages} pages ·
+        <a href="/pdf/${t}" target="_blank">open PDF</a> · <a href="${m.source_url}" target="_blank">SEC original</a> ·
+        ${SETNAME[d.set]}</div>
+      <div class="muted">Statement pages sent to the paid parser: ${d.routed_pages.map(p => pageLink(t, p)).join(", ") || "none"}</div>
+    </div>
+    <div class="card">
+      <h2>Extracted vs official: ${right} of ${keyed} right</h2>
+      <table><tr><th>Field</th><th>Extracted</th><th>Official (XBRL)</th><th>Result / checks</th><th class="hide-sm">Row · column read</th><th>Page</th></tr>${rows}</table>
+    </div>
+    <div class="card">
+      <h2>Ask the filing</h2>
+      <select id="labeled" style="width:100%"><option value="">Pick a labeled question (has an official answer to grade against)…</option>${opts}</select>
+      <textarea id="q" placeholder="Or type any question about ${esc(d.name)}'s 10-K, e.g. How many employees did the company have?" style="margin-top:8px"></textarea>
+      <div class="row">
+        <button id="go" onclick="ask(true)">Answer</button>
+        <button class="ghost" id="search" onclick="ask(false)">Search only (no Gemini)</button>
+        <label class="muted">Retrieval <select id="mode">
+          <option value="dense_rank">dense + ranker (chosen)</option><option value="hybrid_rank">hybrid + ranker</option>
+          <option value="dense">dense only</option><option value="bm25">BM25 keywords (baseline)</option></select></label>
+      </div>
+      <div id="out"></div>
+    </div>`;
+  $("#labeled").onchange = e => { if (e.target.value !== "") $("#q").value = window._qs[e.target.value].question; };
+  $("#q").onkeydown = e => { if (e.key === "Enter" && (e.ctrlKey || e.metaKey)) ask(true); };
+}
+
+function highlight(text, needle) {
+  const safe = esc(text);
+  if (!needle) return safe;
+  const n = esc(needle);
+  return safe.split(n).join(`<mark>${n}</mark>`);
+}
+
+async function ask(withAnswer) {
+  const question = $("#q").value.trim();
+  if (!question) return;
+  $("#go").disabled = $("#search").disabled = true;
+  $("#out").innerHTML = `<p class="muted">${withAnswer ? "Retrieving and answering" : "Retrieving"}…</p>`;
+  try {
+    const r = await fetch("/api/ask", {method: "POST", headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({ticker: current, question, mode: $("#mode").value, answer: withAnswer})});
+    if (!r.ok) throw new Error(await r.text());
+    const d = await r.json();
+    let html = "";
+    const a = d.answer;
+    if (a) {
+      if (a.found && a.printed) {
+        const isCount = a.scale === "units" && !/\b(eps|per share)\b/i.test(question);
+        const shown = isCount ? Number(a.value).toLocaleString() : money(a.value);
+        html += `<div class="answer">${shown}</div>
+          <div class="muted">printed “${esc(a.printed)}” in ${esc(a.scale)} · ${pageLink(current, a.page)}</div>
+          <div class="quote">${highlight(a.quote, (a.printed || "").replace(/[()$]/g, ""))}</div>`;
+        html += a.checks.length
+          ? a.checks.map(c => `<span class="pill wrong">check failed: ${esc(c)}</span>`).join(" ")
+          : `<span class="pill correct">quote found on the cited page, number in the quote</span>`;
+      } else {
+        html += `<div class="answer">Not found</div><div class="muted">Gemini said the retrieved excerpts don't contain the answer, so it abstained instead of guessing.</div>`;
+      }
+    }
+    if (d.official != null) {
+      const g = d.grade || "";
+      const cls = g === "correct" ? "correct" : g === "wrong" ? "wrong" : "right";
+      html += `<p>Official XBRL value: <b>${/shares/i.test(question) ? Number(d.official).toLocaleString() + " shares" : money(d.official)}</b>
+        ${g ? `<span class="pill ${cls}">${g}</span>` : ""}
+        <span class="muted">· pages that print it: ${d.relevant_pages.map(p => pageLink(current, p)).join(", ")}</span></p>`;
+    }
+    const secs = Object.entries(d.seconds).map(([k, v]) => `${k} ${v}s`).join(" · ");
+    html += `<h2 style="margin-top:18px">Top ${d.hits.length} excerpts retrieved <span class="muted" style="font-weight:400">(${secs}; click to expand)</span></h2>`;
+    const rel = new Set(d.relevant_pages || []);
+    html += d.hits.map((h, i) => `<div class="hit ${a && a.page === h.page ? "cited" : ""}">
+      <div class="meta">#${i + 1} · ${pageLink(current, h.page)} ${a && a.page === h.page ? "· cited" : ""} ${rel.has(h.page) ? '<span class="pill correct">prints the official answer</span>' : ""}</div>
+      <div class="text" onclick="this.classList.toggle('open')">${highlight(h.text, a && a.printed ? a.printed.replace(/[()$]/g, "") : "")}</div></div>`).join("");
+    $("#out").innerHTML = html;
+  } catch (e) {
+    $("#out").innerHTML = `<p class="pill wrong">Error: ${esc(e.message)}</p>`;
+  } finally {
+    $("#go").disabled = $("#search").disabled = false;
+  }
+}
+init();
+</script>
+</body>
+</html>

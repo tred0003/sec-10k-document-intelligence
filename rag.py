@@ -150,7 +150,11 @@ Question: {question}
 
 
 def answer(question, ticker, company, mode="hybrid_rank", k=8):
-    hits = search(question, ticker, mode)[:k]
+    return answer_from(question, company, search(question, ticker, mode)[:k])
+
+
+def answer_from(question, company, hits):
+    """The answer step on chunks already retrieved (the web page shows them too)."""
     excerpts = "\n\n".join(f"[page {h['page']}]\n{h['text']}" for h in hits)
     resp = genai_client.models.generate_content(
         model=MODEL, contents=PROMPT.format(company=company, question=question, excerpts=excerpts),
