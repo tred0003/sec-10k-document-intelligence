@@ -39,10 +39,10 @@ def run_retrieval(mode, qs):
     return done
 
 
-def retrieval_report():
+def retrieval_report(modes=MODES):
     qs = questions()
     print(f"{'mode':12} {'split':5} {'hit@1':>6} {'hit@5':>6} {'hit@10':>7} {'MRR@10':>7}")
-    for mode in MODES:
+    for mode in modes:
         got = run_retrieval(mode, qs)
         for split in ("dev", "test"):
             sub = [q for q in qs if q["split"] == split]

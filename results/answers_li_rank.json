@@ -1,0 +1,8302 @@
+{
+ "AAPL-ResearchAndDevelopmentExpense": {
+  "found": true,
+  "printed": "34,550",
+  "scale": "millions",
+  "page": 40,
+  "quote": "Research and development 34,550",
+  "value": 34550000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   40,
+   55,
+   32,
+   39,
+   16,
+   73,
+   71,
+   3
+  ]
+ },
+ "AAPL-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "20,719",
+  "scale": "millions",
+  "page": 40,
+  "quote": "Provision for income taxes 20,719",
+  "value": 20719000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   40,
+   55,
+   54,
+   34,
+   53,
+   41,
+   45,
+   65
+  ]
+ },
+ "AAPL-ShareBasedCompensation": {
+  "found": true,
+  "printed": "12,863",
+  "scale": "millions",
+  "page": 60,
+  "quote": "Share-based compensation expense $ 12,863",
+  "value": 12863000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   45,
+   44,
+   60,
+   46,
+   3,
+   41,
+   16,
+   40
+  ]
+ },
+ "AAPL-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "89.3",
+  "scale": "billions",
+  "page": 59,
+  "quote": "During 2025, the Company repurchased 402 million shares of its common stock for $89.3 billion.",
+  "value": 89300000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   27,
+   44,
+   45,
+   59,
+   60,
+   36,
+   3,
+   39
+  ]
+ },
+ "AAPL-PaymentsOfDividends": {
+  "found": true,
+  "printed": "15,421",
+  "scale": "millions",
+  "page": 45,
+  "quote": "Payments for dividends and dividend equivalents (15,421)",
+  "value": 15421000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   44,
+   36,
+   45,
+   39,
+   16,
+   73,
+   3,
+   71
+  ]
+ },
+ "AAPL-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "(12,715)",
+  "scale": "millions",
+  "page": 45,
+  "quote": "Payments for acquisition of property, plant and equipment (12,715)",
+  "value": -12715000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   45,
+   52,
+   64,
+   42,
+   3,
+   39,
+   16,
+   62
+  ]
+ },
+ "AAPL-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "11,698",
+  "scale": "millions",
+  "page": 45,
+  "quote": "Depreciation and amortization 11,698",
+  "value": 11698000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   45,
+   52,
+   55,
+   3,
+   64,
+   39,
+   40,
+   46
+  ]
+ },
+ "AAPL-InventoryNet": {
+  "found": true,
+  "printed": "5,718",
+  "scale": "millions",
+  "page": 42,
+  "quote": "Inventories 5,718",
+  "value": 5718000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   42,
+   45,
+   64,
+   3,
+   39,
+   16,
+   73,
+   71
+  ]
+ },
+ "AAPL-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "78,328",
+  "scale": "millions",
+  "page": 59,
+  "quote": "Total non-current portion of term debt $ 78,328",
+  "value": 78328000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   59,
+   42,
+   34,
+   52,
+   58,
+   39,
+   1,
+   3
+  ]
+ },
+ "AAPL-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "14,776,353,000",
+  "scale": "units",
+  "page": 2,
+  "quote": "14,776,353,000 shares of common stock were issued and outstanding as of October 17, 2025.",
+  "value": 14776353000.0,
+  "checks": [],
+  "retrieved_pages": [
+   60,
+   42,
+   44,
+   1,
+   40,
+   73,
+   2,
+   71
+  ]
+ },
+ "MSFT-ResearchAndDevelopmentExpense": {
+  "found": true,
+  "printed": "35,562",
+  "scale": "millions",
+  "page": 60,
+  "quote": "Research and development  $ 35,562",
+  "value": 35562000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   60,
+   73,
+   59,
+   107,
+   56,
+   82,
+   52,
+   1
+  ]
+ },
+ "MSFT-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "32,185",
+  "scale": "millions",
+  "page": 104,
+  "quote": "Provision for income taxes  $ 32,185",
+  "value": 32185000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   104,
+   73,
+   108,
+   105,
+   116,
+   76,
+   62,
+   107
+  ]
+ },
+ "MSFT-ShareBasedCompensation": {
+  "found": true,
+  "printed": "12,405",
+  "scale": "millions",
+  "page": 116,
+  "quote": "Stock-based compensation expense  $ 12,405",
+  "value": 12405000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   77,
+   76,
+   116,
+   107,
+   118,
+   89,
+   60,
+   82
+  ]
+ },
+ "MSFT-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "(22,271)",
+  "scale": "millions",
+  "page": 76,
+  "quote": "Common stock repurchased   (22,271)",
+  "value": -22271000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   77,
+   113,
+   50,
+   76,
+   115,
+   64,
+   65,
+   3
+  ]
+ },
+ "MSFT-PaymentsOfDividendsCommonStock": {
+  "found": true,
+  "printed": "26,445",
+  "scale": "millions",
+  "page": 76,
+  "quote": "Common stock cash dividends paid",
+  "value": 26445000000.0,
+  "checks": [
+   "number not in the quote"
+  ],
+  "retrieved_pages": [
+   115,
+   67,
+   50,
+   77,
+   76,
+   118,
+   89,
+   64
+  ]
+ },
+ "MSFT-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "115,948",
+  "scale": "millions",
+  "page": 76,
+  "quote": "Additions to property and equipment   (115,948)",
+  "value": 115948000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   98,
+   64,
+   76,
+   111,
+   75,
+   123,
+   67,
+   110
+  ]
+ },
+ "MSFT-InterestExpenseNonoperating": {
+  "found": true,
+  "printed": "(3,051)",
+  "scale": "millions",
+  "page": 62,
+  "quote": "Interest expense   (3,051)",
+  "value": -3051000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   62,
+   89,
+   103,
+   108,
+   52,
+   103,
+   1,
+   76
+  ]
+ },
+ "MSFT-Goodwill": {
+  "found": true,
+  "printed": "119,651",
+  "scale": "millions",
+  "page": 75,
+  "quote": "Goodwill   119,651",
+  "value": 119651000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   75,
+   100,
+   102,
+   3,
+   52,
+   1,
+   116,
+   91
+  ]
+ },
+ "MSFT-InventoryNet": {
+  "found": true,
+  "printed": "1,397",
+  "scale": "millions",
+  "page": 75,
+  "quote": "Inventories   1,397",
+  "value": 1397000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   75,
+   76,
+   3,
+   80,
+   1,
+   91,
+   64,
+   82
+  ]
+ },
+ "MSFT-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "31,067",
+  "scale": "millions",
+  "page": 75,
+  "quote": "Long-term debt   31,067",
+  "value": 31067000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   75,
+   103,
+   104,
+   103,
+   65,
+   91,
+   100,
+   111
+  ]
+ },
+ "MSFT-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "7,425,545,491",
+  "scale": "units",
+  "page": 1,
+  "quote": "As of July 23, 2026, there were 7,425,545,491 shares of common stock outstanding.",
+  "value": 7425545491.0,
+  "checks": [],
+  "retrieved_pages": [
+   113,
+   1,
+   1,
+   75,
+   77,
+   73,
+   41,
+   50
+  ]
+ },
+ "NVDA-ResearchAndDevelopmentExpense": {
+  "found": true,
+  "printed": "18,497",
+  "scale": "millions",
+  "page": 71,
+  "quote": "Research and development 18,497",
+  "value": 18497000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   71,
+   58,
+   84,
+   57,
+   101,
+   74,
+   75,
+   104
+  ]
+ },
+ "NVDA-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "21,383",
+  "scale": "millions",
+  "page": 71,
+  "quote": "Income tax expense 21,383",
+  "value": 21383000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   99,
+   100,
+   98,
+   71,
+   75,
+   59,
+   102,
+   105
+  ]
+ },
+ "NVDA-ShareBasedCompensation": {
+  "found": true,
+  "printed": "6,386",
+  "scale": "millions",
+  "page": 84,
+  "quote": "Total $ 6,386",
+  "value": 6386000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   84,
+   105,
+   75,
+   99,
+   100,
+   74,
+   58,
+   86
+  ]
+ },
+ "NVDA-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "40,086",
+  "scale": "millions",
+  "page": 75,
+  "quote": "Payments related to repurchases of common stock (40,086)",
+  "value": 40086000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   60,
+   49,
+   75,
+   102,
+   74,
+   50,
+   1,
+   84
+  ]
+ },
+ "NVDA-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "2,843",
+  "scale": "millions",
+  "page": 75,
+  "quote": "Depreciation and amortization 2,843",
+  "value": 2843000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   92,
+   75,
+   104,
+   87,
+   90,
+   84,
+   109,
+   74
+  ]
+ },
+ "NVDA-Goodwill": {
+  "found": true,
+  "printed": "20,832",
+  "scale": "millions",
+  "page": 73,
+  "quote": "Goodwill 20,832",
+  "value": 20832000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   73,
+   86,
+   84,
+   74,
+   87,
+   90,
+   106,
+   104
+  ]
+ },
+ "NVDA-InventoryNet": {
+  "found": true,
+  "printed": "21.4",
+  "scale": "billions",
+  "page": 70,
+  "quote": "As of January 25, 2026, the Company\u2019s consolidated inventories balance was $21.4 billion",
+  "value": 21400000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   73,
+   70,
+   90,
+   75,
+   74,
+   92,
+   87,
+   89
+  ]
+ },
+ "NVDA-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "7,469",
+  "scale": "millions",
+  "page": 95,
+  "quote": "Total long-term portion $ 7,469",
+  "value": 7469000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   73,
+   95,
+   61,
+   92,
+   74,
+   89,
+   106,
+   88
+  ]
+ },
+ "AMZN-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "(19,087)",
+  "scale": "millions",
+  "page": 58,
+  "quote": "Provision for income taxes (19,087)",
+  "value": -19087000000.0,
+  "checks": [
+   "quote not found on the cited page"
+  ],
+  "retrieved_pages": [
+   58,
+   97,
+   101,
+   98,
+   100,
+   59,
+   95,
+   49
+  ]
+ },
+ "AMZN-ShareBasedCompensation": {
+  "found": true,
+  "printed": "19,467",
+  "scale": "millions",
+  "page": 93,
+  "quote": "Total stock-based compensation expense (1) $ 19,467",
+  "value": 19467000000.0,
+  "checks": [
+   "quote not found on the cited page"
+  ],
+  "retrieved_pages": [
+   93,
+   57,
+   61,
+   99,
+   94,
+   95,
+   98,
+   67
+  ]
+ },
+ "AMZN-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "41,860",
+  "scale": "millions",
+  "page": 105,
+  "quote": "Consolidated $ 41,860",
+  "value": 41860000000.0,
+  "checks": [
+   "quote not found on the cited page"
+  ],
+  "retrieved_pages": [
+   105,
+   57,
+   62,
+   99,
+   82,
+   3,
+   71,
+   85
+  ]
+ },
+ "AMZN-InterestExpenseNonoperating": {
+  "found": true,
+  "printed": "(2,274)",
+  "scale": "millions",
+  "page": 58,
+  "quote": "Interest expense (3,182) (2,406) (2,274)",
+  "value": -2274000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   58,
+   47,
+   64,
+   3,
+   100,
+   59,
+   62,
+   86
+  ]
+ },
+ "AMZN-Goodwill": {
+  "found": true,
+  "printed": "23,273",
+  "scale": "millions",
+  "page": 60,
+  "quote": "Goodwill 23,074 23,273",
+  "value": 23273000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   60,
+   84,
+   61,
+   62,
+   94,
+   3,
+   112,
+   75
+  ]
+ },
+ "AMZN-InventoryNet": {
+  "found": true,
+  "printed": "38,325",
+  "scale": "millions",
+  "page": 60,
+  "quote": "Inventories 34,214 38,325",
+  "value": 38325000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   60,
+   70,
+   61,
+   94,
+   3,
+   57,
+   37,
+   39
+  ]
+ },
+ "AMZN-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "65,648",
+  "scale": "millions",
+  "page": 86,
+  "quote": "Long-term debt $ 52,623 $ 65,648",
+  "value": 65648000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   60,
+   86,
+   52,
+   86,
+   88,
+   88,
+   39,
+   47
+  ]
+ },
+ "AMZN-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "10,734,920,870",
+  "scale": "units",
+  "page": 2,
+  "quote": "Number of shares of common stock outstanding as of January 28, 2026 10,734,920,870",
+  "value": 10734920870.0,
+  "checks": [],
+  "retrieved_pages": [
+   2,
+   93,
+   60,
+   61,
+   1,
+   33,
+   36,
+   109
+  ]
+ },
+ "JPM-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "15,547",
+  "scale": "millions",
+  "page": 243,
+  "quote": "Income tax expense 15,547",
+  "value": 15547000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   413,
+   243,
+   414,
+   123,
+   448,
+   92,
+   97,
+   248
+  ]
+ },
+ "JPM-ShareBasedCompensation": {
+  "found": true,
+  "printed": "3,614",
+  "scale": "millions",
+  "page": 328,
+  "quote": "Total noncash compensation expense related to employee share-based incentive plans $ 3,614",
+  "value": 3614000000.0,
+  "checks": [
+   "quote not found on the cited page"
+  ],
+  "retrieved_pages": [
+   328,
+   243,
+   92,
+   446,
+   327,
+   410,
+   71,
+   247
+  ]
+ },
+ "JPM-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "31,640",
+  "scale": "millions",
+  "page": 409,
+  "quote": "Aggregate purchase price ofcommon stock repurchases $ 31,640",
+  "value": 31640000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   409,
+   149,
+   65,
+   247,
+   334,
+   459,
+   478,
+   321
+  ]
+ },
+ "JPM-PaymentsOfDividends": {
+  "found": true,
+  "printed": "16,625",
+  "scale": "millions",
+  "page": 449,
+  "quote": "Dividends paid (16,625)",
+  "value": 16625000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   149,
+   247,
+   449,
+   407,
+   65,
+   407,
+   334,
+   83
+  ]
+ },
+ "JPM-DepreciationAmortizationAndAccretionNet": {
+  "found": true,
+  "printed": "8,821",
+  "scale": "millions",
+  "page": 248,
+  "quote": "Depreciation and amortization 8,821",
+  "value": 8821000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   248,
+   415,
+   398,
+   402,
+   367,
+   399,
+   92,
+   366
+  ]
+ },
+ "JPM-Goodwill": {
+  "found": true,
+  "printed": "52,731",
+  "scale": "millions",
+  "page": 393,
+  "quote": "Total goodwill $ 52,731",
+  "value": 52731000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   245,
+   393,
+   398,
+   422,
+   228,
+   275,
+   334,
+   459
+  ]
+ },
+ "JPM-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "2,697,032,375",
+  "scale": "units",
+  "page": 1,
+  "quote": "Number of shares of common stock outstanding as of January 31, 2026: 2,697,032,375",
+  "value": 2697032375.0,
+  "checks": [],
+  "retrieved_pages": [
+   1,
+   247,
+   1,
+   401,
+   433,
+   468,
+   476,
+   319
+  ]
+ },
+ "GS-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "4,676",
+  "scale": "millions",
+  "page": 261,
+  "quote": "Provision for taxes 4,676",
+  "value": 4676000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   261,
+   440,
+   137,
+   145,
+   269,
+   443,
+   126,
+   262
+  ]
+ },
+ "GS-ShareBasedCompensation": {
+  "found": true,
+  "printed": "3,624",
+  "scale": "millions",
+  "page": 473,
+  "quote": "Share-based compensation $ 3,624",
+  "value": 3624000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   265,
+   473,
+   145,
+   261,
+   419,
+   471,
+   497,
+   437
+  ]
+ },
+ "GS-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "12,360",
+  "scale": "millions",
+  "page": 419,
+  "quote": "Total cost of common share repurchases $ 12,360",
+  "value": 12360000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   419,
+   419,
+   179,
+   115,
+   265,
+   170,
+   507,
+   468
+  ]
+ },
+ "GS-PaymentsOfDividends": {
+  "found": true,
+  "printed": "4.42",
+  "scale": "billions",
+  "page": 119,
+  "quote": "$4.42 billion of common stock dividends",
+  "value": 4420000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   419,
+   265,
+   179,
+   119,
+   261,
+   145,
+   424,
+   476
+  ]
+ },
+ "GS-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": false,
+  "printed": null,
+  "scale": "units",
+  "page": null,
+  "quote": null,
+  "value": null,
+  "checks": [],
+  "retrieved_pages": [
+   381,
+   385,
+   385,
+   381,
+   118,
+   293,
+   474,
+   107
+  ]
+ },
+ "GS-DepreciationAndAmortization": {
+  "found": true,
+  "printed": "2,182",
+  "scale": "millions",
+  "page": 261,
+  "quote": "Depreciation and amortization 2,182",
+  "value": 2182000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   261,
+   385,
+   451,
+   445,
+   381,
+   408,
+   135,
+   383
+  ]
+ },
+ "GS-InterestExpense": {
+  "found": true,
+  "printed": "66,814",
+  "scale": "millions",
+  "page": 261,
+  "quote": "Interest expense 66,814",
+  "value": 66814000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   261,
+   476,
+   440,
+   489,
+   132,
+   476,
+   269,
+   485
+  ]
+ },
+ "GS-Goodwill": {
+  "found": true,
+  "printed": "5,949",
+  "scale": "millions",
+  "page": 383,
+  "quote": "Total $ 5,949",
+  "value": 5949000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   170,
+   383,
+   263,
+   400,
+   477,
+   126,
+   507,
+   468
+  ]
+ },
+ "GS-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "296,752,922",
+  "scale": "units",
+  "page": 2,
+  "quote": "As of February 6, 2026, there were 296,752,922 shares of the registrant\u2019s common stock outstanding.",
+  "value": 296752922.0,
+  "checks": [],
+  "retrieved_pages": [
+   483,
+   2,
+   265,
+   1,
+   263,
+   115,
+   170,
+   503
+  ]
+ },
+ "JNJ-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "5,777",
+  "scale": "millions",
+  "page": 75,
+  "quote": "Provision for taxes on income $5,777",
+  "value": 5777000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   75,
+   52,
+   79,
+   41,
+   78,
+   46,
+   76,
+   56
+  ]
+ },
+ "JNJ-ShareBasedCompensation": {
+  "found": true,
+  "printed": "1.4",
+  "scale": "billions",
+  "page": 88,
+  "quote": "The compensation cost that has been charged against income for these plans was $1.4 billion",
+  "value": 1400000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   78,
+   55,
+   88,
+   54,
+   86,
+   89,
+   124,
+   90
+  ]
+ },
+ "JNJ-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "5,953",
+  "scale": "millions",
+  "page": 55,
+  "quote": "Repurchase of common stock (5,953)",
+  "value": 5953000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   86,
+   54,
+   29,
+   55,
+   42,
+   88,
+   56,
+   51
+  ]
+ },
+ "JNJ-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "4,832",
+  "scale": "millions",
+  "page": 55,
+  "quote": "Additions to property, plant and equipment",
+  "value": 4832000000.0,
+  "checks": [
+   "number not in the quote"
+  ],
+  "retrieved_pages": [
+   42,
+   97,
+   65,
+   55,
+   51,
+   86,
+   40,
+   99
+  ]
+ },
+ "JNJ-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "7,503",
+  "scale": "millions",
+  "page": 55,
+  "quote": "Depreciation and amortization of property and intangibles 7,503",
+  "value": 7503000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   55,
+   65,
+   78,
+   97,
+   66,
+   42,
+   54,
+   86
+  ]
+ },
+ "JNJ-Goodwill": {
+  "found": true,
+  "printed": "48,772",
+  "scale": "millions",
+  "page": 51,
+  "quote": "Goodwill (Notes 1 and 5) 48,772",
+  "value": 48772000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   51,
+   66,
+   78,
+   54,
+   101,
+   99,
+   100,
+   86
+  ]
+ },
+ "JNJ-InventoryNet": {
+  "found": true,
+  "printed": "14,191",
+  "scale": "millions",
+  "page": 51,
+  "quote": "Inventories (Notes 1 and 3) 14,191",
+  "value": 14191000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   51,
+   65,
+   54,
+   78,
+   86,
+   38,
+   55,
+   70
+  ]
+ },
+ "JNJ-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "39,438",
+  "scale": "millions",
+  "page": 51,
+  "quote": "Long-term debt (Note 7) 39,438 30,651",
+  "value": 39438000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   74,
+   51,
+   42,
+   69,
+   73,
+   54,
+   65,
+   71
+  ]
+ },
+ "JNJ-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "2,409,898,936",
+  "scale": "units",
+  "page": 1,
+  "quote": "On February 6, 2026, there were 2,409,898,936 shares of Common Stock outstanding.",
+  "value": 2409898936.0,
+  "checks": [],
+  "retrieved_pages": [
+   49,
+   51,
+   86,
+   54,
+   1,
+   52,
+   1,
+   88
+  ]
+ },
+ "UNH-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "(1,890)",
+  "scale": "millions",
+  "page": 70,
+  "quote": "Provision for income taxes (1,890)",
+  "value": -1890000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   70,
+   94,
+   118,
+   51,
+   92,
+   71,
+   119,
+   73
+  ]
+ },
+ "UNH-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "(5,545)",
+  "scale": "millions",
+  "page": 73,
+  "quote": "Common share repurchases (5,545)",
+  "value": -5545000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   119,
+   98,
+   73,
+   42,
+   57,
+   72,
+   60,
+   82
+  ]
+ },
+ "UNH-PaymentsOfDividendsCommonStock": {
+  "found": true,
+  "printed": "7,916",
+  "scale": "millions",
+  "page": 73,
+  "quote": "Cash dividends paid (7,916)",
+  "value": 7916000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   119,
+   98,
+   120,
+   42,
+   72,
+   73,
+   57,
+   60
+  ]
+ },
+ "UNH-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "(3,622)",
+  "scale": "millions",
+  "page": 73,
+  "quote": "Purchases of property, equipment and capitalized software (3,622)",
+  "value": -3622000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   73,
+   119,
+   69,
+   57,
+   88,
+   58,
+   103,
+   108
+  ]
+ },
+ "UNH-DepreciationAndAmortization": {
+  "found": true,
+  "printed": "4,361",
+  "scale": "millions",
+  "page": 70,
+  "quote": "Depreciation and amortization 4,361",
+  "value": 4361000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   70,
+   73,
+   51,
+   69,
+   89,
+   88,
+   95,
+   79
+  ]
+ },
+ "UNH-InterestExpense": {
+  "found": true,
+  "printed": "(4,002)",
+  "scale": "millions",
+  "page": 70,
+  "quote": "Interest expense (4,002)",
+  "value": -4002000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   118,
+   70,
+   51,
+   97,
+   119,
+   65,
+   71,
+   108
+  ]
+ },
+ "UNH-Goodwill": {
+  "found": true,
+  "printed": "110,499",
+  "scale": "millions",
+  "page": 69,
+  "quote": "Goodwill 110,499",
+  "value": 110499000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   69,
+   30,
+   105,
+   30,
+   103,
+   88,
+   117,
+   81
+  ]
+ },
+ "UNH-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "72,320",
+  "scale": "millions",
+  "page": 69,
+  "quote": "Long-term debt, less current maturities 72,320",
+  "value": 72320000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   120,
+   117,
+   69,
+   91,
+   88,
+   92,
+   87,
+   119
+  ]
+ },
+ "UNH-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "907,675,839",
+  "scale": "units",
+  "page": 2,
+  "quote": "As of February 20, 2026, there were 907,675,839 shares of the registrant\u2019s Common Stock, $.01 par value per share, issued and outstanding.",
+  "value": 907675839.0,
+  "checks": [],
+  "retrieved_pages": [
+   2,
+   117,
+   69,
+   1,
+   70,
+   72,
+   112,
+   97
+  ]
+ },
+ "PFE-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "(2,629)",
+  "scale": "millions",
+  "page": 116,
+  "quote": "Purchases of property, plant and equipment (2,629)",
+  "value": -2629000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   116,
+   166,
+   112,
+   100,
+   143,
+   7,
+   119,
+   60
+  ]
+ },
+ "PFE-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "6,592",
+  "scale": "millions",
+  "page": 116,
+  "quote": "Depreciation and amortization 6,592",
+  "value": 6592000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   116,
+   108,
+   193,
+   166,
+   143,
+   97,
+   141,
+   169
+  ]
+ },
+ "PFE-InterestExpense": {
+  "found": true,
+  "printed": "2,671",
+  "scale": "millions",
+  "page": 143,
+  "quote": "Interest expense 2,671",
+  "value": 2671000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   143,
+   118,
+   169,
+   159,
+   193,
+   116,
+   158,
+   102
+  ]
+ },
+ "PFE-Goodwill": {
+  "found": true,
+  "printed": "71,264",
+  "scale": "millions",
+  "page": 112,
+  "quote": "Goodwill 71,264",
+  "value": 71264000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   112,
+   168,
+   166,
+   143,
+   114,
+   132,
+   97,
+   145
+  ]
+ },
+ "PFE-InventoryNet": {
+  "found": true,
+  "printed": "10654",
+  "scale": "millions",
+  "page": 112,
+  "quote": "Inventories 10,654",
+  "value": 10654000000.0,
+  "checks": [
+   "number not in the quote"
+  ],
+  "retrieved_pages": [
+   112,
+   164,
+   126,
+   7,
+   114,
+   166,
+   154,
+   52
+  ]
+ },
+ "PFE-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "61,641",
+  "scale": "millions",
+  "page": 159,
+  "quote": "Total long-term debt, carried at historical proceeds, as adjusted $ 61,641",
+  "value": 61641000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   156,
+   159,
+   112,
+   162,
+   154,
+   164,
+   157,
+   158
+  ]
+ },
+ "PFE-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "5,686,267,431",
+  "scale": "units",
+  "page": 2,
+  "quote": "The number of shares outstanding of the registrant\u2019s common stock as of February 19, 2026 was 5,686,267,431 shares of common stock, all of one class.",
+  "value": 5686267431.0,
+  "checks": [],
+  "retrieved_pages": [
+   114,
+   2,
+   68,
+   188,
+   129,
+   101,
+   208,
+   131
+  ]
+ },
+ "XOM-ResearchAndDevelopmentExpense": {
+  "found": true,
+  "printed": "1,228",
+  "scale": "millions",
+  "page": 51,
+  "quote": "Research and development costs 1,228",
+  "value": 1228000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   51,
+   165,
+   199,
+   196,
+   132,
+   114,
+   59,
+   58
+  ]
+ },
+ "XOM-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "11,504",
+  "scale": "millions",
+  "page": 99,
+  "quote": "Income taxes 11,504",
+  "value": 11504000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   99,
+   167,
+   168,
+   170,
+   132,
+   169,
+   199,
+   114
+  ]
+ },
+ "XOM-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "20.3",
+  "scale": "billions",
+  "page": 94,
+  "quote": "the purchase of ExxonMobil stock of $20.3 billion",
+  "value": 20300000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   42,
+   98,
+   122,
+   121,
+   94,
+   3,
+   116,
+   51
+  ]
+ },
+ "XOM-PaymentsOfDividendsCommonStock": {
+  "found": true,
+  "printed": "17,231",
+  "scale": "millions",
+  "page": 119,
+  "quote": "Cash dividends to ExxonMobil shareholders (17,231)",
+  "value": 17231000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   98,
+   131,
+   94,
+   42,
+   119,
+   121,
+   3,
+   51
+  ]
+ },
+ "XOM-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "28,358",
+  "scale": "millions",
+  "page": 59,
+  "quote": "Additions to property, plant, and equipment 28,358",
+  "value": 28358000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   96,
+   157,
+   132,
+   59,
+   96,
+   51,
+   94,
+   183
+  ]
+ },
+ "XOM-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "25,993",
+  "scale": "millions",
+  "page": 114,
+  "quote": "Depreciation and depletion (includes impairments) 9 25,993",
+  "value": 25993000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   114,
+   179,
+   113,
+   157,
+   132,
+   96,
+   119,
+   116
+  ]
+ },
+ "XOM-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "4,166,763,453",
+  "scale": "units",
+  "page": 2,
+  "quote": "Common stock, without par value 4,166,763,453",
+  "value": 4166763453.0,
+  "checks": [],
+  "retrieved_pages": [
+   2,
+   131,
+   122,
+   116,
+   105,
+   51,
+   1,
+   42
+  ]
+ },
+ "CAT-ResearchAndDevelopmentExpense": {
+  "found": true,
+  "printed": "2,148",
+  "scale": "millions",
+  "page": 90,
+  "quote": "Research and development expenses 2,148",
+  "value": 2148000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   90,
+   81,
+   177,
+   120,
+   4,
+   1,
+   97,
+   96
+  ]
+ },
+ "CAT-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "2,768",
+  "scale": "millions",
+  "page": 90,
+  "quote": "Provision (benefit) for income taxes 2,768",
+  "value": 2768000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   90,
+   119,
+   118,
+   79,
+   78,
+   97,
+   120,
+   121
+  ]
+ },
+ "CAT-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "5.190",
+  "scale": "billions",
+  "page": 66,
+  "quote": "In 2025, we repurchased $5.190 billion of Caterpillar common stock.",
+  "value": 5190000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   96,
+   66,
+   156,
+   44,
+   95,
+   97,
+   64,
+   90
+  ]
+ },
+ "CAT-PaymentsOfDividendsCommonStock": {
+  "found": true,
+  "printed": "2.749",
+  "scale": "billions",
+  "page": 66,
+  "quote": "Dividends paid totaled $2.749 billion in 2025.",
+  "value": 2749000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   96,
+   66,
+   97,
+   93,
+   43,
+   95,
+   45,
+   90
+  ]
+ },
+ "CAT-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "4,286",
+  "scale": "millions",
+  "page": 179,
+  "quote": "Total capital expenditures $ 4,286",
+  "value": 4286000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   179,
+   97,
+   64,
+   83,
+   135,
+   167,
+   79,
+   93
+  ]
+ },
+ "CAT-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "2,262",
+  "scale": "millions",
+  "page": 97,
+  "quote": "Depreciation and amortization 2,262",
+  "value": 2262000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   179,
+   97,
+   136,
+   83,
+   101,
+   167,
+   96,
+   78
+  ]
+ },
+ "CAT-Goodwill": {
+  "found": true,
+  "printed": "5,321",
+  "scale": "millions",
+  "page": 93,
+  "quote": "Goodwill 5,321",
+  "value": 5321000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   93,
+   137,
+   82,
+   136,
+   178,
+   96,
+   67,
+   61
+  ]
+ },
+ "CAT-InventoryNet": {
+  "found": true,
+  "printed": "18,135",
+  "scale": "millions",
+  "page": 93,
+  "quote": "Inventories 18,135",
+  "value": 18135000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   93,
+   135,
+   82,
+   101,
+   50,
+   97,
+   96,
+   178
+  ]
+ },
+ "CAT-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "30,696",
+  "scale": "millions",
+  "page": 153,
+  "quote": "Total long-term debt due after one year $ 30,696",
+  "value": 30696000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   93,
+   153,
+   163,
+   154,
+   61,
+   61,
+   161,
+   96
+  ]
+ },
+ "CAT-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "465,287,332",
+  "scale": "units",
+  "page": 2,
+  "quote": "As of December 31, 2025, there were 465,287,332 shares of common stock of the Registrant outstanding.",
+  "value": 465287332.0,
+  "checks": [],
+  "retrieved_pages": [
+   1,
+   93,
+   156,
+   66,
+   2,
+   90,
+   95,
+   42
+  ]
+ },
+ "KO-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "2,861",
+  "scale": "millions",
+  "page": 108,
+  "quote": "Income taxes 2,861",
+  "value": 2861000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   169,
+   108,
+   92,
+   168,
+   171,
+   111,
+   59,
+   173
+  ]
+ },
+ "KO-PaymentsOfDividends": {
+  "found": true,
+  "printed": "8,779",
+  "scale": "millions",
+  "page": 99,
+  "quote": "The Company paid dividends of $8,779 million and $8,359 million during the years ended December 31, 2025 and 2024, respectively.",
+  "value": 8779000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   99,
+   112,
+   111,
+   92,
+   147,
+   63,
+   215,
+   109
+  ]
+ },
+ "KO-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "2,112",
+  "scale": "millions",
+  "page": 96,
+  "quote": "Capital expenditures $ 2,112",
+  "value": 2112000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   96,
+   191,
+   111,
+   193,
+   121,
+   194,
+   150,
+   128
+  ]
+ },
+ "KO-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "1,050",
+  "scale": "millions",
+  "page": 111,
+  "quote": "Depreciation and amortization 1,050",
+  "value": 1050000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   111,
+   193,
+   120,
+   194,
+   121,
+   169,
+   187,
+   184
+  ]
+ },
+ "KO-InterestExpense": {
+  "found": true,
+  "printed": "1,654",
+  "scale": "millions",
+  "page": 108,
+  "quote": "Interest expense 1,654",
+  "value": 1654000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   108,
+   90,
+   90,
+   193,
+   152,
+   141,
+   95,
+   142
+  ]
+ },
+ "KO-Goodwill": {
+  "found": true,
+  "printed": "15,491",
+  "scale": "millions",
+  "page": 110,
+  "quote": "Goodwill 15,491",
+  "value": 15491000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   110,
+   128,
+   147,
+   174,
+   121,
+   1,
+   215,
+   184
+  ]
+ },
+ "KO-InventoryNet": {
+  "found": true,
+  "printed": "4,425",
+  "scale": "millions",
+  "page": 110,
+  "quote": "Inventories 4,425",
+  "value": 4425000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   120,
+   110,
+   128,
+   134,
+   108,
+   215,
+   147,
+   109
+  ]
+ },
+ "KO-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "4,300,723,069",
+  "scale": "units",
+  "page": 3,
+  "quote": "The number of shares outstanding of the Registrant\u2019s Common Stock as of February 18, 2026 was 4,300,723,069.",
+  "value": 4300723069.0,
+  "checks": [],
+  "retrieved_pages": [
+   110,
+   112,
+   3,
+   108,
+   158,
+   63,
+   157,
+   4
+  ]
+ },
+ "WMT-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "7,199",
+  "scale": "millions",
+  "page": 75,
+  "quote": "Provision for income taxes 7,199",
+  "value": 7199000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   75,
+   100,
+   101,
+   76,
+   79,
+   58,
+   77,
+   103
+  ]
+ },
+ "WMT-AllocatedShareBasedCompensationExpense": {
+  "found": true,
+  "printed": "3,603",
+  "scale": "millions",
+  "page": 92,
+  "quote": "Share-based compensation expense $ 3,603",
+  "value": 3603000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   92,
+   93,
+   56,
+   53,
+   58,
+   90,
+   4,
+   108
+  ]
+ },
+ "WMT-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "8,088",
+  "scale": "millions",
+  "page": 65,
+  "quote": "Total amount paid for share repurchases $ 8,088",
+  "value": 8088000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   65,
+   48,
+   95,
+   93,
+   93,
+   50,
+   64,
+   62
+  ]
+ },
+ "WMT-PaymentsOfDividendsCommonStock": {
+  "found": true,
+  "printed": "(7,507)",
+  "scale": "millions",
+  "page": 79,
+  "quote": "Dividends paid (7,507)",
+  "value": -7507000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   65,
+   79,
+   75,
+   112,
+   64,
+   4,
+   70,
+   53
+  ]
+ },
+ "WMT-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "26,642",
+  "scale": "millions",
+  "page": 110,
+  "quote": "Capital expenditures 26,642",
+  "value": 26642000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   110,
+   54,
+   79,
+   55,
+   81,
+   77,
+   62,
+   70
+  ]
+ },
+ "WMT-DepreciationAmortizationAndAccretionNet": {
+  "found": true,
+  "printed": "14,203",
+  "scale": "millions",
+  "page": 110,
+  "quote": "Depreciation and amortization 14,203",
+  "value": 14203000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   110,
+   79,
+   54,
+   81,
+   53,
+   70,
+   97,
+   80
+  ]
+ },
+ "WMT-Goodwill": {
+  "found": true,
+  "printed": "28,735",
+  "scale": "millions",
+  "page": 77,
+  "quote": "Goodwill 28,735",
+  "value": 28735000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   77,
+   83,
+   70,
+   3,
+   80,
+   7,
+   4,
+   1
+  ]
+ },
+ "WMT-InventoryNet": {
+  "found": true,
+  "printed": "58,851",
+  "scale": "millions",
+  "page": 77,
+  "quote": "Inventories 58,851",
+  "value": 58851000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   77,
+   79,
+   70,
+   81,
+   3,
+   4,
+   110,
+   123
+  ]
+ },
+ "WMT-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "34,624",
+  "scale": "millions",
+  "page": 96,
+  "quote": "Long-term debt $ 34,624",
+  "value": 34624000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   77,
+   64,
+   96,
+   100,
+   75,
+   95,
+   69,
+   67
+  ]
+ },
+ "WMT-EntityCommonStockSharesOutstanding": {
+  "found": false,
+  "printed": null,
+  "scale": "units",
+  "page": null,
+  "quote": null,
+  "value": null,
+  "checks": [],
+  "retrieved_pages": [
+   90,
+   92,
+   77,
+   75,
+   78,
+   1,
+   48,
+   114
+  ]
+ },
+ "COST-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "3,025",
+  "scale": "millions",
+  "page": 45,
+  "quote": "Provision for income taxes 3,025",
+  "value": 3025000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   45,
+   34,
+   70,
+   49,
+   48,
+   71,
+   46,
+   1
+  ]
+ },
+ "COST-PaymentsOfDividendsCommonStock": {
+  "found": true,
+  "printed": "2,458",
+  "scale": "millions",
+  "page": 49,
+  "quote": "Cash dividend payments (2,458)",
+  "value": 2458000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   68,
+   48,
+   36,
+   49,
+   45,
+   30,
+   24,
+   46
+  ]
+ },
+ "COST-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "6,435",
+  "scale": "millions",
+  "page": 49,
+  "quote": "Additions to property and equipment (6,435)",
+  "value": 6435000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   36,
+   49,
+   79,
+   47,
+   48,
+   3,
+   1,
+   34
+  ]
+ },
+ "COST-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "2,674",
+  "scale": "millions",
+  "page": 49,
+  "quote": "Depreciation and amortization 2,674",
+  "value": 2674000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   49,
+   79,
+   51,
+   48,
+   56,
+   3,
+   1,
+   54
+  ]
+ },
+ "COST-InventoryNet": {
+  "found": true,
+  "printed": "19,324",
+  "scale": "millions",
+  "page": 47,
+  "quote": "Merchandise inventories 19,324",
+  "value": 19324000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   47,
+   54,
+   48,
+   51,
+   49,
+   1,
+   3,
+   45
+  ]
+ },
+ "COST-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "3,914",
+  "scale": "millions",
+  "page": 47,
+  "quote": "Long-term debt, excluding current portion 3,914",
+  "value": 3914000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   47,
+   65,
+   38,
+   66,
+   51,
+   48,
+   49,
+   34
+  ]
+ },
+ "COST-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "443,129,349",
+  "scale": "units",
+  "page": 2,
+  "quote": "The number of shares outstanding of the registrant\u2019s common stock as of September 29, 2026, was 443,129,349.",
+  "value": 443129349.0,
+  "checks": [],
+  "retrieved_pages": [
+   47,
+   1,
+   2,
+   48,
+   45,
+   58,
+   75,
+   24
+  ]
+ },
+ "DIS-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "(1,428)",
+  "scale": "millions",
+  "page": 162,
+  "quote": "Income tax expense (benefit) $ (1,428)",
+  "value": -1428000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   162,
+   181,
+   121,
+   124,
+   176,
+   164,
+   68,
+   66
+  ]
+ },
+ "DIS-ShareBasedCompensation": {
+  "found": true,
+  "printed": "1,363",
+  "scale": "millions",
+  "page": 178,
+  "quote": "Total equity-based compensation expense 1,363",
+  "value": 1363000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   179,
+   178,
+   124,
+   176,
+   125,
+   148,
+   116,
+   121
+  ]
+ },
+ "DIS-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "3.5",
+  "scale": "billions",
+  "page": 174,
+  "quote": "During the year ended September 27, 2025, the Company repurchased 32 million shares of its common stock for $3.5 billion.",
+  "value": 3500000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   62,
+   91,
+   174,
+   124,
+   125,
+   92,
+   152,
+   123
+  ]
+ },
+ "DIS-PaymentsOfDividendsCommonStock": {
+  "found": true,
+  "printed": "(1,803)",
+  "scale": "millions",
+  "page": 124,
+  "quote": "Dividends (1,803)",
+  "value": -1803000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   92,
+   91,
+   125,
+   124,
+   62,
+   174,
+   116,
+   121
+  ]
+ },
+ "DIS-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "8,024",
+  "scale": "millions",
+  "page": 134,
+  "quote": "Total capital expenditures $ 8,024",
+  "value": 8024000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   91,
+   134,
+   180,
+   22,
+   123,
+   135,
+   156,
+   88
+  ]
+ },
+ "DIS-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "5,326",
+  "scale": "millions",
+  "page": 121,
+  "quote": "Depreciation and amortization (5,326)",
+  "value": 5326000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   121,
+   65,
+   133,
+   78,
+   86,
+   124,
+   180,
+   63
+  ]
+ },
+ "DIS-InterestExpense": {
+  "found": true,
+  "printed": "(1,812)",
+  "scale": "millions",
+  "page": 162,
+  "quote": "Interest expense $ (1,812)",
+  "value": -1812000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   162,
+   121,
+   63,
+   66,
+   134,
+   152,
+   190,
+   188
+  ]
+ },
+ "DIS-Goodwill": {
+  "found": true,
+  "printed": "73,294",
+  "scale": "millions",
+  "page": 123,
+  "quote": "Goodwill 73,294",
+  "value": 73294000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   123,
+   152,
+   180,
+   65,
+   154,
+   125,
+   188,
+   116
+  ]
+ },
+ "DIS-InventoryNet": {
+  "found": true,
+  "printed": "2,134",
+  "scale": "millions",
+  "page": 123,
+  "quote": "Inventories 2,134",
+  "value": 2134000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   123,
+   152,
+   116,
+   188,
+   139,
+   180,
+   1,
+   154
+  ]
+ },
+ "DIS-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "35,315",
+  "scale": "millions",
+  "page": 158,
+  "quote": "Total long-term borrowings $ 35,315",
+  "value": 35315000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   158,
+   123,
+   154,
+   152,
+   92,
+   160,
+   188,
+   102
+  ]
+ },
+ "DIS-EntityCommonStockSharesOutstanding": {
+  "found": false,
+  "printed": null,
+  "scale": "units",
+  "page": null,
+  "quote": null,
+  "value": null,
+  "checks": [],
+  "retrieved_pages": [
+   2,
+   123,
+   148,
+   125,
+   1,
+   121,
+   165,
+   62
+  ]
+ },
+ "NKE-PaymentsOfDividendsCommonStock": {
+  "found": true,
+  "printed": "2,407",
+  "scale": "millions",
+  "page": 82,
+  "quote": "Dividends \u2014 common and preferred (2,407)",
+  "value": 2407000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   47,
+   82,
+   83,
+   103,
+   93,
+   79,
+   66,
+   117
+  ]
+ },
+ "NKE-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "5,942",
+  "scale": "millions",
+  "page": 97,
+  "quote": "TOTAL LONG-TERM DEBT $ 5,942",
+  "value": 5942000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   81,
+   97,
+   49,
+   96,
+   84,
+   68,
+   93,
+   68
+  ]
+ },
+ "LULU-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "659,784",
+  "scale": "thousands",
+  "page": 77,
+  "quote": "Income tax expense 659,784",
+  "value": 659784000.0,
+  "checks": [],
+  "retrieved_pages": [
+   77,
+   79,
+   76,
+   110,
+   112,
+   1,
+   67,
+   62
+  ]
+ },
+ "LULU-ShareBasedCompensation": {
+  "found": true,
+  "printed": "62,203",
+  "scale": "thousands",
+  "page": 79,
+  "quote": "Stock-based compensation expense 62,203",
+  "value": 62203000.0,
+  "checks": [],
+  "retrieved_pages": [
+   79,
+   104,
+   112,
+   78,
+   105,
+   76,
+   77,
+   102
+  ]
+ },
+ "LULU-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "(1,178,349)",
+  "scale": "thousands",
+  "page": 79,
+  "quote": "Repurchase of common stock (1,178,349)",
+  "value": -1178349000.0,
+  "checks": [],
+  "retrieved_pages": [
+   79,
+   113,
+   78,
+   51,
+   65,
+   48,
+   47,
+   1
+  ]
+ },
+ "LULU-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "(680,802)",
+  "scale": "thousands",
+  "page": 79,
+  "quote": "Purchase of property and equipment (680,802)",
+  "value": -680802000.0,
+  "checks": [],
+  "retrieved_pages": [
+   79,
+   66,
+   76,
+   95,
+   118,
+   1,
+   77,
+   47
+  ]
+ },
+ "LULU-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "496,228",
+  "scale": "thousands",
+  "page": 79,
+  "quote": "Depreciation and amortization 496,228",
+  "value": 496228000.0,
+  "checks": [],
+  "retrieved_pages": [
+   79,
+   77,
+   118,
+   98,
+   95,
+   83,
+   1,
+   81
+  ]
+ },
+ "LULU-Goodwill": {
+  "found": true,
+  "printed": "184,911",
+  "scale": "thousands",
+  "page": 76,
+  "quote": "Goodwill 184,911",
+  "value": 184911000.0,
+  "checks": [],
+  "retrieved_pages": [
+   76,
+   97,
+   98,
+   80,
+   81,
+   78,
+   47,
+   1
+  ]
+ },
+ "LULU-InventoryNet": {
+  "found": true,
+  "printed": "1,700,753",
+  "scale": "thousands",
+  "page": 76,
+  "quote": "Inventories 1,700,753",
+  "value": 1700753000.0,
+  "checks": [],
+  "retrieved_pages": [
+   76,
+   95,
+   67,
+   75,
+   66,
+   47,
+   79,
+   112
+  ]
+ },
+ "LULU-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "110,482,671",
+  "scale": "units",
+  "page": 2,
+  "quote": "110,482,671 shares of the registrant's common stock, par value $0.005 per share, outstanding.",
+  "value": 110482671.0,
+  "checks": [],
+  "retrieved_pages": [
+   2,
+   76,
+   113,
+   1,
+   77,
+   78,
+   123,
+   46
+  ]
+ },
+ "DKNG-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "4,274",
+  "scale": "thousands",
+  "page": 118,
+  "quote": "Income tax provision (benefit) 4,274",
+  "value": 4274000.0,
+  "checks": [],
+  "retrieved_pages": [
+   118,
+   96,
+   167,
+   163,
+   94,
+   161,
+   88,
+   166
+  ]
+ },
+ "DKNG-ShareBasedCompensation": {
+  "found": true,
+  "printed": "339,311",
+  "scale": "thousands",
+  "page": 121,
+  "quote": "Stock-based compensation expense 339,311",
+  "value": 339311000.0,
+  "checks": [],
+  "retrieved_pages": [
+   121,
+   164,
+   163,
+   88,
+   161,
+   119,
+   167,
+   81
+  ]
+ },
+ "DKNG-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "571.5",
+  "scale": "millions",
+  "page": 158,
+  "quote": "The Company repurchased 16.0 million and 1.1 million shares for $571.5 million and $48.1 million during the years ended December 31, 2025 and December 31, 2024, respectively, under the Stock Repurchase Program.",
+  "value": 571500000.0,
+  "checks": [],
+  "retrieved_pages": [
+   158,
+   80,
+   81,
+   119,
+   151,
+   121,
+   150,
+   168
+  ]
+ },
+ "DKNG-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "(15,352)",
+  "scale": "thousands",
+  "page": 121,
+  "quote": "Purchases of property and equipment (15,352)",
+  "value": -15352000.0,
+  "checks": [],
+  "retrieved_pages": [
+   146,
+   121,
+   117,
+   167,
+   81,
+   101,
+   1,
+   170
+  ]
+ },
+ "DKNG-DepreciationAmortizationAndAccretionNet": {
+  "found": true,
+  "printed": "275,488",
+  "scale": "thousands",
+  "page": 121,
+  "quote": "Depreciation and amortization 275,488",
+  "value": 275488000.0,
+  "checks": [],
+  "retrieved_pages": [
+   121,
+   167,
+   88,
+   146,
+   147,
+   90,
+   168,
+   112
+  ]
+ },
+ "DKNG-Goodwill": {
+  "found": true,
+  "printed": "1,597,647",
+  "scale": "thousands",
+  "page": 117,
+  "quote": "Goodwill 1,597,647",
+  "value": 1597647000.0,
+  "checks": [],
+  "retrieved_pages": [
+   117,
+   147,
+   146,
+   123,
+   145,
+   81,
+   112,
+   128
+  ]
+ },
+ "MSGS-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "10,224",
+  "scale": "thousands",
+  "page": 75,
+  "quote": "Income tax expense for fiscal year 2026 of $10,224",
+  "value": 10224000.0,
+  "checks": [],
+  "retrieved_pages": [
+   169,
+   75,
+   71,
+   77,
+   168,
+   79,
+   112,
+   171
+  ]
+ },
+ "MSGS-ShareBasedCompensation": {
+  "found": true,
+  "printed": "21,524",
+  "scale": "thousands",
+  "page": 162,
+  "quote": "Share-based compensation expense recorded during fiscal years 2026, 2025 and 2024 was $21,524",
+  "value": 21524000.0,
+  "checks": [],
+  "retrieved_pages": [
+   77,
+   169,
+   79,
+   114,
+   116,
+   23,
+   162,
+   163
+  ]
+ },
+ "MSGS-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "1,407",
+  "scale": "thousands",
+  "page": 114,
+  "quote": "Capital expenditures (1,407)",
+  "value": 1407000.0,
+  "checks": [],
+  "retrieved_pages": [
+   83,
+   81,
+   114,
+   146,
+   63,
+   59,
+   71,
+   109
+  ]
+ },
+ "MSGS-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "3,179",
+  "scale": "thousands",
+  "page": 111,
+  "quote": "Depreciation and amortization 3,179",
+  "value": 3179000.0,
+  "checks": [],
+  "retrieved_pages": [
+   71,
+   77,
+   114,
+   111,
+   146,
+   173,
+   112,
+   83
+  ]
+ },
+ "MSGS-InterestExpenseNonoperating": {
+  "found": true,
+  "printed": "(21,085)",
+  "scale": "thousands",
+  "page": 111,
+  "quote": "Interest expense (21,085)",
+  "value": -21085000.0,
+  "checks": [],
+  "retrieved_pages": [
+   71,
+   75,
+   153,
+   111,
+   29,
+   81,
+   169,
+   63
+  ]
+ },
+ "MSGS-Goodwill": {
+  "found": true,
+  "printed": "226,523",
+  "scale": "thousands",
+  "page": 146,
+  "quote": "The Company\u2019s goodwill was $226,523 as of June 30, 2026",
+  "value": 226523000.0,
+  "checks": [],
+  "retrieved_pages": [
+   109,
+   146,
+   85,
+   117,
+   123,
+   81,
+   1,
+   5
+  ]
+ },
+ "MSGS-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "242,000",
+  "scale": "thousands",
+  "page": 110,
+  "quote": "Long-term debt 242,000",
+  "value": 242000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   81,
+   153,
+   89,
+   151,
+   110,
+   123,
+   117,
+   29
+  ]
+ },
+ "PLNT-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "85,874",
+  "scale": "thousands",
+  "page": 112,
+  "quote": "Provision for income taxes 85,874",
+  "value": 85874000.0,
+  "checks": [],
+  "retrieved_pages": [
+   156,
+   112,
+   97,
+   157,
+   159,
+   94,
+   88,
+   90
+  ]
+ },
+ "PLNT-ShareBasedCompensation": {
+  "found": true,
+  "printed": "12,333",
+  "scale": "thousands",
+  "page": 151,
+  "quote": "Total $ 12,333",
+  "value": 12333000.0,
+  "checks": [],
+  "retrieved_pages": [
+   151,
+   114,
+   153,
+   158,
+   155,
+   133,
+   161,
+   124
+  ]
+ },
+ "PLNT-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "500.0",
+  "scale": "millions",
+  "page": 82,
+  "quote": "During 2025, the Company repurchased and retired Class A common stock for a total cost of $500.0 million",
+  "value": 500000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   101,
+   149,
+   78,
+   149,
+   101,
+   100,
+   82,
+   77
+  ]
+ },
+ "PLNT-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "163,670",
+  "scale": "thousands",
+  "page": 100,
+  "quote": "Total capital expenditures $ 163,670",
+  "value": 163670000.0,
+  "checks": [],
+  "retrieved_pages": [
+   100,
+   163,
+   112,
+   135,
+   122,
+   118,
+   133,
+   94
+  ]
+ },
+ "PLNT-DepreciationAndAmortization": {
+  "found": true,
+  "printed": "155,785",
+  "scale": "thousands",
+  "page": 112,
+  "quote": "Depreciation and amortization 155,785",
+  "value": 155785000.0,
+  "checks": [],
+  "retrieved_pages": [
+   112,
+   96,
+   135,
+   114,
+   94,
+   140,
+   88,
+   163
+  ]
+ },
+ "PLNT-InterestExpenseNonoperating": {
+  "found": true,
+  "printed": "(108,244)",
+  "scale": "thousands",
+  "page": 112,
+  "quote": "Interest expense (108,244)",
+  "value": -108244000.0,
+  "checks": [],
+  "retrieved_pages": [
+   112,
+   97,
+   88,
+   94,
+   163,
+   133,
+   148,
+   124
+  ]
+ },
+ "PLNT-Goodwill": {
+  "found": true,
+  "printed": "712,450",
+  "scale": "thousands",
+  "page": 110,
+  "quote": "Goodwill 712,450",
+  "value": 712450000.0,
+  "checks": [],
+  "retrieved_pages": [
+   158,
+   110,
+   139,
+   134,
+   124,
+   133,
+   164,
+   117
+  ]
+ },
+ "PLNT-InventoryNet": {
+  "found": true,
+  "printed": "7,581",
+  "scale": "thousands",
+  "page": 110,
+  "quote": "Inventory 7,581",
+  "value": 7581000.0,
+  "checks": [],
+  "retrieved_pages": [
+   110,
+   133,
+   77,
+   121,
+   114,
+   135,
+   134,
+   136
+  ]
+ },
+ "PLNT-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "2,458,379",
+  "scale": "thousands",
+  "page": 110,
+  "quote": "Long-term debt, net of current maturities 2,458,379",
+  "value": 2458379000.0,
+  "checks": [],
+  "retrieved_pages": [
+   140,
+   102,
+   110,
+   59,
+   59,
+   133,
+   105,
+   138
+  ]
+ },
+ "GOOGL-ResearchAndDevelopmentExpense": {
+  "found": true,
+  "printed": "61,087",
+  "scale": "millions",
+  "page": 63,
+  "quote": "Research and development expenses $ 61,087",
+  "value": 61087000000.0,
+  "checks": [
+   "quote not found on the cited page"
+  ],
+  "retrieved_pages": [
+   84,
+   63,
+   136,
+   65,
+   139,
+   59,
+   133,
+   92
+  ]
+ },
+ "GOOGL-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "26,656",
+  "scale": "millions",
+  "page": 134,
+  "quote": "Provision for income taxes $ 26,656",
+  "value": 26656000000.0,
+  "checks": [
+   "quote not found on the cited page"
+  ],
+  "retrieved_pages": [
+   134,
+   84,
+   66,
+   121,
+   135,
+   72,
+   137,
+   58
+  ]
+ },
+ "GOOGL-ShareBasedCompensation": {
+  "found": true,
+  "printed": "27.1",
+  "scale": "billions",
+  "page": 133,
+  "quote": "total SBC expense was $27.1 billion",
+  "value": 27100000000.0,
+  "checks": [
+   "quote not found on the cited page"
+  ],
+  "retrieved_pages": [
+   133,
+   87,
+   134,
+   135,
+   86,
+   63,
+   92,
+   59
+  ]
+ },
+ "GOOGL-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "45.4",
+  "scale": "billions",
+  "page": 59,
+  "quote": "totaling $45.4 billion for the year ended December 31, 2025.",
+  "value": 45400000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   59,
+   47,
+   128,
+   70,
+   86,
+   87,
+   68,
+   4
+  ]
+ },
+ "GOOGL-PaymentsOfDividends": {
+  "found": true,
+  "printed": "10,049",
+  "scale": "millions",
+  "page": 87,
+  "quote": "Dividend payments (10,049)",
+  "value": 10049000000.0,
+  "checks": [
+   "quote not found on the cited page"
+  ],
+  "retrieved_pages": [
+   47,
+   128,
+   70,
+   133,
+   87,
+   86,
+   130,
+   134
+  ]
+ },
+ "GOOGL-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "91.4",
+  "scale": "billions",
+  "page": 68,
+  "quote": "During the years ended December 31, 2024 and 2025, we spent $52.5 billion and $91.4 billion on capital expenditures, respectively.",
+  "value": 91400000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   68,
+   59,
+   120,
+   87,
+   119,
+   140,
+   114,
+   83
+  ]
+ },
+ "GOOGL-Goodwill": {
+  "found": true,
+  "printed": "33,380",
+  "scale": "millions",
+  "page": 83,
+  "quote": "Goodwill 33,380",
+  "value": 33380000000.0,
+  "checks": [
+   "quote not found on the cited page"
+  ],
+  "retrieved_pages": [
+   83,
+   121,
+   122,
+   145,
+   86,
+   4,
+   140,
+   120
+  ]
+ },
+ "GOOGL-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "46,547",
+  "scale": "millions",
+  "page": 117,
+  "quote": "Total long-term debt $ 46,547",
+  "value": 46547000000.0,
+  "checks": [
+   "quote not found on the cited page"
+  ],
+  "retrieved_pages": [
+   117,
+   83,
+   119,
+   122,
+   70,
+   105,
+   114,
+   107
+  ]
+ },
+ "META-ResearchAndDevelopmentExpense": {
+  "found": true,
+  "printed": "57,372",
+  "scale": "millions",
+  "page": 124,
+  "quote": "Research and development $ 57,372",
+  "value": 57372000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   144,
+   124,
+   121,
+   11,
+   194,
+   105,
+   202,
+   109
+  ]
+ },
+ "META-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "25,474",
+  "scale": "millions",
+  "page": 144,
+  "quote": "Provision for income taxes 25,474",
+  "value": 25474000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   144,
+   196,
+   121,
+   150,
+   127,
+   131,
+   197,
+   198
+  ]
+ },
+ "META-ShareBasedCompensation": {
+  "found": true,
+  "printed": "20,427",
+  "scale": "millions",
+  "page": 194,
+  "quote": "Total $ 20,427",
+  "value": 20427000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   148,
+   194,
+   146,
+   202,
+   128,
+   197,
+   124,
+   198
+  ]
+ },
+ "META-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "26.26",
+  "scale": "billions",
+  "page": 192,
+  "quote": "for an aggregate amount of $26.26 billion",
+  "value": 26260000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   105,
+   130,
+   131,
+   102,
+   146,
+   192,
+   148,
+   128
+  ]
+ },
+ "META-PaymentsOfDividends": {
+  "found": true,
+  "printed": "5.32",
+  "scale": "billions",
+  "page": 105,
+  "quote": "total dividend and dividend equivalent payments were $5.32 billion for the year ended December 31, 2025.",
+  "value": 5320000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   102,
+   105,
+   131,
+   192,
+   146,
+   130,
+   168,
+   150
+  ]
+ },
+ "META-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "72.22",
+  "scale": "billions",
+  "page": 105,
+  "quote": "Capital expenditures, including principal payments on finance leases, were $72.22 billion for the year ended December 31, 2025.",
+  "value": 72220000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   105,
+   150,
+   128,
+   130,
+   148,
+   174,
+   143,
+   203
+  ]
+ },
+ "META-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "18,616",
+  "scale": "millions",
+  "page": 148,
+  "quote": "Depreciation and amortization 18,616",
+  "value": 18616000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   148,
+   151,
+   198,
+   128,
+   174,
+   124,
+   178,
+   175
+  ]
+ },
+ "META-InterestExpenseNonoperating": {
+  "found": true,
+  "printed": "(1,165)",
+  "scale": "millions",
+  "page": 196,
+  "quote": "Interest expense (1,165)",
+  "value": -1165000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   196,
+   127,
+   150,
+   144,
+   179,
+   121,
+   175,
+   174
+  ]
+ },
+ "META-Goodwill": {
+  "found": true,
+  "printed": "24,534",
+  "scale": "millions",
+  "page": 143,
+  "quote": "Goodwill 24,534",
+  "value": 24534000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   143,
+   177,
+   146,
+   151,
+   202,
+   1,
+   145,
+   163
+  ]
+ },
+ "META-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "58.74",
+  "scale": "billions",
+  "page": 105,
+  "quote": "Long-term debt was $58.74 billion as of December 31, 2025.",
+  "value": 58740000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   143,
+   105,
+   131,
+   179,
+   172,
+   135,
+   150,
+   151
+  ]
+ },
+ "ORCL-ResearchAndDevelopmentExpense": {
+  "found": true,
+  "printed": "10,272",
+  "scale": "millions",
+  "page": 114,
+  "quote": "Research and development   10,272",
+  "value": 10272000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   114,
+   6,
+   88,
+   85,
+   176,
+   84,
+   162,
+   117
+  ]
+ },
+ "ORCL-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "2,467",
+  "scale": "millions",
+  "page": 114,
+  "quote": "Provision for income taxes   2,467",
+  "value": 2467000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   114,
+   165,
+   170,
+   93,
+   166,
+   168,
+   136,
+   170
+  ]
+ },
+ "ORCL-ShareBasedCompensation": {
+  "found": true,
+  "printed": "4,811",
+  "scale": "millions",
+  "page": 85,
+  "quote": "Total stock-based compensation $ 4,811",
+  "value": 4811000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   85,
+   90,
+   117,
+   162,
+   84,
+   116,
+   176,
+   160
+  ]
+ },
+ "ORCL-PaymentsOfDividendsCommonStock": {
+  "found": true,
+  "printed": "5,787",
+  "scale": "millions",
+  "page": 117,
+  "quote": "Payments of dividends to stockholders",
+  "value": 5787000000.0,
+  "checks": [
+   "number not in the quote"
+  ],
+  "retrieved_pages": [
+   158,
+   97,
+   116,
+   116,
+   95,
+   117,
+   114,
+   95
+  ]
+ },
+ "ORCL-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "55.7",
+  "scale": "billions",
+  "page": 101,
+  "quote": "Cash used for capital expenditures increased from $21.2 billion in \ufb01scal 2025 to $55.7 billion in \ufb01scal 2026",
+  "value": 55700000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   101,
+   117,
+   97,
+   139,
+   149,
+   86,
+   112,
+   95
+  ]
+ },
+ "ORCL-InterestExpense": {
+  "found": true,
+  "printed": "(4,599)",
+  "scale": "millions",
+  "page": 114,
+  "quote": "Interest expense   (4,599)",
+  "value": -4599000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   114,
+   92,
+   170,
+   176,
+   136,
+   144,
+   119,
+   117
+  ]
+ },
+ "ORCL-Goodwill": {
+  "found": true,
+  "printed": "62,261",
+  "scale": "millions",
+  "page": 112,
+  "quote": "Goodwill   62,261",
+  "value": 62261000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   112,
+   141,
+   116,
+   119,
+   84,
+   195,
+   125,
+   116
+  ]
+ },
+ "ORCL-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "2,880,471,000",
+  "scale": "units",
+  "page": 1,
+  "quote": "Number of shares of common stock outstanding as of June 12, 2026: 2,880,471,000.",
+  "value": 2880471000.0,
+  "checks": [],
+  "retrieved_pages": [
+   112,
+   1,
+   1,
+   116,
+   114,
+   70,
+   116,
+   113
+  ]
+ },
+ "BAC-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "7,186",
+  "scale": "millions",
+  "page": 239,
+  "quote": "Total income tax expense $ 7,186",
+  "value": 7186000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   239,
+   265,
+   241,
+   241,
+   265,
+   59,
+   244,
+   268
+  ]
+ },
+ "BAC-ShareBasedCompensation": {
+  "found": true,
+  "printed": "4.2",
+  "scale": "billions",
+  "page": 239,
+  "quote": "The compensation cost for the stock-based plans was $4.2 billion, $3.6 billion and $3.1 billion, and the related income tax benefit was $1.0 billion, $872 million and $733 million for 2025, 2024 and 2023, respectively.",
+  "value": 4200000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   239,
+   269,
+   154,
+   265,
+   228,
+   265,
+   54,
+   140
+  ]
+ },
+ "BAC-PaymentsForRepurchaseOfCommonStock": {
+  "found": false,
+  "printed": null,
+  "scale": "units",
+  "page": null,
+  "quote": null,
+  "value": null,
+  "checks": [],
+  "retrieved_pages": [
+   225,
+   269,
+   214,
+   83,
+   47,
+   269,
+   152,
+   213
+  ]
+ },
+ "BAC-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "2,314",
+  "scale": "millions",
+  "page": 154,
+  "quote": "Depreciation and amortization 2,314",
+  "value": 2314000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   269,
+   154,
+   210,
+   140,
+   141,
+   265,
+   256,
+   203
+  ]
+ },
+ "BAC-Goodwill": {
+  "found": true,
+  "printed": "69,021",
+  "scale": "millions",
+  "page": 150,
+  "quote": "Goodwill 69,021",
+  "value": 69021000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   150,
+   139,
+   140,
+   86,
+   141,
+   209,
+   141,
+   269
+  ]
+ },
+ "BAC-EntityCommonStockSharesOutstanding": {
+  "found": false,
+  "printed": null,
+  "scale": "units",
+  "page": null,
+  "quote": null,
+  "value": null,
+  "checks": [],
+  "retrieved_pages": [
+   150,
+   58,
+   4,
+   152,
+   1,
+   269,
+   3,
+   285
+  ]
+ },
+ "WFC-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "3,841",
+  "scale": "millions",
+  "page": 39,
+  "quote": "Income tax expense 3,841",
+  "value": 3841000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   302,
+   41,
+   47,
+   288,
+   305,
+   39,
+   170,
+   303
+  ]
+ },
+ "WFC-ShareBasedCompensation": {
+  "found": true,
+  "printed": "1,476",
+  "scale": "millions",
+  "page": 237,
+  "quote": "Total stock compensation expense $ 1,476",
+  "value": 1476000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   237,
+   306,
+   169,
+   238,
+   1,
+   45,
+   166,
+   39
+  ]
+ },
+ "WFC-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "17,516",
+  "scale": "millions",
+  "page": 170,
+  "quote": "Repurchased (17,516)",
+  "value": 17516000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   109,
+   313,
+   23,
+   237,
+   169,
+   104,
+   170,
+   306
+  ]
+ },
+ "WFC-PaymentsOfDividendsCommonStock": {
+  "found": true,
+  "printed": "6.5",
+  "scale": "billions",
+  "page": 109,
+  "quote": "We paid $6.5 billion of common and preferred stock dividends during 2025.",
+  "value": 6500000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   109,
+   236,
+   313,
+   312,
+   306,
+   39,
+   169,
+   319
+  ]
+ },
+ "WFC-Goodwill": {
+  "found": true,
+  "printed": "24,967",
+  "scale": "millions",
+  "page": 168,
+  "quote": "Goodwill 24,967",
+  "value": 24967000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   168,
+   228,
+   103,
+   104,
+   312,
+   59,
+   52,
+   39
+  ]
+ },
+ "WFC-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "3,085,635,641",
+  "scale": "units",
+  "page": 1,
+  "quote": "3,085,635,641 shares of common stock were outstanding.",
+  "value": 3085635641.0,
+  "checks": [],
+  "retrieved_pages": [
+   1,
+   1,
+   168,
+   292,
+   151,
+   85,
+   122,
+   157
+  ]
+ },
+ "MS-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "4,929",
+  "scale": "millions",
+  "page": 187,
+  "quote": "Provision for income taxes 4,929",
+  "value": 4929000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   86,
+   93,
+   348,
+   336,
+   82,
+   187,
+   339,
+   342
+  ]
+ },
+ "MS-ShareBasedCompensation": {
+  "found": true,
+  "printed": "1,926",
+  "scale": "millions",
+  "page": 324,
+  "quote": "Total $ 1,926",
+  "value": 1926000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   324,
+   190,
+   97,
+   99,
+   71,
+   327,
+   67,
+   327
+  ]
+ },
+ "MS-PaymentsOfDividends": {
+  "found": true,
+  "printed": "6,593",
+  "scale": "millions",
+  "page": 349,
+  "quote": "Cash dividends (6,593)",
+  "value": 6593000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   348,
+   321,
+   189,
+   349,
+   187,
+   65,
+   318,
+   75
+  ]
+ },
+ "MS-DepreciationAndAmortization": {
+  "found": true,
+  "printed": "4,658",
+  "scale": "millions",
+  "page": 190,
+  "quote": "Depreciation and amortization 4,658",
+  "value": 4658000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   190,
+   275,
+   278,
+   209,
+   349,
+   217,
+   188,
+   330
+  ]
+ },
+ "MS-Goodwill": {
+  "found": true,
+  "printed": "16,726",
+  "scale": "millions",
+  "page": 188,
+  "quote": "Goodwill 16,726",
+  "value": 16726000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   188,
+   275,
+   71,
+   349,
+   350,
+   104,
+   242,
+   68
+  ]
+ },
+ "MS-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "1,587,860,206",
+  "scale": "units",
+  "page": 2,
+  "quote": "As of January 31, 2026, there were 1,587,860,206 shares of the Registrant\u2019s common stock, $0.01 par value, outstanding.",
+  "value": 1587860206.0,
+  "checks": [],
+  "retrieved_pages": [
+   318,
+   189,
+   188,
+   2,
+   318,
+   1,
+   360,
+   364
+  ]
+ },
+ "LLY-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "5,091",
+  "scale": "millions",
+  "page": 75,
+  "quote": "Income taxes 5,091",
+  "value": 5091000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   75,
+   102,
+   67,
+   103,
+   79,
+   76,
+   78,
+   104
+  ]
+ },
+ "LLY-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "(4,108)",
+  "scale": "millions",
+  "page": 79,
+  "quote": "Purchases of common stock (4,108)",
+  "value": -4108000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   57,
+   70,
+   78,
+   101,
+   79,
+   68,
+   3,
+   59
+  ]
+ },
+ "LLY-PaymentsOfDividends": {
+  "found": true,
+  "printed": "5,384",
+  "scale": "millions",
+  "page": 79,
+  "quote": "Dividends paid (5,384)",
+  "value": 5384000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   78,
+   79,
+   70,
+   59,
+   75,
+   3,
+   76,
+   57
+  ]
+ },
+ "LLY-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "1,997",
+  "scale": "millions",
+  "page": 79,
+  "quote": "Depreciation and amortization 1,997",
+  "value": 1997000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   79,
+   97,
+   75,
+   59,
+   3,
+   78,
+   96,
+   1
+  ]
+ },
+ "LLY-Goodwill": {
+  "found": true,
+  "printed": "5,898",
+  "scale": "millions",
+  "page": 77,
+  "quote": "Goodwill 5,898",
+  "value": 5898000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   77,
+   78,
+   96,
+   3,
+   59,
+   88,
+   75,
+   1
+  ]
+ },
+ "LLY-InventoryNet": {
+  "found": true,
+  "printed": "13,744",
+  "scale": "millions",
+  "page": 77,
+  "quote": "Inventories 13,744",
+  "value": 13744000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   77,
+   91,
+   79,
+   78,
+   104,
+   3,
+   76,
+   75
+  ]
+ },
+ "LLY-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "40,868",
+  "scale": "millions",
+  "page": 77,
+  "quote": "Long-term debt 40,868",
+  "value": 40868000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   77,
+   98,
+   93,
+   68,
+   78,
+   99,
+   79,
+   59
+  ]
+ },
+ "LLY-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "943,357,420",
+  "scale": "units",
+  "page": 1,
+  "quote": "Number of shares of common stock outstanding as of February 9, 2026: 943,357,420",
+  "value": 943357420.0,
+  "checks": [],
+  "retrieved_pages": [
+   77,
+   1,
+   78,
+   1,
+   57,
+   75,
+   41,
+   8
+  ]
+ },
+ "MRK-ResearchAndDevelopmentExpense": {
+  "found": true,
+  "printed": "15,789",
+  "scale": "millions",
+  "page": 113,
+  "quote": "Research and development 15,789",
+  "value": 15789000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   113,
+   91,
+   98,
+   192,
+   136,
+   139,
+   117,
+   142
+  ]
+ },
+ "MRK-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "2,804",
+  "scale": "millions",
+  "page": 113,
+  "quote": "Taxes on Income 2,804",
+  "value": 2804000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   184,
+   185,
+   113,
+   117,
+   182,
+   98,
+   183,
+   114
+  ]
+ },
+ "MRK-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "5,084",
+  "scale": "millions",
+  "page": 117,
+  "quote": "Purchases of treasury stock (5,084)",
+  "value": 5084000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   99,
+   99,
+   76,
+   69,
+   116,
+   170,
+   117,
+   98
+  ]
+ },
+ "MRK-PaymentsOfDividendsCommonStock": {
+  "found": true,
+  "printed": "8,176",
+  "scale": "millions",
+  "page": 117,
+  "quote": "Dividends paid to stockholders (8,176)",
+  "value": 8176000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   116,
+   76,
+   117,
+   114,
+   99,
+   71,
+   171,
+   113
+  ]
+ },
+ "MRK-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "4.1",
+  "scale": "billions",
+  "page": 98,
+  "quote": "Capital expenditures were $4.1 billion in 2025",
+  "value": 4099999999.9999995,
+  "checks": [],
+  "retrieved_pages": [
+   98,
+   117,
+   194,
+   114,
+   98,
+   116,
+   129,
+   113
+  ]
+ },
+ "MRK-InterestExpenseNonoperating": {
+  "found": true,
+  "printed": "1,357",
+  "scale": "millions",
+  "page": 181,
+  "quote": "Interest expense 1,357",
+  "value": 1357000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   181,
+   192,
+   113,
+   116,
+   71,
+   156,
+   148,
+   117
+  ]
+ },
+ "MRK-Goodwill": {
+  "found": true,
+  "printed": "21,579",
+  "scale": "millions",
+  "page": 114,
+  "quote": "Goodwill 21,579",
+  "value": 21579000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   114,
+   152,
+   113,
+   116,
+   118,
+   134,
+   150,
+   71
+  ]
+ },
+ "MRK-InventoryNet": {
+  "found": true,
+  "printed": "6,658",
+  "scale": "millions",
+  "page": 114,
+  "quote": "Inventories (excludes inventories of $5,681 in 2025 and $4,193 in 2024 classified in Other assets - see Note 7) 6,658",
+  "value": 6658000000.0,
+  "checks": [
+   "quote not found on the cited page"
+  ],
+  "retrieved_pages": [
+   114,
+   152,
+   113,
+   116,
+   108,
+   117,
+   184,
+   71
+  ]
+ },
+ "MRK-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "46,750",
+  "scale": "millions",
+  "page": 114,
+  "quote": "Long-Term Debt 46,750",
+  "value": 46750000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   114,
+   155,
+   154,
+   151,
+   156,
+   113,
+   98,
+   156
+  ]
+ },
+ "MRK-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "2,472,392,003",
+  "scale": "units",
+  "page": 1,
+  "quote": "Number of shares of Common Stock ($0.50 par value) outstanding as of January 31, 2026: 2,472,392,003.",
+  "value": 2472392003.0,
+  "checks": [],
+  "retrieved_pages": [
+   1,
+   187,
+   114,
+   170,
+   1,
+   69,
+   116,
+   99
+  ]
+ },
+ "ABT-ResearchAndDevelopmentExpense": {
+  "found": true,
+  "printed": "2,942",
+  "scale": "millions",
+  "page": 56,
+  "quote": "Research and development 2,942",
+  "value": 2942000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   56,
+   39,
+   74,
+   98,
+   96,
+   41,
+   121,
+   50
+  ]
+ },
+ "ABT-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "1,942",
+  "scale": "millions",
+  "page": 93,
+  "quote": "Total $ 1,942",
+  "value": 1942000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   93,
+   58,
+   121,
+   60,
+   97,
+   56,
+   94,
+   42
+  ]
+ },
+ "ABT-PaymentsOfDividendsCommonStock": {
+  "found": true,
+  "printed": "4,116",
+  "scale": "millions",
+  "page": 58,
+  "quote": "Dividends paid (4,116)",
+  "value": 4116000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   32,
+   48,
+   32,
+   60,
+   58,
+   61,
+   121,
+   56
+  ]
+ },
+ "ABT-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "2.2",
+  "scale": "billions",
+  "page": 50,
+  "quote": "Capital expenditures of $2.2 billion in 2025",
+  "value": 2200000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   50,
+   58,
+   99,
+   59,
+   121,
+   80,
+   69,
+   61
+  ]
+ },
+ "ABT-Goodwill": {
+  "found": true,
+  "printed": "24,035",
+  "scale": "millions",
+  "page": 59,
+  "quote": "Goodwill 24,035",
+  "value": 24035000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   47,
+   73,
+   59,
+   35,
+   99,
+   121,
+   60,
+   52
+  ]
+ },
+ "ABT-InventoryNet": {
+  "found": true,
+  "printed": "6,488",
+  "scale": "millions",
+  "page": 59,
+  "quote": "Total inventories 6,488",
+  "value": 6488000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   59,
+   121,
+   58,
+   32,
+   82,
+   118,
+   60,
+   70
+  ]
+ },
+ "ABT-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "9,896",
+  "scale": "millions",
+  "page": 77,
+  "quote": "Total long-term portion $ 9,896",
+  "value": 9896000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   60,
+   77,
+   82,
+   81,
+   48,
+   32,
+   15,
+   15
+  ]
+ },
+ "ABT-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "1,737,682,887",
+  "scale": "units",
+  "page": 1,
+  "quote": "Number of common shares outstanding as of January 31, 2026: 1,737,682,887",
+  "value": 1737682887.0,
+  "checks": [],
+  "retrieved_pages": [
+   1,
+   1,
+   60,
+   61,
+   56,
+   29,
+   16,
+   14
+  ]
+ },
+ "CVX-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "7,258",
+  "scale": "millions",
+  "page": 89,
+  "quote": "Total income tax expense (benefit) $ 7,258",
+  "value": 7258000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   89,
+   66,
+   91,
+   92,
+   69,
+   46,
+   67,
+   52
+  ]
+ },
+ "CVX-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "12.1",
+  "scale": "billions",
+  "page": 50,
+  "quote": "During 2025, the company purchased a total of 79.9 million shares for $12.1 billion",
+  "value": 12100000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   50,
+   31,
+   43,
+   70,
+   49,
+   75,
+   70,
+   108
+  ]
+ },
+ "CVX-PaymentsOfDividendsCommonStock": {
+  "found": true,
+  "printed": "(12,751)",
+  "scale": "millions",
+  "page": 69,
+  "quote": "Cash dividends - common stock (12,751)",
+  "value": -12751000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   48,
+   36,
+   70,
+   75,
+   43,
+   69,
+   49,
+   82
+  ]
+ },
+ "CVX-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "20,132",
+  "scale": "millions",
+  "page": 66,
+  "quote": "Depreciation, depletion and amortization 20,132",
+  "value": 20132000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   66,
+   83,
+   61,
+   69,
+   45,
+   113,
+   57,
+   68
+  ]
+ },
+ "CVX-Goodwill": {
+  "found": true,
+  "printed": "4,568",
+  "scale": "millions",
+  "page": 68,
+  "quote": "Goodwill 4,568",
+  "value": 4568000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   68,
+   108,
+   85,
+   50,
+   73,
+   70,
+   52,
+   109
+  ]
+ },
+ "CVX-InventoryNet": {
+  "found": true,
+  "printed": "9,711",
+  "scale": "millions",
+  "page": 68,
+  "quote": "Total inventories 9,711",
+  "value": 9711000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   68,
+   52,
+   108,
+   50,
+   78,
+   66,
+   110,
+   86
+  ]
+ },
+ "CVX-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "1,995,385,539",
+  "scale": "units",
+  "page": 1,
+  "quote": "Number of Shares of Common Stock outstanding as of February 6, 2026 \u2014 1,995,385,539",
+  "value": 1995385539.0,
+  "checks": [],
+  "retrieved_pages": [
+   82,
+   68,
+   108,
+   1,
+   108,
+   1,
+   81,
+   31
+  ]
+ },
+ "BA-ResearchAndDevelopmentExpense": {
+  "found": true,
+  "printed": "3,615",
+  "scale": "millions",
+  "page": 40,
+  "quote": "Total $3,615",
+  "value": 3615000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   40,
+   69,
+   43,
+   162,
+   158,
+   82,
+   36,
+   103
+  ]
+ },
+ "BA-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "2,942",
+  "scale": "millions",
+  "page": 163,
+  "quote": "Total $2,942",
+  "value": 2942000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   163,
+   57,
+   111,
+   120,
+   72,
+   75,
+   55,
+   79
+  ]
+ },
+ "BA-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "1,953",
+  "scale": "millions",
+  "page": 75,
+  "quote": "Depreciation and amortization 1,953",
+  "value": 1953000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   163,
+   75,
+   111,
+   79,
+   162,
+   95,
+   70,
+   69
+  ]
+ },
+ "BA-Goodwill": {
+  "found": true,
+  "printed": "17,275",
+  "scale": "millions",
+  "page": 72,
+  "quote": "Goodwill 17,275",
+  "value": 17275000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   72,
+   95,
+   93,
+   87,
+   103,
+   77,
+   79,
+   78
+  ]
+ },
+ "BA-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "785,347,096",
+  "scale": "units",
+  "page": 2,
+  "quote": "The number of shares of the registrant\u2019s common stock outstanding as of January 23, 2026 was 785,347,096.",
+  "value": 785347096.0,
+  "checks": [],
+  "retrieved_pages": [
+   1,
+   98,
+   2,
+   72,
+   77,
+   146,
+   179,
+   29
+  ]
+ },
+ "UPS-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "1,592",
+  "scale": "millions",
+  "page": 97,
+  "quote": "Income Tax Expense 1,592",
+  "value": 1592000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   68,
+   181,
+   103,
+   186,
+   182,
+   69,
+   185,
+   97
+  ]
+ },
+ "UPS-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "1.0",
+  "scale": "billions",
+  "page": 72,
+  "quote": "We repurchased 8.6 and 3.9 million shares of class B common stock for $1.0 billion and $500 million under our share repurchase authorization in 2025 and 2024, respectively.",
+  "value": 1000000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   72,
+   165,
+   40,
+   44,
+   166,
+   98,
+   137,
+   69
+  ]
+ },
+ "UPS-PaymentsOfDividends": {
+  "found": true,
+  "printed": "5,398",
+  "scale": "millions",
+  "page": 72,
+  "quote": "Cash paid for dividends $ (5,398)",
+  "value": 5398000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   72,
+   166,
+   40,
+   98,
+   103,
+   69,
+   187,
+   137
+  ]
+ },
+ "UPS-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "(3,685)",
+  "scale": "millions",
+  "page": 70,
+  "quote": "Total capital expenditures: $ (3,685)",
+  "value": -3685000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   70,
+   98,
+   103,
+   121,
+   148,
+   196,
+   96,
+   137
+  ]
+ },
+ "UPS-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "3,746",
+  "scale": "millions",
+  "page": 97,
+  "quote": "Depreciation and amortization 3,746",
+  "value": 3746000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   97,
+   121,
+   179,
+   63,
+   98,
+   64,
+   105,
+   146
+  ]
+ },
+ "UPS-InterestExpenseNonoperating": {
+  "found": true,
+  "printed": "(1,017)",
+  "scale": "millions",
+  "page": 97,
+  "quote": "Interest expense (1,017)",
+  "value": -1017000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   67,
+   97,
+   103,
+   178,
+   89,
+   170,
+   131,
+   162
+  ]
+ },
+ "UPS-Goodwill": {
+  "found": true,
+  "printed": "5,837",
+  "scale": "millions",
+  "page": 96,
+  "quote": "Goodwill 5,837",
+  "value": 5837000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   96,
+   144,
+   148,
+   146,
+   150,
+   180,
+   79,
+   93
+  ]
+ },
+ "PEP-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "1,949",
+  "scale": "millions",
+  "page": 105,
+  "quote": "Provision for income taxes 1,949",
+  "value": 1949000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   105,
+   140,
+   147,
+   143,
+   107,
+   187,
+   106,
+   85
+  ]
+ },
+ "PEP-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "1,000",
+  "scale": "millions",
+  "page": 109,
+  "quote": "Share repurchases (1,000)",
+  "value": 1000000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   58,
+   109,
+   112,
+   110,
+   92,
+   3,
+   94,
+   107
+  ]
+ },
+ "PEP-PaymentsOfDividends": {
+  "found": true,
+  "printed": "7,638",
+  "scale": "millions",
+  "page": 109,
+  "quote": "Cash dividends paid (7,638)",
+  "value": 7638000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   109,
+   112,
+   58,
+   92,
+   105,
+   107,
+   201,
+   221
+  ]
+ },
+ "PEP-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "3,451",
+  "scale": "millions",
+  "page": 107,
+  "quote": "Depreciation and amortization 3,451",
+  "value": 3451000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   107,
+   123,
+   105,
+   186,
+   127,
+   136,
+   135,
+   134
+  ]
+ },
+ "PEP-InterestExpense": {
+  "found": true,
+  "printed": "1,840",
+  "scale": "millions",
+  "page": 94,
+  "quote": "Interest expense 1,840",
+  "value": 1840000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   105,
+   94,
+   78,
+   187,
+   201,
+   106,
+   147,
+   221
+  ]
+ },
+ "PEP-Goodwill": {
+  "found": true,
+  "printed": "18,916",
+  "scale": "millions",
+  "page": 110,
+  "quote": "Goodwill 18,916",
+  "value": 18916000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   110,
+   138,
+   186,
+   201,
+   221,
+   61,
+   177,
+   3
+  ]
+ },
+ "PEP-InventoryNet": {
+  "found": true,
+  "printed": "5,845",
+  "scale": "millions",
+  "page": 110,
+  "quote": "Inventories 5,845",
+  "value": 5845000000.0,
+  "checks": [
+   "quote not found on the cited page"
+  ],
+  "retrieved_pages": [
+   110,
+   201,
+   3,
+   107,
+   177,
+   1,
+   105,
+   10
+  ]
+ },
+ "PEP-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "42,321",
+  "scale": "millions",
+  "page": 162,
+  "quote": "Total $ 42,321",
+  "value": 42321000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   110,
+   165,
+   109,
+   162,
+   201,
+   177,
+   221,
+   94
+  ]
+ },
+ "PEP-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "1,366,649,053",
+  "scale": "units",
+  "page": 2,
+  "quote": "The number of shares of PepsiCo, Inc. Common Stock outstanding as of January 23, 2026 was 1,366,649,053.",
+  "value": 1366649053.0,
+  "checks": [],
+  "retrieved_pages": [
+   2,
+   110,
+   105,
+   112,
+   1,
+   176,
+   58,
+   149
+  ]
+ },
+ "HD-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "4,446",
+  "scale": "millions",
+  "page": 68,
+  "quote": "Provision for income taxes 4,446",
+  "value": 4446000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   67,
+   68,
+   55,
+   96,
+   99,
+   97,
+   53,
+   53
+  ]
+ },
+ "HD-PaymentsOfDividendsCommonStock": {
+  "found": true,
+  "printed": "9,152",
+  "scale": "millions",
+  "page": 70,
+  "quote": "Cash dividends (9,152)",
+  "value": 9152000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   47,
+   70,
+   57,
+   71,
+   101,
+   72,
+   1,
+   67
+  ]
+ },
+ "HD-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "3,273",
+  "scale": "millions",
+  "page": 68,
+  "quote": "Depreciation and amortization 3,273",
+  "value": 3273000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   86,
+   68,
+   71,
+   91,
+   87,
+   53,
+   72,
+   84
+  ]
+ },
+ "HD-InterestExpenseNonoperating": {
+  "found": true,
+  "printed": "2,412",
+  "scale": "millions",
+  "page": 68,
+  "quote": "Interest expense 2,412",
+  "value": 2412000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   68,
+   72,
+   87,
+   63,
+   91,
+   53,
+   67,
+   53
+  ]
+ },
+ "HD-Goodwill": {
+  "found": true,
+  "printed": "22,344",
+  "scale": "millions",
+  "page": 67,
+  "quote": "Goodwill 22,344",
+  "value": 22344000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   67,
+   89,
+   72,
+   102,
+   64,
+   86,
+   1,
+   65
+  ]
+ },
+ "HD-InventoryNet": {
+  "found": true,
+  "printed": "25,817",
+  "scale": "millions",
+  "page": 67,
+  "quote": "Merchandise inventories 25,817",
+  "value": 25817000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   65,
+   67,
+   72,
+   1,
+   47,
+   102,
+   63,
+   86
+  ]
+ },
+ "HD-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "996,011,466",
+  "scale": "units",
+  "page": 1,
+  "quote": "The number of shares outstanding of the registrant\u2019s common stock as of March 4, 2026 was 996,011,466 shares.",
+  "value": 996011466.0,
+  "checks": [],
+  "retrieved_pages": [
+   67,
+   101,
+   70,
+   68,
+   1,
+   47,
+   102,
+   119
+  ]
+ },
+ "TGT-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "1,062",
+  "scale": "millions",
+  "page": 47,
+  "quote": "Provision for income taxes 1,062",
+  "value": 1062000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   65,
+   36,
+   51,
+   59,
+   41,
+   47,
+   66,
+   49
+  ]
+ },
+ "TGT-PaymentsOfDividendsCommonStock": {
+  "found": true,
+  "printed": "2,053",
+  "scale": "millions",
+  "page": 50,
+  "quote": "Dividends paid (2,053)",
+  "value": 2053000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   51,
+   38,
+   28,
+   50,
+   27,
+   37,
+   1,
+   52
+  ]
+ },
+ "TGT-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "3,727",
+  "scale": "millions",
+  "page": 50,
+  "quote": "Expenditures for property and equipment (3,727)",
+  "value": 3727000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   51,
+   57,
+   38,
+   49,
+   50,
+   62,
+   77,
+   37
+  ]
+ },
+ "TGT-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "3,134",
+  "scale": "millions",
+  "page": 50,
+  "quote": "Depreciation and amortization 3,134",
+  "value": 3134000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   62,
+   57,
+   31,
+   51,
+   47,
+   50,
+   74,
+   67
+  ]
+ },
+ "TGT-InventoryNet": {
+  "found": true,
+  "printed": "12,304",
+  "scale": "millions",
+  "page": 49,
+  "quote": "Inventory 12,304",
+  "value": 12304000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   49,
+   57,
+   40,
+   37,
+   51,
+   50,
+   65,
+   28
+  ]
+ },
+ "TGT-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "452,855,589",
+  "scale": "units",
+  "page": 1,
+  "quote": "Total shares of common stock, par value $0.0833, outstanding as of March 4, 2026, were 452,855,589.",
+  "value": 452855589.0,
+  "checks": [],
+  "retrieved_pages": [
+   1,
+   49,
+   27,
+   47,
+   1,
+   51,
+   67,
+   3
+  ]
+ },
+ "MCD-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "2,334",
+  "scale": "millions",
+  "page": 53,
+  "quote": "Provision for income taxes 2,334",
+  "value": 2334000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   53,
+   77,
+   27,
+   16,
+   56,
+   81,
+   55,
+   79
+  ]
+ },
+ "MCD-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "2,056",
+  "scale": "millions",
+  "page": 56,
+  "quote": "Treasury stock purchases (2,056)",
+  "value": 2056000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   37,
+   18,
+   29,
+   57,
+   11,
+   56,
+   8,
+   1
+  ]
+ },
+ "MCD-PaymentsOfDividendsCommonStock": {
+  "found": true,
+  "printed": "5,115",
+  "scale": "millions",
+  "page": 29,
+  "quote": "Dividends paid 5,115",
+  "value": 5115000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   53,
+   11,
+   57,
+   29,
+   76,
+   56,
+   37,
+   61
+  ]
+ },
+ "MCD-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "3,365",
+  "scale": "millions",
+  "page": 56,
+  "quote": "Capital expenditures (3,365)",
+  "value": 3365000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   70,
+   11,
+   56,
+   29,
+   31,
+   28,
+   69,
+   27
+  ]
+ },
+ "MCD-InterestExpense": {
+  "found": true,
+  "printed": "1,582",
+  "scale": "millions",
+  "page": 53,
+  "quote": "Interest expense-net of capitalized interest of $29, $22 and $14 1,582",
+  "value": 1582000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   53,
+   27,
+   16,
+   81,
+   56,
+   65,
+   31,
+   57
+  ]
+ },
+ "MCD-Goodwill": {
+  "found": true,
+  "printed": "3,354",
+  "scale": "millions",
+  "page": 55,
+  "quote": "Goodwill 3,354",
+  "value": 3354000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   55,
+   60,
+   57,
+   8,
+   61,
+   80,
+   1,
+   66
+  ]
+ },
+ "MCD-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "39,973",
+  "scale": "millions",
+  "page": 55,
+  "quote": "Long-term debt 39,973",
+  "value": 39973000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   55,
+   31,
+   82,
+   82,
+   81,
+   63,
+   57,
+   31
+  ]
+ },
+ "MCD-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "710,398,642",
+  "scale": "units",
+  "page": 1,
+  "quote": "The number of shares outstanding of the registrant\u2019s common stock as of January 31, 2026: 710,398,642.",
+  "value": 710398642.0,
+  "checks": [],
+  "retrieved_pages": [
+   55,
+   1,
+   1,
+   53,
+   57,
+   67,
+   37,
+   29
+  ]
+ },
+ "UAA-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "294,752",
+  "scale": "thousands",
+  "page": 96,
+  "quote": "Income tax expense (benefit) (Note 15) 294,752",
+  "value": 294752000.0,
+  "checks": [],
+  "retrieved_pages": [
+   155,
+   161,
+   102,
+   63,
+   69,
+   157,
+   96,
+   100
+  ]
+ },
+ "UAA-ShareBasedCompensation": {
+  "found": true,
+  "printed": "45,625",
+  "scale": "thousands",
+  "page": 100,
+  "quote": "Stock-based compensation 45,625",
+  "value": 45625000.0,
+  "checks": [],
+  "retrieved_pages": [
+   143,
+   143,
+   100,
+   147,
+   103,
+   146,
+   98,
+   145
+  ]
+ },
+ "UAA-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "25",
+  "scale": "millions",
+  "page": 135,
+  "quote": "the Company repurchased $25 million of Class C Common Stock",
+  "value": 25000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   135,
+   74,
+   135,
+   55,
+   74,
+   100,
+   76,
+   77
+  ]
+ },
+ "UAA-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "(87,075)",
+  "scale": "thousands",
+  "page": 100,
+  "quote": "Purchases of property and equipment (87,075)",
+  "value": -87075000.0,
+  "checks": [],
+  "retrieved_pages": [
+   77,
+   102,
+   123,
+   100,
+   57,
+   103,
+   94,
+   72
+  ]
+ },
+ "UAA-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "109,623",
+  "scale": "thousands",
+  "page": 100,
+  "quote": "Depreciation and amortization 109,623",
+  "value": 109623000.0,
+  "checks": [],
+  "retrieved_pages": [
+   100,
+   167,
+   165,
+   123,
+   57,
+   63,
+   59,
+   107
+  ]
+ },
+ "UAA-Goodwill": {
+  "found": true,
+  "printed": "492,768",
+  "scale": "thousands",
+  "page": 94,
+  "quote": "Goodwill (Note 5) 492,768",
+  "value": 492768000.0,
+  "checks": [],
+  "retrieved_pages": [
+   126,
+   94,
+   103,
+   57,
+   93,
+   59,
+   149,
+   63
+  ]
+ },
+ "UAA-InventoryNet": {
+  "found": true,
+  "printed": "914,751",
+  "scale": "thousands",
+  "page": 94,
+  "quote": "Inventories 914,751",
+  "value": 914751000.0,
+  "checks": [],
+  "retrieved_pages": [
+   94,
+   57,
+   100,
+   83,
+   137,
+   106,
+   93,
+   174
+  ]
+ },
+ "LYV-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "339,787",
+  "scale": "thousands",
+  "page": 102,
+  "quote": "Income tax expense (benefit) $ 339,787",
+  "value": 339787000.0,
+  "checks": [],
+  "retrieved_pages": [
+   102,
+   45,
+   106,
+   105,
+   65,
+   75,
+   104,
+   68
+  ]
+ },
+ "LYV-ShareBasedCompensation": {
+  "found": true,
+  "printed": "155,219",
+  "scale": "thousands",
+  "page": 114,
+  "quote": "Total $ 155,219",
+  "value": 155219000.0,
+  "checks": [],
+  "retrieved_pages": [
+   75,
+   46,
+   114,
+   49,
+   50,
+   117,
+   115,
+   45
+  ]
+ },
+ "LYV-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "23,531",
+  "scale": "thousands",
+  "page": 75,
+  "quote": "Common stock repurchases (23,531)",
+  "value": 23531000.0,
+  "checks": [],
+  "retrieved_pages": [
+   41,
+   101,
+   75,
+   73,
+   68,
+   107,
+   1,
+   126
+  ]
+ },
+ "LYV-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "1,050,974",
+  "scale": "thousands",
+  "page": 55,
+  "quote": "Total capital expenditures $ 1,050,974",
+  "value": 1050974000.0,
+  "checks": [],
+  "retrieved_pages": [
+   55,
+   111,
+   86,
+   56,
+   99,
+   75,
+   35,
+   49
+  ]
+ },
+ "LYV-DepreciationAndAmortization": {
+  "found": true,
+  "printed": "638,872",
+  "scale": "thousands",
+  "page": 68,
+  "quote": "Depreciation and amortization 638,872",
+  "value": 638872000.0,
+  "checks": [],
+  "retrieved_pages": [
+   68,
+   44,
+   49,
+   75,
+   50,
+   46,
+   51,
+   126
+  ]
+ },
+ "LYV-InterestExpense": {
+  "found": true,
+  "printed": "316,033",
+  "scale": "thousands",
+  "page": 68,
+  "quote": "Interest expense 316,033",
+  "value": 316033000.0,
+  "checks": [],
+  "retrieved_pages": [
+   68,
+   44,
+   95,
+   86,
+   56,
+   58,
+   125,
+   1
+  ]
+ },
+ "LYV-Goodwill": {
+  "found": true,
+  "printed": "2,889,178",
+  "scale": "thousands",
+  "page": 66,
+  "quote": "Goodwill 2,889,178",
+  "value": 2889178000.0,
+  "checks": [],
+  "retrieved_pages": [
+   66,
+   89,
+   125,
+   126,
+   78,
+   118,
+   86,
+   87
+  ]
+ },
+ "LYV-InventoryNet": {
+  "found": true,
+  "printed": "56,576",
+  "scale": "thousands",
+  "page": 118,
+  "quote": "Inventory 56,576",
+  "value": 56576000.0,
+  "checks": [],
+  "retrieved_pages": [
+   118,
+   35,
+   126,
+   35,
+   125,
+   86,
+   66,
+   1
+  ]
+ },
+ "LYV-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "234,801,922",
+  "scale": "units",
+  "page": 1,
+  "quote": "234,801,922 outstanding shares of the registrant\u2019s common stock",
+  "value": 234801922.0,
+  "checks": [],
+  "retrieved_pages": [
+   66,
+   1,
+   1,
+   106,
+   68,
+   72,
+   101,
+   70
+  ]
+ },
+ "TKO-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "73,771",
+  "scale": "thousands",
+  "page": 148,
+  "quote": "Provision for income taxes   73,771",
+  "value": 73771000.0,
+  "checks": [],
+  "retrieved_pages": [
+   148,
+   209,
+   96,
+   92,
+   154,
+   211,
+   210,
+   214
+  ]
+ },
+ "TKO-ShareBasedCompensation": {
+  "found": true,
+  "printed": "117.6",
+  "scale": "millions",
+  "page": 105,
+  "quote": "Equity-based compensation expense (1)   117.6",
+  "value": 117600000.0,
+  "checks": [],
+  "retrieved_pages": [
+   207,
+   203,
+   208,
+   154,
+   109,
+   105,
+   111,
+   204
+  ]
+ },
+ "TKO-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "866,846",
+  "scale": "thousands",
+  "page": 152,
+  "quote": "Repurchases and retirements of common stock",
+  "value": 866846000.0,
+  "checks": [
+   "number not in the quote"
+  ],
+  "retrieved_pages": [
+   197,
+   111,
+   109,
+   70,
+   152,
+   197,
+   201,
+   84
+  ]
+ },
+ "TKO-PaymentsOfDividendsCommonStock": {
+  "found": true,
+  "printed": "185,155",
+  "scale": "thousands",
+  "page": 152,
+  "quote": "Cash dividends declared ($2.30 per share for Class A shareholders) (185,155)",
+  "value": 185155000.0,
+  "checks": [
+   "quote not found on the cited page"
+  ],
+  "retrieved_pages": [
+   199,
+   109,
+   111,
+   152,
+   84,
+   189,
+   109,
+   154
+  ]
+ },
+ "TKO-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "484,990",
+  "scale": "thousands",
+  "page": 148,
+  "quote": "Depreciation and amortization   484,990",
+  "value": 484990000.0,
+  "checks": [],
+  "retrieved_pages": [
+   148,
+   154,
+   92,
+   96,
+   109,
+   184,
+   111,
+   183
+  ]
+ },
+ "TKO-InterestExpense": {
+  "found": true,
+  "printed": "(202,724)",
+  "scale": "thousands",
+  "page": 148,
+  "quote": "Interest expense, net   (202,724)",
+  "value": -202724000.0,
+  "checks": [],
+  "retrieved_pages": [
+   148,
+   92,
+   96,
+   223,
+   232,
+   184,
+   122,
+   191
+  ]
+ },
+ "TKO-Goodwill": {
+  "found": true,
+  "printed": "8,444,886",
+  "scale": "thousands",
+  "page": 146,
+  "quote": "Goodwill   8,444,886",
+  "value": 8444886000.0,
+  "checks": [],
+  "retrieved_pages": [
+   146,
+   185,
+   181,
+   152,
+   148,
+   156,
+   209,
+   187
+  ]
+ },
+ "TKO-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "3,724,063",
+  "scale": "thousands",
+  "page": 146,
+  "quote": "Long-term debt   3,724,063",
+  "value": 3724063000.0,
+  "checks": [],
+  "retrieved_pages": [
+   146,
+   191,
+   107,
+   111,
+   111,
+   54,
+   147,
+   109
+  ]
+ },
+ "CRM-ResearchAndDevelopmentExpense": {
+  "found": true,
+  "printed": "5,993",
+  "scale": "millions",
+  "page": 85,
+  "quote": "Research and development 5,993",
+  "value": 5993000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   85,
+   65,
+   61,
+   90,
+   1,
+   91,
+   93,
+   128
+  ]
+ },
+ "CRM-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "(2,063)",
+  "scale": "millions",
+  "page": 85,
+  "quote": "Provision for income taxes (2,063)",
+  "value": -2063000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   85,
+   125,
+   91,
+   67,
+   126,
+   61,
+   86,
+   130
+  ]
+ },
+ "CRM-ShareBasedCompensation": {
+  "found": true,
+  "printed": "3,509",
+  "scale": "millions",
+  "page": 90,
+  "quote": "Stock-based compensation expense 3,509",
+  "value": 3509000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   90,
+   85,
+   68,
+   88,
+   61,
+   128,
+   123,
+   65
+  ]
+ },
+ "CRM-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "12,596",
+  "scale": "millions",
+  "page": 90,
+  "quote": "Repurchases of common stock (12,596)",
+  "value": 12596000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   51,
+   54,
+   124,
+   68,
+   90,
+   88,
+   70,
+   68
+  ]
+ },
+ "CRM-PaymentsOfDividends": {
+  "found": true,
+  "printed": "1,587",
+  "scale": "millions",
+  "page": 90,
+  "quote": "Payments of dividends and dividend equivalents",
+  "value": 1587000000.0,
+  "checks": [
+   "number not in the quote"
+  ],
+  "retrieved_pages": [
+   50,
+   125,
+   54,
+   88,
+   90,
+   68,
+   70,
+   91
+  ]
+ },
+ "CRM-Goodwill": {
+  "found": true,
+  "printed": "57,941",
+  "scale": "millions",
+  "page": 83,
+  "quote": "Goodwill 57,941 51,283",
+  "value": 57941000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   83,
+   119,
+   88,
+   118,
+   115,
+   62,
+   93,
+   51
+  ]
+ },
+ "CRM-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "10,439",
+  "scale": "millions",
+  "page": 120,
+  "quote": "Total noncurrent debt $ 10,439",
+  "value": 10439000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   83,
+   68,
+   68,
+   62,
+   120,
+   88,
+   41,
+   51
+  ]
+ },
+ "ADBE-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "1,604",
+  "scale": "millions",
+  "page": 112,
+  "quote": "Provision for income taxes $ 1,604",
+  "value": 1604000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   112,
+   79,
+   113,
+   68,
+   82,
+   78,
+   115,
+   80
+  ]
+ },
+ "ADBE-ShareBasedCompensation": {
+  "found": true,
+  "printed": "1,942",
+  "scale": "millions",
+  "page": 121,
+  "quote": "Total stock-based compensation costs included in our Consolidated Statements of Income for fiscal 2025, 2024 and 2023 were as follows:\n(in millions) 2025 2024 2023\nCost of revenue $ 122 $ 117 $ 115 \nResearch and development 1,010 932 874 \nSales and marketing 557 535 495 \nGeneral and administrative 253 249 234 \nTotal $ 1,942 $ 1,833 $ 1,718",
+  "value": 1942000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   82,
+   121,
+   113,
+   81,
+   116,
+   112,
+   120,
+   118
+  ]
+ },
+ "ADBE-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "11,281",
+  "scale": "millions",
+  "page": 122,
+  "quote": "Total 30.8 $ 11,281",
+  "value": 11281000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   122,
+   53,
+   82,
+   81,
+   73,
+   71,
+   70,
+   78
+  ]
+ },
+ "ADBE-Goodwill": {
+  "found": true,
+  "printed": "12,857",
+  "scale": "millions",
+  "page": 78,
+  "quote": "Goodwill 12,857",
+  "value": 12857000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   78,
+   110,
+   81,
+   102,
+   123,
+   100,
+   96,
+   108
+  ]
+ },
+ "INTC-ResearchAndDevelopmentExpense": {
+  "found": true,
+  "printed": "13,774",
+  "scale": "millions",
+  "page": 100,
+  "quote": "Research and development 13,774",
+  "value": 13774000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   100,
+   44,
+   47,
+   25,
+   64,
+   121,
+   148,
+   41
+  ]
+ },
+ "INTC-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "1,531",
+  "scale": "millions",
+  "page": 136,
+  "quote": "Total provision for (benefit from) taxes $ 1,531",
+  "value": 1531000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   136,
+   137,
+   50,
+   139,
+   100,
+   44,
+   138,
+   103
+  ]
+ },
+ "INTC-ShareBasedCompensation": {
+  "found": true,
+  "printed": "2,434",
+  "scale": "millions",
+  "page": 121,
+  "quote": "Share-based compensation $ 2,434",
+  "value": 2434000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   164,
+   121,
+   103,
+   137,
+   47,
+   105,
+   138,
+   156
+  ]
+ },
+ "INTC-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "(14,646)",
+  "scale": "millions",
+  "page": 103,
+  "quote": "Additions to property, plant and equipment (14,646)",
+  "value": -14646000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   52,
+   46,
+   130,
+   132,
+   102,
+   165,
+   55,
+   103
+  ]
+ },
+ "INTC-InterestExpenseNonoperating": {
+  "found": true,
+  "printed": "(1,091)",
+  "scale": "millions",
+  "page": 134,
+  "quote": "Interest expense (1,091)",
+  "value": -1091000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   134,
+   100,
+   44,
+   50,
+   121,
+   38,
+   101,
+   55
+  ]
+ },
+ "INTC-Goodwill": {
+  "found": true,
+  "printed": "23,912",
+  "scale": "millions",
+  "page": 102,
+  "quote": "Goodwill 23,912",
+  "value": 23912000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   102,
+   146,
+   135,
+   144,
+   151,
+   34,
+   97,
+   48
+  ]
+ },
+ "INTC-InventoryNet": {
+  "found": true,
+  "printed": "11,618",
+  "scale": "millions",
+  "page": 102,
+  "quote": "Inventories 11,618",
+  "value": 11618000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   102,
+   130,
+   97,
+   138,
+   46,
+   42,
+   1,
+   141
+  ]
+ },
+ "INTC-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "44,086",
+  "scale": "millions",
+  "page": 150,
+  "quote": "Total long-term debt $ 44,086",
+  "value": 44086000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   150,
+   102,
+   149,
+   83,
+   148,
+   151,
+   156,
+   32
+  ]
+ },
+ "INTC-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "4,995",
+  "scale": "millions",
+  "page": 1,
+  "quote": "4,995 million shares of common stock were outstanding as of January 16, 2026.",
+  "value": 4995000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   1,
+   102,
+   100,
+   126,
+   105,
+   164,
+   90,
+   32
+  ]
+ },
+ "C-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "5,373",
+  "scale": "millions",
+  "page": 159,
+  "quote": "Provision for income taxes 5,373",
+  "value": 5373000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   338,
+   159,
+   196,
+   219,
+   14,
+   221,
+   225,
+   165
+  ]
+ },
+ "C-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "13,250",
+  "scale": "millions",
+  "page": 14,
+  "quote": "Common share repurchases 13,250",
+  "value": 13250000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   11,
+   10,
+   345,
+   14,
+   162,
+   163,
+   166,
+   227
+  ]
+ },
+ "C-PaymentsOfDividends": {
+  "found": true,
+  "printed": "(5,372)",
+  "scale": "millions",
+  "page": 166,
+  "quote": "Dividends paid $ (5,372)",
+  "value": -5372000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   166,
+   338,
+   11,
+   267,
+   10,
+   164,
+   345,
+   14
+  ]
+ },
+ "C-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "(6,520)",
+  "scale": "millions",
+  "page": 165,
+  "quote": "Capital expenditures on premises and equipment and capitalized software",
+  "value": -6520000000.0,
+  "checks": [
+   "number not in the quote"
+  ],
+  "retrieved_pages": [
+   165,
+   159,
+   161,
+   4,
+   328,
+   339,
+   15,
+   338
+  ]
+ },
+ "C-DepreciationAmortizationAndAccretionNet": {
+  "found": true,
+  "printed": "4,373",
+  "scale": "millions",
+  "page": 165,
+  "quote": "Depreciation and amortization 4,373",
+  "value": 4373000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   165,
+   263,
+   161,
+   151,
+   223,
+   160,
+   61,
+   159
+  ]
+ },
+ "C-Goodwill": {
+  "found": true,
+  "printed": "19,098",
+  "scale": "millions",
+  "page": 161,
+  "quote": "Goodwill 19,098",
+  "value": 19098000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   161,
+   56,
+   262,
+   49,
+   148,
+   10,
+   162,
+   337
+  ]
+ },
+ "C-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "1,749,319,009",
+  "scale": "units",
+  "page": 1,
+  "quote": "Number of shares of Citigroup Inc. common stock outstanding on January 31, 2026: 1,749,319,009",
+  "value": 1749319009.0,
+  "checks": [],
+  "retrieved_pages": [
+   1,
+   162,
+   160,
+   56,
+   163,
+   226,
+   347,
+   1
+  ]
+ },
+ "USB-PaymentsOfDividendsCommonStock": {
+  "found": false,
+  "printed": null,
+  "scale": "units",
+  "page": null,
+  "quote": null,
+  "value": null,
+  "checks": [],
+  "retrieved_pages": [
+   183,
+   179,
+   53,
+   87,
+   145,
+   180,
+   107,
+   108
+  ]
+ },
+ "USB-Goodwill": {
+  "found": true,
+  "printed": "12,635",
+  "scale": "millions",
+  "page": 136,
+  "quote": "Goodwill $ 12,635",
+  "value": 12635000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   103,
+   93,
+   178,
+   89,
+   137,
+   94,
+   136,
+   89
+  ]
+ },
+ "USB-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "1,553,695,799",
+  "scale": "units",
+  "page": 2,
+  "quote": "Common Stock, $.01 par value per share 1,553,695,799",
+  "value": 1553695799.0,
+  "checks": [],
+  "retrieved_pages": [
+   183,
+   103,
+   107,
+   2,
+   1,
+   94,
+   53,
+   5
+  ]
+ },
+ "PNC-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "1,489",
+  "scale": "millions",
+  "page": 160,
+  "quote": "Income taxes 1,489",
+  "value": 1489000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   94,
+   286,
+   160,
+   291,
+   303,
+   164,
+   161,
+   308
+  ]
+ },
+ "PNC-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "(1,338)",
+  "scale": "millions",
+  "page": 165,
+  "quote": "Acquisition of treasury stock (1,338)",
+  "value": -1338000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   67,
+   165,
+   228,
+   70,
+   100,
+   153,
+   58,
+   201
+  ]
+ },
+ "PNC-PaymentsOfDividendsCommonStock": {
+  "found": false,
+  "printed": null,
+  "scale": "millions",
+  "page": null,
+  "quote": null,
+  "value": null,
+  "checks": [],
+  "retrieved_pages": [
+   165,
+   160,
+   241,
+   242,
+   228,
+   303,
+   70,
+   66
+  ]
+ },
+ "PNC-Goodwill": {
+  "found": true,
+  "printed": "10,959",
+  "scale": "millions",
+  "page": 162,
+  "quote": "Goodwill 10,959",
+  "value": 10959000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   162,
+   84,
+   228,
+   235,
+   4,
+   70,
+   311,
+   252
+  ]
+ },
+ "PNC-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "403,370,923",
+  "scale": "units",
+  "page": 1,
+  "quote": "Number of shares of registrant\u2019s common stock outstanding at February 3, 2026: 403,370,923",
+  "value": 403370923.0,
+  "checks": [],
+  "retrieved_pages": [
+   1,
+   162,
+   1,
+   228,
+   141,
+   337,
+   329,
+   253
+  ]
+ },
+ "BMY-ResearchAndDevelopmentExpense": {
+  "found": true,
+  "printed": "9,951",
+  "scale": "millions",
+  "page": 122,
+  "quote": "Research and development 9,951",
+  "value": 9951000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   122,
+   98,
+   93,
+   125,
+   17,
+   17,
+   178,
+   187
+  ]
+ },
+ "BMY-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "2,272",
+  "scale": "millions",
+  "page": 122,
+  "quote": "Income tax provision 2,272",
+  "value": 2272000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   122,
+   152,
+   96,
+   157,
+   178,
+   153,
+   98,
+   124
+  ]
+ },
+ "BMY-PaymentsOfDividends": {
+  "found": true,
+  "printed": "5,045",
+  "scale": "millions",
+  "page": 124,
+  "quote": "Dividends (5,045)",
+  "value": 5045000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   101,
+   180,
+   99,
+   124,
+   178,
+   183,
+   122,
+   6
+  ]
+ },
+ "BMY-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "(1,311)",
+  "scale": "millions",
+  "page": 124,
+  "quote": "Capital expenditures (1,311)",
+  "value": -1311000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   101,
+   124,
+   173,
+   150,
+   99,
+   98,
+   123,
+   3
+  ]
+ },
+ "BMY-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "4,011",
+  "scale": "millions",
+  "page": 124,
+  "quote": "Depreciation and amortization, net 4,011",
+  "value": 4011000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   124,
+   173,
+   122,
+   98,
+   150,
+   176,
+   93,
+   73
+  ]
+ },
+ "BMY-InterestExpenseNonoperating": {
+  "found": true,
+  "printed": "1,891",
+  "scale": "millions",
+  "page": 148,
+  "quote": "Interest expense $ 1,891",
+  "value": 1891000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   98,
+   148,
+   94,
+   172,
+   182,
+   122,
+   178,
+   99
+  ]
+ },
+ "BMY-Goodwill": {
+  "found": true,
+  "printed": "21,754",
+  "scale": "millions",
+  "page": 123,
+  "quote": "Goodwill 21,754",
+  "value": 21754000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   123,
+   176,
+   162,
+   98,
+   110,
+   3,
+   155,
+   79
+  ]
+ },
+ "BMY-InventoryNet": {
+  "found": true,
+  "printed": "4,340",
+  "scale": "millions",
+  "page": 173,
+  "quote": "Total inventories $ 4,340",
+  "value": 4340000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   123,
+   173,
+   178,
+   98,
+   3,
+   162,
+   85,
+   124
+  ]
+ },
+ "BMY-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "42,850",
+  "scale": "millions",
+  "page": 123,
+  "quote": "Long-term debt 42,850",
+  "value": 42850000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   123,
+   99,
+   170,
+   172,
+   101,
+   167,
+   168,
+   166
+  ]
+ },
+ "BMY-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "2,036,473,705",
+  "scale": "units",
+  "page": 2,
+  "quote": "At February 4, 2026, there were 2,036,473,705 shares of common stock outstanding.",
+  "value": 2036473705.0,
+  "checks": [],
+  "retrieved_pages": [
+   2,
+   159,
+   123,
+   99,
+   1,
+   180,
+   69,
+   188
+  ]
+ },
+ "AMGN-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "1,265",
+  "scale": "millions",
+  "page": 142,
+  "quote": "Provision for income taxes 1,265",
+  "value": 1265000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   142,
+   164,
+   108,
+   156,
+   185,
+   168,
+   146,
+   143
+  ]
+ },
+ "AMGN-PaymentsOfDividendsCommonStock": {
+  "found": true,
+  "printed": "5,124",
+  "scale": "millions",
+  "page": 146,
+  "quote": "Dividends paid (5,124)",
+  "value": 5124000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   145,
+   146,
+   95,
+   111,
+   184,
+   179,
+   114,
+   93
+  ]
+ },
+ "AMGN-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "1,858",
+  "scale": "millions",
+  "page": 146,
+  "quote": "Purchases of property, plant and equipment (1,858)",
+  "value": 1858000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   95,
+   146,
+   144,
+   175,
+   114,
+   149,
+   209,
+   152
+  ]
+ },
+ "AMGN-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "5,167",
+  "scale": "millions",
+  "page": 146,
+  "quote": "Depreciation, amortization and other 5,167",
+  "value": 5167000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   146,
+   156,
+   175,
+   177,
+   209,
+   147,
+   176,
+   144
+  ]
+ },
+ "AMGN-Goodwill": {
+  "found": true,
+  "printed": "18,680",
+  "scale": "millions",
+  "page": 144,
+  "quote": "Goodwill 18,680",
+  "value": 18680000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   144,
+   176,
+   209,
+   145,
+   108,
+   147,
+   159,
+   160
+  ]
+ },
+ "AMGN-InventoryNet": {
+  "found": true,
+  "printed": "6,225",
+  "scale": "millions",
+  "page": 144,
+  "quote": "Inventories 6,225",
+  "value": 6225000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   144,
+   175,
+   146,
+   209,
+   159,
+   160,
+   114,
+   147
+  ]
+ },
+ "AMGN-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "50,005",
+  "scale": "millions",
+  "page": 144,
+  "quote": "Long-term debt 50,005",
+  "value": 50005000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   144,
+   181,
+   111,
+   112,
+   180,
+   184,
+   190,
+   209
+  ]
+ },
+ "AMGN-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "539,067,675",
+  "scale": "units",
+  "page": 2,
+  "quote": "539,067,675",
+  "value": 539067675.0,
+  "checks": [],
+  "retrieved_pages": [
+   144,
+   145,
+   2,
+   1,
+   91,
+   60,
+   49,
+   127
+  ]
+ },
+ "CVS-PaymentsOfDividends": {
+  "found": true,
+  "printed": "3,397",
+  "scale": "millions",
+  "page": 176,
+  "quote": "Dividends paid (3,397)",
+  "value": 3397000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   265,
+   120,
+   153,
+   152,
+   176,
+   178,
+   1,
+   173
+  ]
+ },
+ "CVS-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "2,832",
+  "scale": "millions",
+  "page": 176,
+  "quote": "Purchases of property and equipment (2,832)",
+  "value": 2832000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   146,
+   176,
+   187,
+   174,
+   189,
+   235,
+   280,
+   236
+  ]
+ },
+ "CVS-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "4,606",
+  "scale": "millions",
+  "page": 177,
+  "quote": "Depreciation and amortization 4,606",
+  "value": 4606000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   177,
+   280,
+   257,
+   187,
+   133,
+   234,
+   209,
+   281
+  ]
+ },
+ "CVS-InterestExpenseNonoperating": {
+  "found": true,
+  "printed": "(3,119)",
+  "scale": "millions",
+  "page": 172,
+  "quote": "Interest expense (3,119)",
+  "value": -3119000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   130,
+   258,
+   172,
+   280,
+   128,
+   176,
+   173,
+   235
+  ]
+ },
+ "CVS-Goodwill": {
+  "found": true,
+  "printed": "85,478",
+  "scale": "millions",
+  "page": 174,
+  "quote": "Goodwill 85,478",
+  "value": 85478000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   174,
+   232,
+   177,
+   234,
+   133,
+   164,
+   141,
+   172
+  ]
+ },
+ "CVS-InventoryNet": {
+  "found": true,
+  "printed": "19,246",
+  "scale": "millions",
+  "page": 174,
+  "quote": "Inventories 19,246",
+  "value": 19246000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   174,
+   160,
+   186,
+   177,
+   257,
+   181,
+   207,
+   1
+  ]
+ },
+ "CVS-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "1,272,211,063",
+  "scale": "units",
+  "page": 1,
+  "quote": "As of February 4, 2026, the registrant had 1,272,211,063 shares of common stock outstanding.",
+  "value": 1272211063.0,
+  "checks": [],
+  "retrieved_pages": [
+   1,
+   1,
+   174,
+   178,
+   291,
+   267,
+   120,
+   122
+  ]
+ },
+ "COP-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "4,668",
+  "scale": "millions",
+  "page": 93,
+  "quote": "Income tax provision (bene\ufb01t) 4,668",
+  "value": 4668000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   93,
+   52,
+   155,
+   161,
+   168,
+   189,
+   160,
+   159
+  ]
+ },
+ "COP-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "(5,018)",
+  "scale": "millions",
+  "page": 96,
+  "quote": "Repurchase of company common stock (5,018)",
+  "value": -5018000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   42,
+   44,
+   134,
+   96,
+   97,
+   95,
+   200,
+   75
+  ]
+ },
+ "COP-PaymentsOfDividendsCommonStock": {
+  "found": true,
+  "printed": "(3,995)",
+  "scale": "millions",
+  "page": 97,
+  "quote": "Ordinary ($3.18 per share of common stock) (3,995)",
+  "value": -3995000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   44,
+   42,
+   97,
+   49,
+   52,
+   65,
+   195,
+   68
+  ]
+ },
+ "COP-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "11,500",
+  "scale": "millions",
+  "page": 93,
+  "quote": "Depreciation, depletion and amortization 11,500",
+  "value": 11500000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   93,
+   52,
+   96,
+   91,
+   189,
+   199,
+   136,
+   165
+  ]
+ },
+ "COP-InventoryNet": {
+  "found": true,
+  "printed": "1,873",
+  "scale": "millions",
+  "page": 95,
+  "quote": "Inventories 1,873",
+  "value": 1873000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   95,
+   103,
+   97,
+   75,
+   65,
+   127,
+   195,
+   68
+  ]
+ },
+ "COP-EntityCommonStockSharesOutstanding": {
+  "found": false,
+  "printed": null,
+  "scale": "units",
+  "page": null,
+  "quote": null,
+  "value": null,
+  "checks": [],
+  "retrieved_pages": [
+   95,
+   134,
+   1,
+   97,
+   42,
+   105,
+   87,
+   115
+  ]
+ },
+ "DE-ResearchAndDevelopmentExpense": {
+  "found": true,
+  "printed": "2,311",
+  "scale": "millions",
+  "page": 100,
+  "quote": "Research and development expenses  2,311",
+  "value": 2311000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   100,
+   97,
+   91,
+   147,
+   1,
+   103,
+   130,
+   105
+  ]
+ },
+ "DE-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "1,259",
+  "scale": "millions",
+  "page": 100,
+  "quote": "Provision for income taxes  1,259",
+  "value": 1259000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   100,
+   144,
+   144,
+   101,
+   103,
+   147,
+   68,
+   95
+  ]
+ },
+ "DE-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "1,138",
+  "scale": "millions",
+  "page": 103,
+  "quote": "Repurchases of common stock",
+  "value": 1138000000.0,
+  "checks": [
+   "number not in the quote"
+  ],
+  "retrieved_pages": [
+   171,
+   103,
+   105,
+   55,
+   96,
+   172,
+   77,
+   102
+  ]
+ },
+ "DE-PaymentsOfDividendsCommonStock": {
+  "found": true,
+  "printed": "(1,720)",
+  "scale": "millions",
+  "page": 103,
+  "quote": "Dividends paid  (1,720)",
+  "value": -1720000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   100,
+   105,
+   103,
+   198,
+   166,
+   97,
+   101,
+   174
+  ]
+ },
+ "DE-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "1,360",
+  "scale": "millions",
+  "page": 103,
+  "quote": "Purchases of property and equipment  (1,360)",
+  "value": 1360000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   77,
+   103,
+   171,
+   165,
+   102,
+   189,
+   195,
+   130
+  ]
+ },
+ "DE-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "2,229",
+  "scale": "millions",
+  "page": 103,
+  "quote": "Depreciation and amortization  2,229",
+  "value": 2229000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   103,
+   95,
+   147,
+   183,
+   157,
+   165,
+   165,
+   147
+  ]
+ },
+ "DE-InterestExpense": {
+  "found": true,
+  "printed": "3,170",
+  "scale": "millions",
+  "page": 100,
+  "quote": "Interest expense  3,170",
+  "value": 3170000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   100,
+   97,
+   91,
+   68,
+   105,
+   74,
+   195,
+   103
+  ]
+ },
+ "DE-Goodwill": {
+  "found": true,
+  "printed": "4,188",
+  "scale": "millions",
+  "page": 102,
+  "quote": "Goodwill  4,188",
+  "value": 4188000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   102,
+   93,
+   165,
+   147,
+   105,
+   108,
+   157,
+   189
+  ]
+ },
+ "DE-InventoryNet": {
+  "found": true,
+  "printed": "7,406",
+  "scale": "millions",
+  "page": 102,
+  "quote": "Inventories $ 7,406 $ 7,093",
+  "value": 7406000000.0,
+  "checks": [
+   "quote not found on the cited page"
+  ],
+  "retrieved_pages": [
+   102,
+   165,
+   93,
+   165,
+   97,
+   157,
+   103,
+   108
+  ]
+ },
+ "DE-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "270,445,437",
+  "scale": "units",
+  "page": 1,
+  "quote": "At November 28, 2025, 270,445,437 shares of common stock, $1 par value, of the registrant were outstanding.",
+  "value": 270445437.0,
+  "checks": [
+   "quote not found on the cited page"
+  ],
+  "retrieved_pages": [
+   171,
+   102,
+   174,
+   100,
+   1,
+   105,
+   55,
+   53
+  ]
+ },
+ "LMT-ResearchAndDevelopmentExpense": {
+  "found": true,
+  "printed": "2.0",
+  "scale": "billions",
+  "page": 102,
+  "quote": "Company-funded R&D costs charged to operating costs totaled $2.0 billion, $1.6 billion and $1.5 billion in 2025, 2024 and 2023.",
+  "value": 2000000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   102,
+   102,
+   90,
+   89,
+   86,
+   1,
+   3,
+   114
+  ]
+ },
+ "LMT-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "3.0",
+  "scale": "billions",
+  "page": 71,
+  "quote": "During 2025, we paid $3.0 billion to repurchase 6.6 million shares of our common stock",
+  "value": 3000000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   89,
+   90,
+   71,
+   48,
+   142,
+   55,
+   3,
+   113
+  ]
+ },
+ "LMT-PaymentsOfDividendsCommonStock": {
+  "found": true,
+  "printed": "(3,131)",
+  "scale": "millions",
+  "page": 89,
+  "quote": "Dividends paid (3,131)",
+  "value": -3131000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   89,
+   90,
+   142,
+   86,
+   131,
+   59,
+   3,
+   87
+  ]
+ },
+ "LMT-DepreciationAndAmortization": {
+  "found": true,
+  "printed": "1,687",
+  "scale": "millions",
+  "page": 89,
+  "quote": "Depreciation and amortization 1,687",
+  "value": 1687000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   89,
+   123,
+   86,
+   87,
+   107,
+   90,
+   59,
+   3
+  ]
+ },
+ "LMT-InterestExpenseNonoperating": {
+  "found": true,
+  "printed": "(1,118)",
+  "scale": "millions",
+  "page": 86,
+  "quote": "Interest expense (1,118)",
+  "value": -1118000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   86,
+   59,
+   55,
+   131,
+   87,
+   3,
+   89,
+   71
+  ]
+ },
+ "LMT-Goodwill": {
+  "found": true,
+  "printed": "11,314",
+  "scale": "millions",
+  "page": 88,
+  "quote": "Goodwill 11,314",
+  "value": 11314000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   88,
+   36,
+   79,
+   123,
+   79,
+   90,
+   91,
+   107
+  ]
+ },
+ "LMT-InventoryNet": {
+  "found": true,
+  "printed": "3,524",
+  "scale": "millions",
+  "page": 88,
+  "quote": "Inventories 3,524",
+  "value": 3524000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   88,
+   122,
+   89,
+   90,
+   121,
+   3,
+   123,
+   1
+  ]
+ },
+ "LMT-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "20,532",
+  "scale": "millions",
+  "page": 129,
+  "quote": "Long-term debt, net $ 20,532",
+  "value": 20532000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   88,
+   129,
+   71,
+   151,
+   82,
+   131,
+   89,
+   90
+  ]
+ },
+ "LMT-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "230,080,240",
+  "scale": "units",
+  "page": 1,
+  "quote": "There were 230,080,240 shares of our common stock, $1 par value per share, outstanding as of January 26, 2026.",
+  "value": 230080240.0,
+  "checks": [],
+  "retrieved_pages": [
+   1,
+   113,
+   142,
+   88,
+   47,
+   90,
+   37,
+   149
+  ]
+ },
+ "F-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "(3,668)",
+  "scale": "millions",
+  "page": 160,
+  "quote": "Provision for/(Benefit from) income taxes (Note 7) (362) 1,339 (3,668)",
+  "value": -3668000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   184,
+   183,
+   120,
+   160,
+   186,
+   91,
+   162,
+   119
+  ]
+ },
+ "F-PaymentsOfDividendsCommonStock": {
+  "found": true,
+  "printed": "2,989",
+  "scale": "millions",
+  "page": 162,
+  "quote": "Cash payments for dividends and dividend equivalents",
+  "value": 2989000000.0,
+  "checks": [
+   "number not in the quote"
+  ],
+  "retrieved_pages": [
+   103,
+   73,
+   201,
+   163,
+   123,
+   102,
+   162,
+   186
+  ]
+ },
+ "F-DepreciationDepletionAndAmortization": {
+  "found": false,
+  "printed": null,
+  "scale": "units",
+  "page": null,
+  "quote": null,
+  "value": null,
+  "checks": [],
+  "retrieved_pages": [
+   102,
+   200,
+   162,
+   122,
+   185,
+   240,
+   179,
+   199
+  ]
+ },
+ "F-InterestExpenseNonoperating": {
+  "found": true,
+  "printed": "1,254",
+  "scale": "millions",
+  "page": 160,
+  "quote": "Interest expense on Company debt excluding Ford Credit 1,254",
+  "value": 1254000000.0,
+  "checks": [
+   "quote not found on the cited page"
+  ],
+  "retrieved_pages": [
+   160,
+   120,
+   219,
+   216,
+   3,
+   110,
+   91,
+   102
+  ]
+ },
+ "F-InventoryNet": {
+  "found": true,
+  "printed": "15,285",
+  "scale": "millions",
+  "page": 199,
+  "quote": "Total inventories $ 15,285",
+  "value": 15285000000.0,
+  "checks": [
+   "quote not found on the cited page"
+  ],
+  "retrieved_pages": [
+   199,
+   161,
+   121,
+   243,
+   102,
+   201,
+   3,
+   123
+  ]
+ },
+ "LOW-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "2,093",
+  "scale": "millions",
+  "page": 64,
+  "quote": "Income tax provision 2,093",
+  "value": 2093000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   64,
+   104,
+   111,
+   46,
+   65,
+   102,
+   67,
+   66
+  ]
+ },
+ "LOW-PaymentsOfDividendsCommonStock": {
+  "found": true,
+  "printed": "2,636",
+  "scale": "millions",
+  "page": 41,
+  "quote": "Cash dividend payments 2,636",
+  "value": 2636000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   66,
+   67,
+   41,
+   107,
+   50,
+   76,
+   106,
+   68
+  ]
+ },
+ "LOW-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "(2,213)",
+  "scale": "millions",
+  "page": 67,
+  "quote": "Capital expenditures (2,213)",
+  "value": -2213000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   67,
+   48,
+   41,
+   88,
+   66,
+   106,
+   109,
+   65
+  ]
+ },
+ "LOW-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "2,194",
+  "scale": "millions",
+  "page": 67,
+  "quote": "Depreciation and amortization 2,194",
+  "value": 2194000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   64,
+   67,
+   109,
+   88,
+   89,
+   90,
+   65,
+   43
+  ]
+ },
+ "LOW-Goodwill": {
+  "found": true,
+  "printed": "3,945",
+  "scale": "millions",
+  "page": 65,
+  "quote": "Goodwill 3,945",
+  "value": 3945000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   65,
+   88,
+   66,
+   80,
+   68,
+   82,
+   106,
+   89
+  ]
+ },
+ "LOW-InventoryNet": {
+  "found": true,
+  "printed": "17,300",
+  "scale": "millions",
+  "page": 65,
+  "quote": "Merchandise inventory - net 17,300",
+  "value": 17300000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   65,
+   70,
+   67,
+   52,
+   106,
+   66,
+   82,
+   1
+  ]
+ },
+ "LOW-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "560,063,429",
+  "scale": "units",
+  "page": 1,
+  "quote": "Common Stock, $0.50 par value 560,063,429",
+  "value": 560063429.0,
+  "checks": [],
+  "retrieved_pages": [
+   106,
+   65,
+   1,
+   1,
+   93,
+   66,
+   39,
+   105
+  ]
+ },
+ "NFLX-ResearchAndDevelopmentExpense": {
+  "found": true,
+  "printed": "3,391,390",
+  "scale": "thousands",
+  "page": 41,
+  "quote": "Technology and development $ 3,391,390",
+  "value": 3391390000.0,
+  "checks": [],
+  "retrieved_pages": [
+   41,
+   63,
+   104,
+   40,
+   108,
+   1,
+   101,
+   37
+  ]
+ },
+ "NFLX-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "(1,741,351)",
+  "scale": "thousands",
+  "page": 63,
+  "quote": "Provision for income taxes (1,741,351)",
+  "value": -1741351000.0,
+  "checks": [],
+  "retrieved_pages": [
+   63,
+   104,
+   43,
+   100,
+   99,
+   101,
+   64,
+   37
+  ]
+ },
+ "NFLX-ShareBasedCompensation": {
+  "found": true,
+  "printed": "368,449",
+  "scale": "thousands",
+  "page": 96,
+  "quote": "Total stock-based compensation expense $ 368,449",
+  "value": 368449000.0,
+  "checks": [],
+  "retrieved_pages": [
+   65,
+   67,
+   96,
+   101,
+   77,
+   94,
+   41,
+   76
+  ]
+ },
+ "NFLX-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "9.1",
+  "scale": "billions",
+  "page": 46,
+  "quote": "for an aggregate amount of $9.1 billion",
+  "value": 9100000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   35,
+   46,
+   48,
+   98,
+   67,
+   65,
+   96,
+   44
+  ]
+ },
+ "NFLX-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "(688,220)",
+  "scale": "thousands",
+  "page": 65,
+  "quote": "Purchases of property and equipment (688,220)",
+  "value": -688220000.0,
+  "checks": [],
+  "retrieved_pages": [
+   65,
+   66,
+   79,
+   48,
+   104,
+   108,
+   1,
+   82
+  ]
+ },
+ "NFLX-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "333,389",
+  "scale": "thousands",
+  "page": 65,
+  "quote": "Depreciation and amortization of property, equipment and intangibles 333,389",
+  "value": 333389000.0,
+  "checks": [],
+  "retrieved_pages": [
+   65,
+   104,
+   79,
+   40,
+   101,
+   72,
+   108,
+   68
+  ]
+ },
+ "NFLX-InterestExpenseNonoperating": {
+  "found": true,
+  "printed": "776,510",
+  "scale": "thousands",
+  "page": 41,
+  "quote": "Interest expense $ 776,510",
+  "value": 776510000.0,
+  "checks": [],
+  "retrieved_pages": [
+   63,
+   104,
+   41,
+   99,
+   108,
+   1,
+   90,
+   64
+  ]
+ },
+ "NFLX-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "13,463,971",
+  "scale": "thousands",
+  "page": 66,
+  "quote": "Long-term debt 13,463,971",
+  "value": 13463971000.0,
+  "checks": [],
+  "retrieved_pages": [
+   66,
+   44,
+   25,
+   52,
+   46,
+   83,
+   90,
+   82
+  ]
+ },
+ "NFLX-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "4,222,162,150",
+  "scale": "units",
+  "page": 1,
+  "quote": "As of December 31, 2025, there were 4,222,162,150 shares of the registrant\u2019s common stock, par value $0.001, outstanding.",
+  "value": 4222162150.0,
+  "checks": [],
+  "retrieved_pages": [
+   63,
+   66,
+   1,
+   94,
+   67,
+   1,
+   77,
+   68
+  ]
+ },
+ "DKS-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "292,734",
+  "scale": "thousands",
+  "page": 89,
+  "quote": "Provision for income taxes 292,734",
+  "value": 292734000.0,
+  "checks": [],
+  "retrieved_pages": [
+   89,
+   129,
+   91,
+   128,
+   124,
+   96,
+   128,
+   93
+  ]
+ },
+ "DKS-ShareBasedCompensation": {
+  "found": true,
+  "printed": "123,667",
+  "scale": "thousands",
+  "page": 129,
+  "quote": "Total stock-based compensation expense $ 123,667",
+  "value": 123667000.0,
+  "checks": [],
+  "retrieved_pages": [
+   96,
+   129,
+   132,
+   131,
+   128,
+   1,
+   69,
+   148
+  ]
+ },
+ "DKS-PaymentsForRepurchaseOfCommonStock": {
+  "found": false,
+  "printed": null,
+  "scale": "units",
+  "page": null,
+  "quote": null,
+  "value": null,
+  "checks": [],
+  "retrieved_pages": [
+   67,
+   52,
+   67,
+   138,
+   58,
+   128,
+   70,
+   1
+  ]
+ },
+ "DKS-PaymentsOfDividendsCommonStock": {
+  "found": true,
+  "printed": "413,853",
+  "scale": "thousands",
+  "page": 96,
+  "quote": "Cash dividends paid to stockholders",
+  "value": 413853000.0,
+  "checks": [
+   "number not in the quote"
+  ],
+  "retrieved_pages": [
+   69,
+   142,
+   138,
+   96,
+   51,
+   89,
+   58,
+   91
+  ]
+ },
+ "DKS-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "(1,137,176)",
+  "scale": "thousands",
+  "page": 96,
+  "quote": "Capital expenditures (1,137,176)",
+  "value": -1137176000.0,
+  "checks": [],
+  "retrieved_pages": [
+   141,
+   67,
+   96,
+   69,
+   112,
+   93,
+   99,
+   113
+  ]
+ },
+ "DKS-DepreciationAndAmortization": {
+  "found": true,
+  "printed": "488,630",
+  "scale": "thousands",
+  "page": 96,
+  "quote": "Depreciation and amortization 488,630",
+  "value": 488630000.0,
+  "checks": [],
+  "retrieved_pages": [
+   96,
+   141,
+   99,
+   128,
+   112,
+   1,
+   123,
+   113
+  ]
+ },
+ "DKS-InterestExpense": {
+  "found": true,
+  "printed": "64,263",
+  "scale": "thousands",
+  "page": 89,
+  "quote": "Interest expense 64,263",
+  "value": 64263000.0,
+  "checks": [],
+  "retrieved_pages": [
+   89,
+   140,
+   120,
+   139,
+   135,
+   69,
+   112,
+   96
+  ]
+ },
+ "DKS-Goodwill": {
+  "found": true,
+  "printed": "864,047",
+  "scale": "thousands",
+  "page": 93,
+  "quote": "Goodwill 864,047",
+  "value": 864047000.0,
+  "checks": [],
+  "retrieved_pages": [
+   93,
+   113,
+   110,
+   128,
+   72,
+   139,
+   123,
+   111
+  ]
+ },
+ "DKS-InventoryNet": {
+  "found": true,
+  "printed": "4,907,823",
+  "scale": "thousands",
+  "page": 93,
+  "quote": "Inventories, net 4,907,823",
+  "value": 4907823000.0,
+  "checks": [],
+  "retrieved_pages": [
+   93,
+   99,
+   110,
+   96,
+   70,
+   151,
+   148,
+   1
+  ]
+ },
+ "PENN-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "133,546,273",
+  "scale": "units",
+  "page": 3,
+  "quote": "As of February 23, 2026, the number of shares of the registrant\u2019s common stock outstanding was 133,546,273",
+  "value": 133546273.0,
+  "checks": [],
+  "retrieved_pages": [
+   165,
+   98,
+   3,
+   100,
+   102,
+   1,
+   158,
+   160
+  ]
+ },
+ "CHDN-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "69,696,376",
+  "scale": "units",
+  "page": 2,
+  "quote": "As of February 19, 2026, 69,696,376 shares of the Registrant\u2019s Common Stock were outstanding.",
+  "value": 69696376.0,
+  "checks": [],
+  "retrieved_pages": [
+   74,
+   2,
+   75,
+   1,
+   73,
+   130,
+   102,
+   104
+  ]
+ },
+ "YETI-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "(54,894)",
+  "scale": "thousands",
+  "page": 74,
+  "quote": "Income tax expense (54,894)",
+  "value": -54894000.0,
+  "checks": [],
+  "retrieved_pages": [
+   106,
+   104,
+   74,
+   108,
+   77,
+   110,
+   107,
+   56
+  ]
+ },
+ "YETI-ShareBasedCompensation": {
+  "found": true,
+  "printed": "47,688",
+  "scale": "thousands",
+  "page": 77,
+  "quote": "Stock-based compensation 47,688",
+  "value": 47688000.0,
+  "checks": [],
+  "retrieved_pages": [
+   77,
+   98,
+   76,
+   110,
+   100,
+   106,
+   109,
+   56
+  ]
+ },
+ "YETI-PaymentsForRepurchaseOfCommonStock": {
+  "found": true,
+  "printed": "297,780",
+  "scale": "thousands",
+  "page": 77,
+  "quote": "Repurchase of common stock (297,780)",
+  "value": 297780000.0,
+  "checks": [],
+  "retrieved_pages": [
+   101,
+   101,
+   77,
+   76,
+   62,
+   50,
+   60,
+   118
+  ]
+ },
+ "YETI-PaymentsToAcquirePropertyPlantAndEquipment": {
+  "found": true,
+  "printed": "42,667",
+  "scale": "thousands",
+  "page": 77,
+  "quote": "Purchases of property and equipment (42,667)",
+  "value": 42667000.0,
+  "checks": [],
+  "retrieved_pages": [
+   77,
+   62,
+   90,
+   63,
+   96,
+   73,
+   118,
+   92
+  ]
+ },
+ "YETI-DepreciationDepletionAndAmortization": {
+  "found": true,
+  "printed": "54,232",
+  "scale": "thousands",
+  "page": 77,
+  "quote": "Depreciation and amortization 54,232",
+  "value": 54232000.0,
+  "checks": [],
+  "retrieved_pages": [
+   110,
+   77,
+   92,
+   56,
+   118,
+   95,
+   63,
+   79
+  ]
+ },
+ "YETI-Goodwill": {
+  "found": true,
+  "printed": "72,308",
+  "scale": "thousands",
+  "page": 73,
+  "quote": "Goodwill 72,308",
+  "value": 72308000.0,
+  "checks": [],
+  "retrieved_pages": [
+   73,
+   76,
+   79,
+   89,
+   118,
+   101,
+   107,
+   88
+  ]
+ },
+ "YETI-InventoryNet": {
+  "found": true,
+  "printed": "290,611",
+  "scale": "thousands",
+  "page": 73,
+  "quote": "Inventory 290,611",
+  "value": 290611000.0,
+  "checks": [],
+  "retrieved_pages": [
+   73,
+   84,
+   79,
+   77,
+   118,
+   106,
+   76,
+   95
+  ]
+ },
+ "YETI-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "68,301",
+  "scale": "thousands",
+  "page": 73,
+  "quote": "Long-term debt, net of current portion 68,301",
+  "value": 68301000.0,
+  "checks": [],
+  "retrieved_pages": [
+   73,
+   96,
+   62,
+   60,
+   92,
+   69,
+   97,
+   39
+  ]
+ },
+ "YETI-EntityCommonStockSharesOutstanding": {
+  "found": true,
+  "printed": "75,268,367",
+  "scale": "units",
+  "page": 1,
+  "quote": "75,268,367 shares of common stock outstanding",
+  "value": 75268367.0,
+  "checks": [],
+  "retrieved_pages": [
+   1,
+   109,
+   74,
+   73,
+   76,
+   101,
+   101,
+   51
+  ]
+ },
+ "UAA-LongTermDebtNoncurrent": {
+  "found": true,
+  "printed": "590,609",
+  "scale": "thousands",
+  "page": 127,
+  "quote": "Non-current portion of long-term debt $ 590,609",
+  "value": 590609000.0,
+  "checks": [],
+  "retrieved_pages": [
+   127,
+   76,
+   94,
+   149,
+   131,
+   103,
+   57,
+   93
+  ]
+ },
+ "USB-IncomeTaxExpenseBenefit": {
+  "found": true,
+  "printed": "1,921",
+  "scale": "millions",
+  "page": 150,
+  "quote": "Total income tax expense (benefit) $ 1,921",
+  "value": 1921000000.0,
+  "checks": [],
+  "retrieved_pages": [
+   58,
+   151,
+   106,
+   150,
+   53,
+   89,
+   179,
+   89
+  ]
+ }
+}

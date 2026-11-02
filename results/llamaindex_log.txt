@@ -1,0 +1,248 @@
+MSFT: 136 pages -> 145 nodes
+NVDA: 103 pages -> 124 nodes
+AMZN: 114 pages -> 132 nodes
+JPM: 462 pages -> 570 nodes
+GS: 486 pages -> 591 nodes
+JNJ: 128 pages -> 149 nodes
+UNH: 116 pages -> 135 nodes
+PFE: 202 pages -> 280 nodes
+XOM: 199 pages -> 227 nodes
+CAT: 193 pages -> 216 nodes
+KO: 211 pages -> 265 nodes
+WMT: 116 pages -> 147 nodes
+COST: 82 pages -> 83 nodes
+DIS: 192 pages -> 217 nodes
+NKE: 104 pages -> 130 nodes
+LULU: 125 pages -> 142 nodes
+DKNG: 186 pages -> 240 nodes
+MSGS: 174 pages -> 206 nodes
+PLNT: 177 pages -> 211 nodes
+GOOGL: 153 pages -> 168 nodes
+META: 207 pages -> 241 nodes
+ORCL: 188 pages -> 213 nodes
+BAC: 273 pages -> 399 nodes
+WFC: 287 pages -> 380 nodes
+MS: 353 pages -> 478 nodes
+LLY: 121 pages -> 133 nodes
+MRK: 184 pages -> 243 nodes
+ABT: 117 pages -> 133 nodes
+CVX: 127 pages -> 174 nodes
+BA: 172 pages -> 172 nodes
+UPS: 207 pages -> 215 nodes
+PEP: 214 pages -> 222 nodes
+HD: 122 pages -> 145 nodes
+TGT: 81 pages -> 92 nodes
+MCD: 92 pages -> 115 nodes
+UAA: 177 pages -> 193 nodes
+PTON: 180 pages -> 226 nodes
+LYV: 122 pages -> 147 nodes
+TKO: 235 pages -> 284 nodes
+CRM: 130 pages -> 160 nodes
+ADBE: 140 pages -> 149 nodes
+INTC: 187 pages -> 229 nodes
+C: 342 pages -> 472 nodes
+USB: 191 pages -> 270 nodes
+PNC: 338 pages -> 395 nodes
+BMY: 214 pages -> 249 nodes
+AMGN: 191 pages -> 246 nodes
+CVS: 298 pages -> 344 nodes
+COP: 202 pages -> 226 nodes
+DE: 208 pages -> 248 nodes
+LMT: 136 pages -> 172 nodes
+F: 234 pages -> 272 nodes
+LOW: 126 pages -> 138 nodes
+SBUX: 135 pages -> 152 nodes
+NFLX: 110 pages -> 136 nodes
+DKS: 143 pages -> 168 nodes
+PENN: 191 pages -> 244 nodes
+CHDN: 144 pages -> 167 nodes
+YETI: 117 pages -> 136 nodes
+li_default retrieval: AAPL done (10/434)
+li_default retrieval: MSFT done (21/434)
+li_default retrieval: NVDA done (29/434)
+li_default retrieval: AMZN done (37/434)
+li_default retrieval: JPM done (44/434)
+li_default retrieval: GS done (53/434)
+li_default retrieval: JNJ done (62/434)
+li_default retrieval: UNH done (71/434)
+li_default retrieval: PFE done (78/434)
+li_default retrieval: XOM done (85/434)
+li_default retrieval: CAT done (95/434)
+li_default retrieval: KO done (103/434)
+li_default retrieval: WMT done (113/434)
+li_default retrieval: COST done (120/434)
+li_default retrieval: DIS done (131/434)
+li_default retrieval: NKE done (133/434)
+li_default retrieval: LULU done (141/434)
+li_default retrieval: DKNG done (147/434)
+li_default retrieval: MSGS done (154/434)
+li_default retrieval: PLNT done (163/434)
+li_default retrieval: GOOGL done (171/434)
+li_default retrieval: META done (181/434)
+li_default retrieval: ORCL done (189/434)
+li_default retrieval: BAC done (195/434)
+li_default retrieval: WFC done (201/434)
+li_default retrieval: MS done (207/434)
+li_default retrieval: LLY done (215/434)
+li_default retrieval: MRK done (225/434)
+li_default retrieval: ABT done (233/434)
+li_default retrieval: CVX done (240/434)
+li_default retrieval: BA done (245/434)
+li_default retrieval: UPS done (252/434)
+li_default retrieval: PEP done (261/434)
+li_default retrieval: HD done (268/434)
+li_default retrieval: TGT done (274/434)
+li_default retrieval: MCD done (282/434)
+li_default retrieval: UAA done (290/434)
+li_default retrieval: LYV done (299/434)
+li_default retrieval: TKO done (307/434)
+li_default retrieval: CRM done (314/434)
+li_default retrieval: ADBE done (318/434)
+li_default retrieval: INTC done (327/434)
+li_default retrieval: C done (334/434)
+li_default retrieval: USB done (338/434)
+li_default retrieval: PNC done (343/434)
+li_default retrieval: BMY done (353/434)
+li_default retrieval: AMGN done (361/434)
+li_default retrieval: CVS done (368/434)
+li_default retrieval: COP done (374/434)
+li_default retrieval: DE done (384/434)
+li_default retrieval: LMT done (393/434)
+li_default retrieval: F done (398/434)
+li_default retrieval: LOW done (405/434)
+li_default retrieval: NFLX done (414/434)
+li_default retrieval: DKS done (423/434)
+li_default retrieval: PENN done (424/434)
+li_default retrieval: CHDN done (425/434)
+li_default retrieval: YETI done (434/434)
+li_rank retrieval: AAPL done (10/434)
+li_rank retrieval: MSFT done (21/434)
+li_rank retrieval: NVDA done (29/434)
+li_rank retrieval: AMZN done (37/434)
+li_rank retrieval: JPM done (44/434)
+li_rank retrieval: GS done (53/434)
+li_rank retrieval: JNJ done (62/434)
+li_rank retrieval: UNH done (71/434)
+li_rank retrieval: PFE done (78/434)
+li_rank retrieval: XOM done (85/434)
+li_rank retrieval: CAT done (95/434)
+li_rank retrieval: KO done (103/434)
+li_rank retrieval: WMT done (113/434)
+li_rank retrieval: COST done (120/434)
+li_rank retrieval: DIS done (131/434)
+li_rank retrieval: NKE done (133/434)
+li_rank retrieval: LULU done (141/434)
+li_rank retrieval: DKNG done (147/434)
+li_rank retrieval: MSGS done (154/434)
+li_rank retrieval: PLNT done (163/434)
+li_rank retrieval: GOOGL done (171/434)
+li_rank retrieval: META done (181/434)
+li_rank retrieval: ORCL done (189/434)
+li_rank retrieval: BAC done (195/434)
+li_rank retrieval: WFC done (201/434)
+li_rank retrieval: MS done (207/434)
+li_rank retrieval: LLY done (215/434)
+li_rank retrieval: MRK done (225/434)
+li_rank retrieval: ABT done (233/434)
+li_rank retrieval: CVX done (240/434)
+li_rank retrieval: BA done (245/434)
+li_rank retrieval: UPS done (252/434)
+li_rank retrieval: PEP done (261/434)
+li_rank retrieval: HD done (268/434)
+li_rank retrieval: TGT done (274/434)
+li_rank retrieval: MCD done (282/434)
+li_rank retrieval: UAA done (290/434)
+li_rank retrieval: LYV done (299/434)
+li_rank retrieval: TKO done (307/434)
+li_rank retrieval: CRM done (314/434)
+li_rank retrieval: ADBE done (318/434)
+li_rank retrieval: INTC done (327/434)
+li_rank retrieval: C done (334/434)
+li_rank retrieval: USB done (338/434)
+li_rank retrieval: PNC done (343/434)
+li_rank retrieval: BMY done (353/434)
+li_rank retrieval: AMGN done (361/434)
+li_rank retrieval: CVS done (368/434)
+li_rank retrieval: COP done (374/434)
+li_rank retrieval: DE done (384/434)
+li_rank retrieval: LMT done (393/434)
+li_rank retrieval: F done (398/434)
+li_rank retrieval: LOW done (405/434)
+li_rank retrieval: NFLX done (414/434)
+li_rank retrieval: DKS done (423/434)
+li_rank retrieval: PENN done (424/434)
+li_rank retrieval: CHDN done (425/434)
+li_rank retrieval: YETI done (434/434)
+li_ours retrieval: AAPL done (10/434)
+li_ours retrieval: MSFT done (21/434)
+li_ours retrieval: NVDA done (29/434)
+li_ours retrieval: AMZN done (37/434)
+li_ours retrieval: JPM done (44/434)
+li_ours retrieval: GS done (53/434)
+li_ours retrieval: JNJ done (62/434)
+li_ours retrieval: UNH done (71/434)
+li_ours retrieval: PFE done (78/434)
+li_ours retrieval: XOM done (85/434)
+li_ours retrieval: CAT done (95/434)
+li_ours retrieval: KO done (103/434)
+li_ours retrieval: WMT done (113/434)
+li_ours retrieval: COST done (120/434)
+li_ours retrieval: DIS done (131/434)
+li_ours retrieval: NKE done (133/434)
+li_ours retrieval: LULU done (141/434)
+li_ours retrieval: DKNG done (147/434)
+li_ours retrieval: MSGS done (154/434)
+li_ours retrieval: PLNT done (163/434)
+li_ours retrieval: GOOGL done (171/434)
+li_ours retrieval: META done (181/434)
+li_ours retrieval: ORCL done (189/434)
+li_ours retrieval: BAC done (195/434)
+li_ours retrieval: WFC done (201/434)
+li_ours retrieval: MS done (207/434)
+li_ours retrieval: LLY done (215/434)
+li_ours retrieval: MRK done (225/434)
+li_ours retrieval: ABT done (233/434)
+li_ours retrieval: CVX done (240/434)
+li_ours retrieval: BA done (245/434)
+li_ours retrieval: UPS done (252/434)
+li_ours retrieval: PEP done (261/434)
+li_ours retrieval: HD done (268/434)
+li_ours retrieval: TGT done (274/434)
+li_ours retrieval: MCD done (282/434)
+li_ours retrieval: UAA done (290/434)
+li_ours retrieval: LYV done (299/434)
+li_ours retrieval: TKO done (307/434)
+li_ours retrieval: CRM done (314/434)
+li_ours retrieval: ADBE done (318/434)
+li_ours retrieval: INTC done (327/434)
+li_ours retrieval: C done (334/434)
+li_ours retrieval: USB done (338/434)
+li_ours retrieval: PNC done (343/434)
+li_ours retrieval: BMY done (353/434)
+li_ours retrieval: AMGN done (361/434)
+li_ours retrieval: CVS done (368/434)
+li_ours retrieval: COP done (374/434)
+li_ours retrieval: DE done (384/434)
+li_ours retrieval: LMT done (393/434)
+li_ours retrieval: F done (398/434)
+li_ours retrieval: LOW done (405/434)
+li_ours retrieval: NFLX done (414/434)
+li_ours retrieval: DKS done (423/434)
+li_ours retrieval: PENN done (424/434)
+li_ours retrieval: CHDN done (425/434)
+li_ours retrieval: YETI done (434/434)
+mode         split  hit@1  hit@5  hit@10  MRR@10
+bm25         dev    27.0%  47.2%   64.4%   0.359
+bm25         test   19.9%  39.9%   56.1%   0.292
+dense        dev    47.9%  77.9%   85.9%   0.613
+dense        test   47.6%  80.8%   87.5%   0.610
+dense_rank   dev    67.5%  89.0%   93.3%   0.761
+dense_rank   test   60.9%  83.8%   91.1%   0.710
+hybrid_rank  dev    66.3%  89.0%   92.6%   0.755
+hybrid_rank  test   59.4%  84.9%   90.8%   0.706
+li_default   dev    46.6%  85.3%   93.3%   0.620
+li_default   test   48.3%  83.4%   91.5%   0.630
+li_rank      dev    71.8%  95.1%   96.9%   0.812
+li_rank      test   64.6%  93.7%   98.5%   0.761
+li_ours      dev    67.5%  89.0%   93.3%   0.761
+li_ours      test   60.9%  83.8%   91.1%   0.710

@@ -160,8 +160,11 @@ def answer_from(question, company, hits):
         model=MODEL, contents=PROMPT.format(company=company, question=question, excerpts=excerpts),
         config=types.GenerateContentConfig(temperature=0, response_mime_type="application/json",
                                            response_schema=Answer))
-    a = Answer.model_validate_json(resp.text).model_dump()
+    return verify(Answer.model_validate_json(resp.text).model_dump(), hits)
 
+
+def verify(a, hits):
+    """Code side of the contract: unit math, and the quote must be on the cited page."""
     checks = []
     if a["found"] and a["printed"]:
         number = to_number(a["printed"])
