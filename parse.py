@@ -9,6 +9,7 @@ Run:  python parse.py            (all routed companies, skips ones already parse
 """
 import io
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -16,7 +17,7 @@ from google.api_core.client_options import ClientOptions
 from google.cloud import documentai
 from pypdf import PdfReader, PdfWriter
 
-PROJECT = "advisor-agent-2026"
+PROJECT = os.environ.get("GCP_PROJECT", "advisor-agent-2026")
 LOCATION = "us"
 PROCESSOR_NAME = "sec-statements-layout"
 DATA = Path(__file__).parent / "data"

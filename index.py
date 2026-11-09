@@ -8,6 +8,7 @@ Run:  python index.py          (embed whatever is not cached yet, then load BigQ
 Writes data/<T>/chunks.json + data/<T>/embeddings.npy, table sec_docintel.chunks
 """
 import json
+import os
 import sys
 import time
 from pathlib import Path
@@ -19,7 +20,7 @@ from google.genai import types
 
 from corpus import HOLDOUT, THIRD, TICKERS
 
-PROJECT = "advisor-agent-2026"
+PROJECT = os.environ.get("GCP_PROJECT", "advisor-agent-2026")
 DATASET = "sec_docintel"
 TABLE = f"{PROJECT}.{DATASET}.chunks"
 EMBED_MODEL = "text-embedding-005"   # same model the nfl-dfs news archive uses

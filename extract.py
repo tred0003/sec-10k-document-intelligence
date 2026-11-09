@@ -11,6 +11,7 @@ Run:  python extract.py            (all parsed companies)
 Writes data/<T>/extracted.json
 """
 import json
+import os
 from datetime import date
 import re
 import sys
@@ -23,7 +24,7 @@ from pydantic import BaseModel
 
 from parse import walk
 
-PROJECT = "advisor-agent-2026"
+PROJECT = os.environ.get("GCP_PROJECT", "advisor-agent-2026")
 MODEL = "gemini-2.5-flash"
 DATA = Path(__file__).parent / "data"
 FIELDS = ["revenue", "operating_income", "net_income", "eps_diluted", "operating_cash_flow",
